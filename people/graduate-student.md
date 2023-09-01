@@ -3,15 +3,17 @@ layout: page
 title: "Graduate Student"
 ---
 
-Researcher - Physics & Astronomy
+Jin-Hyun Ahn
 
-Some University - 1 Main Street, Canada
+Graduate Student
 
-Phone: (000) 000-0000
+Changwon National University, Changwon, Korea
 
-Email: hello@university.edu
+T: (082) 55-213-3806
 
-Office: Science Building 505
+E: sungyong.kim@changwon.ac.kr
+
+Office: Engineering Building 51-218
 
 ---
 
