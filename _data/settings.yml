@@ -26,5 +26,5 @@ social:
 - {icon: 'github', link: 'https://github.com/ironikerine'}
 - {icon: 'orcid', link: 'https://orcid.org/0000-0002-0110-1546'}
 
--contacts:
+-contact:
 - {name: 'Jin-Hyun Ahn', title: 'Graduate Student', department: 'School of Architecture', institution: 'Changwon National University', institution_address: '20 Changwondaehak-ro Uichang-gu Changwon-si, Gyeongsangnam-do 51140 KOREA.', phone: '(082) 55-213-3806', email: 'sungyong.kim@changwon.ac.kr', office: 'Engineering Building 51-207', image: 'assets/img/contact.jpg'}
