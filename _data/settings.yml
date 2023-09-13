@@ -1,7 +1,7 @@
 menu:
 #- {name: 'CV', url: '/cv'}
 - {name: 'People', url: '/people'}
-- {name: 'Publications', url: '/publications'}
+- {name: 'Pubs', url: '/publications'}
 - {name: 'Projects', url: '/projects'}
 - {name: 'Courses', url: '/courses'}
 - {name: 'Contact', url: '/contact'}
@@ -9,13 +9,14 @@ menu:
 people:
 - {name: 'Sung-Yong Kim', title: 'Sung-Yong Kim', department: 'School of Architecture', institution: 'Changwon National University', institution_address: '20 Changwondaehak-ro Uichang-gu Changwon-si, Gyeongsangnam-do 51140 KOREA.', phone: '(082) 55-213-3806', email: 'sungyong.kim@changwon.ac.kr', office: 'Engineering Building 51-218', image: 'assets/img/lab-technician.jpg', url: 'primary-investigator'}
 #- {name: 'Lab Technician', title: 'Researcher', department: 'Physics & Astronomy', institution: 'Some University', institution_address: '1 Main Street, Canada', phone: '(000) 000-0000', email: 'hello@university.edu', office: 'Science Building 505', image: 'assets/img/lab-technician.jpg', url: 'lab-technician'}
-- {name: 'Jin-Hyun Ahn' , title: 'Jin-Hyun Ahn', email: 'hello@university.edu', office: 'Engineering Building 51-', image: 'assets/img/graduate-student.jpg', url: 'jin-hyun'}
+- {name: 'Jin-Hyun Ahn' , title: 'Jin-Hyun Ahn', email: 'wlsgus5596@naver.com', office: 'Engineering Building 51-207', image: 'assets/img/graduate-student.jpg', url: 'jin-hyun'}
 #- {name: 'Lab Technician', title: 'Researcher', department: 'Physics & Astronomy', institution: 'Some University', institution_address: '1 Main Street, Canada', phone: '(000) 000-0000', email: 'hello@university.edu', office: 'Science Building 505', image: 'assets/img/lab-technician.jpg', url: 'lab-technician'}
 
 courses:
 - {name: 'Material Mechanics', url: 'material-mechanics'}
 - {name: 'Structural Analysis', url: 'structural-analysis'}
 - {name: 'Structural Stability', url: 'structural-stability'}
+- {name: 'Reinforced Concrete and Steel', url: 'RC-and-steel'}
 
 projects:
 - {name: 'Vector Calculus', url: 'vector-calculus'}

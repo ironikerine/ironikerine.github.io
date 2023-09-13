@@ -1,13 +1,15 @@
 featured:
 - {name: 'Kim, S.-Y., Lee, C.-H., 2019. Description of Asymmetric Hysteretic Behavior Based on the Bouc-Wen Model and Piecewise Linear Strength-Degradation Functions. Engineering Structures 181, 181–191.', url: 'https://doi.org/10.1016/j.engstruct.2018.12.021'}
 - {name: 'Kim, S.-Y., Lee, C.-H., 2019. Peak response of frictional tuned mass dampers optimally designed to white noise base acceleration. Mechanical Systems and Signal Processing 117, 319–332.', url: 'https://doi.org/10.1016/j.ymssp.2018.08.003'}
-- {name: 'Lee, C.-H., Jung, J.-H., Kim, S.-Y., 2019. Cyclic Seismic Performance of Weak-Axis RBS Welded Steel Moment Connections. Int J Steel Struct 19, 1592–1604.', url: ' https://doi.org/10.1007/s13296-019-00233-3'}
+# - {name: 'Lee, C.-H., Jung, J.-H., Kim, S.-Y., 2019. Cyclic Seismic Performance of Weak-Axis RBS Welded Steel Moment Connections. Int J Steel Struct 19, 1592–1604.', url: 'https://doi.org/10.1007/s13296-019-00233-3'}
 - {name: 'Kim, S.-Y., Lee, C.-H., 2020. Analysis and Optimization of Multiple Tuned Mass Dampers with Coulomb Dry Friction. Engineering Structures 209, 110011.', url: 'https://doi.org/10.1016/j.engstruct.2019.110011'}
-- {name: 'Kim, S.-Y., Lee, C.-H., 2021. Nondimensionalized Bouc–Wen model with structural degradation for Kalman filter–based real-time monitoring. Engineering Structures 244, 112764.', url: '10.1016/j.engstruct.2021.112674'}
+- {name: 'Kim, S.-Y., Lee, C.-H., 2021. Nondimensionalized Bouc–Wen model with structural degradation for Kalman filter–based real-time monitoring. Engineering Structures 244, 112764.', url: 'https://doi.org/10.1016/j.engstruct.2021.112674'}
 
 index:
 - {name: 'Kim, S.-Y., Lee, C.-H., 2019. Description of Asymmetric Hysteretic Behavior Based on the Bouc-Wen Model and Piecewise Linear Strength-Degradation Functions. Engineering Structures 181, 181–191.', url: 'https://doi.org/10.1016/j.engstruct.2018.12.021'}
 - {name: 'Kim, S.-Y., Lee, C.-H., 2019. Peak response of frictional tuned mass dampers optimally designed to white noise base acceleration. Mechanical Systems and Signal Processing 117, 319–332.', url: 'https://doi.org/10.1016/j.ymssp.2018.08.003'}
 - {name: 'Lee, C.-H., Jung, J.-H., Kim, S.-Y., 2019. Cyclic Seismic Performance of Weak-Axis RBS Welded Steel Moment Connections. Int J Steel Struct 19, 1592–1604.', url: ' https://doi.org/10.1007/s13296-019-00233-3'}
 - {name: 'Kim, S.-Y., Lee, C.-H., 2020. Analysis and Optimization of Multiple Tuned Mass Dampers with Coulomb Dry Friction. Engineering Structures 209, 110011.', url: 'https://doi.org/10.1016/j.engstruct.2019.110011'}
-- {name: 'Kim, S.-Y., Lee, C.-H., 2021. Nondimensionalized Bouc–Wen model with structural degradation for Kalman filter–based real-time monitoring. Engineering Structures 244, 112764.', url: '10.1016/j.engstruct.2021.112674'}
+- {name: 'Kim, S.-Y., Lee, C.-H., 2021. Nondimensionalized Bouc–Wen model with structural degradation for Kalman filter–based real-time monitoring. Engineering Structures 244, 112764.', url: 'https://doi.org/10.1016/j.engstruct.2021.112674'}
+- {name: 'Kim, S.-Y., Lee, C.-H., 2019. Description of Asymmetric Hysteretic Behavior Based on the Bouc-Wen Model and Piecewise Linear Strength-Degradation Functions. Engineering Structures 181, 181–191.', url: 'https://doi.org/10.1016/j.engstruct.2018.12.021'}
+- {name: 'Kim, S.-Y., Lee, C.-H., 2018. Optimum design of linear multiple tuned mass dampers subjected to white-noise base acceleration considering practical configurations. Engineering Structures 171, 516–528.', url: ' https://doi.org/10.1016/j.engstruct.2018.06.002'}
