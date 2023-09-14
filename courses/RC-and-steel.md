@@ -9,11 +9,11 @@ title: "Reinforced Concrete and Steel"
 
 #### Lecture Notes
 
-[Lecture 1](/courses/RC-and-steel/Lecture01.pdf)
+[Lecture 01](/courses/RC-and-steel/Lecture01.pdf)
 
-[Lecture 2](/courses/RC-and-steel/Lecture01.pdf)
+[Lecture 02](/courses/RC-and-steel/Lecture02.pdf)
 
-[Lecture 3](/courses/RC-and-steel/Lecture01.pdf)
+[Lecture 03](/courses/RC-and-steel/Lecture01.pdf)
 
 #### Homework
 
