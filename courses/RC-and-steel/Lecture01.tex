@@ -278,48 +278,4 @@
 			\end{column}
 		\end{columns}
 	\end{frame}
-	\begin{frame}{2.1 하중과 반력}
-		\textbf{2.1.2 반력(\alert{reaction}, \textbf{R})}: 건물에 미치는 하중(\alert{D/L/S/W/K/D+L/D+K/...})은 \alert{기초}에는 \alert{반력}을, \alert{부재 내부}에는 \alert{내력}을 만들어 냄. 하중과 반력 사이에 균형이 이루어질 때, 구조물에 필요한 안정조건이 충족되며 이러한 조건을 \alert{정적평형}의 상태라 함. 
-		\vspace{-.5cm}
-		\begin{figure}
-			\includegraphics[height=0.5\textheight]{02WTAL}
-			\caption{인천공항 관제탑(좌)과 축방향 하중과 반력 및 정적평형(우)}
-		\end{figure}
-	\end{frame}
-	\begin{frame}{2.1 하중과 반력}
-		\begin{figure}
-			\includegraphics[height=0.8\textheight]{02BEAM01}
-			\caption{보(beam)와 그 반력: Laguna Bridge, Brazil ($R_1+R_2=D+L$)}
-		\end{figure}	
-	\end{frame}
-	\begin{frame}{2.2 내력, 응력과 변형}
-		\textbf{2.2.0 내력(internal force)}: \alert{하중}과 \alert{반력}에 따라 구성된 외력시스템에 대응하여 \alert{구조부재의 내부}에 발생하는 저항력. 
-		
-		\textbf{2.2.1 응력(stress)}: 내력을 그것이 작용하는 단면의 크기로 나눈 값. 
-		\begin{figure}
-			\includegraphics[height=0.45\textheight]{02AXIAL}
-			\caption{내력과 응력}
-		\end{figure}
-		\vspace{-.5cm}
-		\begin{exampleblock}{참고: 주요 구조재료의 설계기준강도/항복강도}
-			\begin{description}
-				\item[일반 콘크리트의 설계기준강도] 24 MPa (1 MPa=1 N/mm$^2$=10 kgf/cm$^2$).
-				\item[일반 구조용강재의 항복강도] 325 MPa for SM490.
-			\end{description}
-		\end{exampleblock}
-	\end{frame}
-	\begin{frame}{예제06: 축력을 받는 부재의 응력검토}
-		\textbf{Q} 50 mm$\times$50 mm의 단면을 가지는 정사각형 단면의 케이블이 100 kN(=10 ton)의 인장력을 받는다고 하자. 이 때 단면이 부담하는 인장응력은 얼마인가?
-		
-		\textbf{A}
-		\begin{equation*}
-			f = \frac{P}{A} = \frac{100\,\mathrm{kN}}{50 \times 50\,\mathrm{mm}^2} = 0.04\,\mathrm{kN/mm}^2 = 40\,\mathrm{N/mm}^2 = 40\,\mathrm{MPa}
-		\end{equation*}
-		\begin{exampleblock}{참고: 일반강재의 항복강도와 인장강도}
-			\begin{description}
-				\item[항복강도] $F_y=325\,\mathrm{MPa}$ for SM490. 재료가 탄성을 잃는 강도.
-				\item[인장강도] $F_y=490\,\mathrm{MPa}$ for SM490. 재료가 파단되는 강도.
-			\end{description}
-		\end{exampleblock}
-	\end{frame}
 \end{document}
