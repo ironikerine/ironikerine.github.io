@@ -8,21 +8,19 @@ menu:
 - {name: 'Contact', url: '/contact'}
 
 people:
-- {name: 'Sung-Yong Kim', title: 'Sung-Yong Kim', department: 'School of Architecture', institution: 'Changwon National University', institution_address: '20 Changwondaehak-ro Uichang-gu Changwon-si, Gyeongsangnam-do 51140 KOREA.', phone: '(082) 55-213-3806', email: 'sungyong.kim@changwon.ac.kr', office: 'Engineering Building 51-218', image: 'assets/img/lab-technician.jpg', url: 'primary-investigator'}
+- {name: 'Sung-Yong Kim', title: 'Associate Professor', department: 'School of Architecture', institution: 'Changwon National University', institution_address: '20 Changwondaehak-ro Uichang-gu Changwon-si, Gyeongsangnam-do 51140 KOREA.', phone: '(082) 55-213-3806', email: 'sungyong.kim@changwon.ac.kr', office: 'Engineering Building 51-218', image: 'assets/img/lab-technician.jpg', url: 'primary-investigator'}
 #- {name: 'Lab Technician', title: 'Researcher', department: 'Physics & Astronomy', institution: 'Some University', institution_address: '1 Main Street, Canada', phone: '(000) 000-0000', email: 'hello@university.edu', office: 'Science Building 505', image: 'assets/img/lab-technician.jpg', url: 'lab-technician'}
-- {name: 'Jin-Hyun Ahn' , title: 'Jin-Hyun Ahn', email: 'wlsgus5596@naver.com', office: 'Engineering Building 51-207', image: 'assets/img/graduate-student.jpg', url: 'jin-hyun'}
+- {name: 'Jin-Hyun Ahn' , title: 'MS Course', email: 'wlsgus5596@naver.com', office: 'Engineering Building 51-207', image: 'assets/img/graduate-student.jpg', url: 'jin-hyun'}
 #- {name: 'Lab Technician', title: 'Researcher', department: 'Physics & Astronomy', institution: 'Some University', institution_address: '1 Main Street, Canada', phone: '(000) 000-0000', email: 'hello@university.edu', office: 'Science Building 505', image: 'assets/img/lab-technician.jpg', url: 'lab-technician'}
 
 courses:
 - {name: 'Material Mechanics', url: 'material-mechanics'}
 - {name: 'Structural Analysis', url: 'structural-analysis'}
 - {name: 'Structural Stability', url: 'structural-stability'}
-- {name: 'Reinforced Concrete and Steel', url: 'RC-and-steel'}
+- {name: 'Reinforced Concrete and Steel Structures', url: 'RC-and-steel'}
 
 projects:
-- {name: 'Vibration Serviceability Evaluation for H', url: 'vector-calculus'}
-- {name: 'Quantum Mechanics', url: 'quantum-mechanics'}
-- {name: 'Stellar Structures', url: 'stellar-structures'}
+- {name: 'Vibration Serviceability Evaluation for H', url: 'hana-bank'}
 
 # \subsection*{Research Director}
 # \years{2020}에너지-내진성능~동시확보를~위한~열교차단파스너의~실물대실험, \texttt{교육부}\\

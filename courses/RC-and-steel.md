@@ -1,34 +1,29 @@
 ---
 layout: page
-title: "Reinforced Concrete and Steel"
+title: "Reinforced Concrete and Steel Structures"
 ---
 
-#### Course Information
+##### Course Information
 
-[Course Outline](/courses/RC-and-steel/Syllabus.pdf)
+- [Course Outline](/courses/RC-and-steel/Syllabus.pdf)
 
-#### Lecture Notes
+##### Lecture Notes
 
-[Lecture 01](/courses/RC-and-steel/Lecture01.pdf)
+- [Lecture 01](/courses/RC-and-steel/Lecture01.pdf)
+- [Lecture 02](/courses/RC-and-steel/Lecture02.pdf)
+- [Lecture 03](/courses/RC-and-steel/Lecture01.pdf)
 
-[Lecture 02](/courses/RC-and-steel/Lecture02.pdf)
+##### Homework
 
-[Lecture 03](/courses/RC-and-steel/Lecture01.pdf)
+- [Homework 1](/courses/stellar-structures/Sample_Lecture_Notes.pdf)
+- [Homework 2](/courses/stellar-structures/Sample_Lecture_Notes.pdf)
+- [Homework 3](/courses/stellar-structures/Sample_Lecture_Notes.pdf)
 
-#### Homework
+##### Midterms
 
-[Homework 1](/courses/stellar-structures/Sample_Lecture_Notes.pdf)
+- [Midterm 1](/courses/stellar-structures/Sample_Midterm.pdf)
+- [Midterm 2](/courses/stellar-structures/Sample_Midterm.pdf)
 
-[Homework 2](/courses/stellar-structures/Sample_Lecture_Notes.pdf)
+##### Exams
 
-[Homework 3](/courses/stellar-structures/Sample_Lecture_Notes.pdf)
-
-#### Midterms
-
-[Midterm 1](/courses/stellar-structures/Sample_Midterm.pdf)
-
-[Midterm 2](/courses/stellar-structures/Sample_Midterm.pdf)
-
-#### Exams
-
-[Exam 1](/courses/stellar-structures/Sample_Exam.pdf)
+- [Exam 1](/courses/stellar-structures/Sample_Exam.pdf)
