@@ -1,0 +1,324 @@
+\documentclass[9pt]{beamer}
+
+% There are many different themes available for Beamer. A comprehensive
+% list with examples is given here:
+% http://deic.uab.es/~iblanes/beamer_gallery/index_by_theme.html
+
+\usepackage[english]{babel}
+\usepackage[TS1,T1]{fontenc}
+\usepackage{array, booktabs}
+\usepackage{multirow}
+\usepackage[flushleft]{threeparttable}
+\usepackage[font=small,labelfont=bf]{caption}
+\usepackage[utf8]{inputenc}
+\usepackage{bookman}
+\usepackage{mathtools}
+\usepackage{kotex}
+\usepackage{adjustbox} % for \adjincludegraphics
+\usepackage{textcomp}
+
+\newcommand\ytl[2]{\parbox[b]{8em}{\hfill{\color{cyan}\bfseries\sffamily #1}~$\cdot$~}\makebox[0pt][c]{$\bullet$}\vrule\quad \parbox[c]{4.5cm}{\vspace{7pt}\color{red!40!black!80}\raggedright\sffamily #2.\\[7pt]}\\[-3pt]}
+
+\usefonttheme{professionalfonts}
+
+\usetheme{metropolis}
+
+\setbeamertemplate{caption}[numbered]{}
+\setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{footline}[frame number]
+
+%\setbeameroption{show notes}
+
+\graphicspath{{images/}}
+
+\title{Building Systems}
+
+% A subtitle is optional and this may be deleted
+%\subtitle{}
+
+\author{Sung-Yong~Kim\inst{1}}
+% - Give the names in the same order as the appear in the paper.
+% - Use the \inst{?} command only if the authors have different
+%   affiliation.
+
+\institute[Sejong University] % (optional, but mostly needed)
+{
+	\inst{1}%
+	Ph\,D, Department of Architecture and Architectural Engineering\\
+	Seoul National University}
+% - Use the \inst command only if there are several affiliations.
+% - Keep it simple, no one is interested in your street address.
+
+\date{Fall/Winter 2017}
+% - Either use conference name or its abbreviation.
+% - Not really informative to the audience, more for people (including
+%   yourself) who are reading the slides online
+
+\subject{Lecture Notes}
+% This is only inserted into the PDF information catalog. Can be left
+% out. 
+
+% If you have a file called "university-logo-filename.xxx", where xxx
+% is a graphic format that can be processed by latex or pdflatex,
+% resp., then you can add a logo as follows:
+
+% \pgfdeclareimage[height=0.5cm]{university-logo}{university-logo-filename}
+% \logo{\pgfuseimage{university-logo}}
+
+
+% Let's get started
+\begin{document}
+
+\begin{frame}
+	\titlepage
+\end{frame}
+
+\section{Passive 건축계획}	
+	\begin{frame}{6.1 기후에 따른 패시브 디자인}
+		\textbf{대한민국 기후지역 분류(Climate zone)--국내 기후지역}
+		\begin{columns}
+			\begin{column}{.4\textwidth}
+				\begin{figure}
+					\includegraphics[height=0.65\textheight]{10CZ}
+					\caption{대한민국 기후지역 분류}
+				\end{figure}
+			\end{column}
+			\begin{column}{.59\textwidth}
+				\begin{itemize}
+					\item 건물에너지효율등극인증제도나 친환경주택에서 구분하는 국내 기후지역은 총 세 개: 중부지역, 남부지역과 제주지역
+					\item 서울, 경기도, 충청북도, 강원도 지역 대부분이 중부지역 기후존에 위치
+					\item 강원도의 경우 태백산맥 동쪽 지역이 겨울철 북서풍을 피하고 동해에 면하고 있어 상대적으로 따뜻$\rightarrow$남부지역 기후
+					\item 충청북도와 천안의 경우 동일 위도 대비 내륙에 위치하여 타지역에 비해 추움$\rightarrow$중부지역 기후
+					\item 경상북도 청송군은 지리적 위치에 기인하여 중부지역 기후
+				\end{itemize}
+			\end{column}
+		\end{columns}
+	\end{frame}
+	\begin{frame}{중부지역(Central area)}
+		\begin{columns}
+			\begin{column}{.4\textwidth}
+				\begin{figure}
+					\includegraphics[height=0.65\textheight]{10CZ}
+					\caption{대한민국 기후지역 분류}
+				\end{figure}
+			\end{column}
+			\begin{column}{.59\textwidth}
+				\textbf{주요특징} 더운 여름과 추운 겨울(강화, 문산, 동두천, 철원, 태백, 대관령, 인제, 춘천, 원주, 홍천, 영월의 경우 서늘한 여름), 연중 계절별 큰 온도차 및 큰 강수량 차이, 연중 고르게 낮은 풍속, 높은 일조량
+				
+				\textbf{설계전략} 
+				\begin{itemize}
+					\item 차가운 바람으로부터 보호/시원한 바람에는 노출시켜 일조를 확보하기 위한 배치
+					\item \textcolor{red}{슬래브 모서리까지 포함된} 성능이 좋은 단열 처리된 축열제를 사용
+					\item 동쪽과 서쪽의 모든 유리는 작게 하고, 모든 벽과 창문에는 연중 차양을 계획할 것. 특히 동쪽과 서쪽에 있어 외벽면적을 최소화할 것
+					\item 남쪽에 면한 벽과 유리를 최대화하고 특히 거실 공간에 일조를 확보할 것
+				\end{itemize}								
+			\end{column}
+		\end{columns}
+	\end{frame}
+	\begin{frame}{남부지역(Southern area)}
+		\begin{columns}
+			\begin{column}{.4\textwidth}
+				\begin{figure}
+					\includegraphics[height=0.65\textheight]{10CZ}
+					\caption{대한민국 기후지역 분류}
+				\end{figure}
+			\end{column}
+			\begin{column}{.59\textwidth}
+				\textbf{주요특징} 더운 여름과 서늘한 겨울, 연중 계절별 큰 온도차 및 큰 강수량 차이, 연중 고른 풍속
+				
+				\textbf{설계전략} 
+				\begin{itemize}
+					\item 차가운 바람으로부터 보호/시원한 바람에는 노출시켜 일조를 확보하기 위한 배치
+					\item 성능이 좋은 단열 처리된 축열제를 사용
+					\item 동쪽과 서쪽의 모든 유리는 작게 하고, 모든 벽과 창문에는 연중 차양을 계획할 것. 특히 동쪽과 서쪽에 있어 외벽면적을 최소화할 것
+					\item 남쪽에 면한 벽과 유리를 최대화하고 특히 거실 공간에 일조를 확보할 것
+					\item 단열처리된 창문에 외부 차양과 고효율 이중 유리를 사용할 것
+				\end{itemize}								
+			\end{column}
+		\end{columns}
+	\end{frame}
+	\begin{frame}{제주지역(Jeju area)}
+		\begin{columns}
+			\begin{column}{.4\textwidth}
+				\begin{figure}
+					\includegraphics[height=0.65\textheight]{10CZ}
+					\caption{대한민국 기후지역 분류}
+				\end{figure}
+			\end{column}
+			\begin{column}{.59\textwidth}
+				\textbf{주요특징} 더운 여름과 따뜻한 겨울, 연중 계절별 큰 온도차 및 큰 강수량 차이, 겨울철 높은 풍속 및 낮은 일조량, 가장 낮은 연평균 일조량(내륙 대비 비가 많이 오는 기후)
+				
+				\textbf{설계전략} 
+				\begin{itemize}
+					\item 일조에 유리한 장소에 배치할 것
+					\item 건물을 관통하는 바람에 저항이 작은 형태나 배치를 계획할 것
+					\item 여름철 더위를 차단하기 위한 반사 단열재와 습기를 차단하기 위한 방습층 사용할 것
+					\item 창문의 높이를 높게 하여 겨울철 일조 확보에 유리하도록 할 것
+					\item 바람과 태풍을 대비한 설계와 건설
+				\end{itemize}								
+			\end{column}
+		\end{columns}
+	\end{frame}
+	\begin{frame}{6.2 자연형 태양열 시스템}
+		\begin{figure}
+			\includegraphics[height=0.35\textheight]{10SOLAR01}
+			\caption{태양열 시스템 구성요소}
+		\end{figure}
+		\textbf{태양열 시스템의 특징}
+		\begin{itemize}
+			\item 태양에너지는 무한정하고 공해가 없으며, 어느 곳에서나 쉽게 적용할 수 있음
+			\item 가장 유망한 대체에너지원
+			\item 건물에서는 산업/수송에서와 같이 고효율의 에너지가 요구되는 것이 아니라, 냉난방이나 급탕과 같은 저온의 에너지가 사용되므로 그 활용성이 높음
+		\end{itemize}
+		\textbf{태양열 시스템의 분류} 자연형/설비형
+		
+		\textbf{태양열 시스템의 구성} 집열부/축열부/이용부/제어부
+	\end{frame}
+	\begin{frame}{6.2 자연형 태양열 시스템}
+		\textbf{자연형 태양열 시스템의 특징}
+		\begin{itemize}
+			\item 각 시스템 구성부(집열부, 축열부, 이용부) 간의 에너지 전달방법이 자연순환방식에 따름
+			\item 자연형 태양열 시스템은 주로 겨울의 난방을 위한 것으로, 여름철의 과열을 방지하고 냉방효과를 도모할 수 있는 방안이 동시에 강구되어야 함
+			\item 설비형 시스템에 비해 경제성이 높고 신뢰도가 우수하며, 수명이 반영구적이고 관리가 용이하며, 특히 건축의 다른 디자인 요소와 균형적 조화를 이룰 수 있음
+		\end{itemize}
+		\textbf{자연형 태양열 시스템의 분류}
+		\begin{itemize}
+			\item 적용방법상의 분류: 직접획득형/간접획득형/분리획득형
+			\item 물리적인 분류: 직접획득방식/축열벽방식/축열지붕방식/부착온실방식/자연대류방식/혼합형
+		\end{itemize}
+	\end{frame}
+	\begin{frame}{직접획득방식}
+		\begin{itemize}
+			\item 가장 보편적인 방법으로서 태양의 복사열이 생활 공간을 통과해 축열체에 저장됨
+			\item 따라서 생활공간은 집열부/축열부/이용부의 역할을 동시에 하게 됨
+			\item 실내 온도의 변화는 창의 위치 및 크기, 축열체의 위치 및 크기, 실내 표면의 마감재료에 따라 영향을 받음
+			\item 하절기 과열을 막기 위한 차양의 설치, 맞통풍 유도 등의 고려가 있어야 함
+		\end{itemize}
+		\begin{figure}
+			\centering
+			\includegraphics[height=0.5\textheight]{10SOLAR02}
+		\end{figure}		
+	\end{frame}
+	\begin{frame}{직접획득방식}
+		\begin{columns}
+			\begin{column}{.5\textwidth}
+		\textbf{장점}
+		\begin{enumerate}
+			\item 일반화되고 비교적 저렴
+			\item 계획 및 시공이 용이
+			\item 창의 재배치가 가능
+			\item 투과체는 다양한 기능을 할 수 있음
+			\item 축열조가 없어도 가능
+		\end{enumerate}
+		
+		\textbf{단점}
+		\begin{enumerate}
+			\item 유리창이 넓으므로 프라이버시가 결핍됨
+			\item 주간에 많은 현휘현상을 초래
+			\item 자외선에 의한 직물과 사진의 퇴화현상이 발생
+			\item 축열체가 구조적인 역할을 겸용하지 않으면 시공비가 비쌈
+			\item 야간 단열재 처리를 안 하면 열손실이 많음
+		\end{enumerate}
+			\end{column}
+			\begin{column}{.49\textwidth}
+				\begin{figure}
+					\centering
+					\includegraphics[height=0.5\textheight]{10SOLAR03}
+				\end{figure}								
+			\end{column}
+		\end{columns}		
+	\end{frame}
+	\begin{frame}{St.George's county secondary school}
+		\begin{figure}
+			\centering
+			\includegraphics[height=0.8\textheight]{10SOLAR05}
+		\end{figure}	
+	\end{frame}
+	\begin{frame}{Maxmillan's restraunt}
+		\begin{figure}
+			\centering
+			\includegraphics[height=0.6\textheight]{10SOLAR06}
+		\end{figure}	
+	\end{frame}
+	\begin{frame}{Karen Terry house}
+		\begin{figure}
+			\centering
+			\includegraphics[height=0.6\textheight]{10SOLAR07}
+		\end{figure}	
+	\end{frame}
+	\begin{frame}{축열벽(Trombe wall) 방식}
+		\begin{columns}
+			\begin{column}{.5\textwidth}
+				\begin{itemize}
+					\item 간접획득 방식의 일종으로, 축열벽의 축열체가 받아들인 태양열 에너지를 저장하여 생활공간으로 전달
+					\item 실내 온도변화는 축열벽 두께에 의해 좌우되며, 축열벽 상하부에 설치된 통기구를 통해 가열된 공기를 실내로 유입시킴
+				\end{itemize}
+		\textbf{장점}
+		\begin{enumerate}
+			\item 거주공간 내 온도변화가 적음
+			\item 축열된 복사에너지를 야간에 방출
+			\item 비교적 추운 기후에 유리
+		\end{enumerate}
+		
+		\textbf{단점}
+		\begin{enumerate}
+			\item 남측 벽의 일면은 투과체로, 다른 면은 축열체로 이중면이어야 함
+			\item 벽의 부피가 크고 고가이며 조망이 결핍
+		\end{enumerate}
+			\end{column}
+			\begin{column}{.49\textwidth}
+				\begin{figure}
+					\centering
+					\includegraphics[height=0.4\textheight]{10SOLAR08}
+					
+					\includegraphics[height=0.4\textheight]{10SOLAR09}
+				\end{figure}								
+			\end{column}
+		\end{columns}		
+	\end{frame}
+	\begin{frame}{The first Trombe house, Odeillo, France}
+		\begin{figure}
+			\centering
+			\includegraphics[height=0.6\textheight]{10SOLAR11}
+		\end{figure}	
+	\end{frame}
+	\begin{frame}{부착온실(Attached sun space) 방식}
+		\begin{columns}
+			\begin{column}{.5\textwidth}
+				\begin{itemize}
+					\item 거주공간과 분리된 별개의 공간에 태양복사 에너지를 받아들여 저장해 두었다가 다음에 분배할 수 있도록 하는 방식
+					\item 온실 내로 유입되는 태양열의 대부분이 활용되어 겨울철의 효율은 약 65~75\%, 인접 공간에는 약 10~30\%의 열이 공급됨
+				\end{itemize}
+		\textbf{장점}
+		\begin{enumerate}
+			\item 완충지대의 역할을 하여 건물의 열손실을 줄임
+			\item 자연과 가까이 할 수 있으며 기존 건물에 쉽게 적용됨
+		\end{enumerate}
+		
+		\textbf{단점}
+		\begin{enumerate}
+			\item 디자인에 따라 열성능이 크게 다름
+			\item 상업적인 가치가 있도록 잘 시공하려면 시공비가 비쌈
+		\end{enumerate}
+			\end{column}
+			\begin{column}{.49\textwidth}
+				\begin{figure}
+					\centering
+					\includegraphics[height=0.65\textheight]{10SOLAR12}
+				\end{figure}								
+			\end{column}
+		\end{columns}		
+	\end{frame}
+	\begin{frame}{축열지붕/지붕연못(Roof pond)방식}
+		\begin{itemize}
+			\item 지붕 자체가 집열기의 역할을 하며, 단층 지붕에만 적용이 가능하므로 복층 건물의 경우 최상층에만 적용 가능
+			\item 따라서 이 방식은 건물의 높이에 제한을 받으며 방위나 평면 계획에는 구애받지 않음
+			\item 북위 36도 이하의 낮은 위도의 지역에만 가능하며, 밤과 낮의 일교차가 심한 지역일수록 유리
+		\end{itemize}	
+		\begin{figure}
+			\centering
+			\includegraphics[height=0.5\textheight]{10SOLAR14}
+		\end{figure}								
+	\end{frame}
+	
+\end{document}
