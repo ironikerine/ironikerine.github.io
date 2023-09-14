@@ -12,3 +12,7 @@ body {
 body a {
   color: $linkColor
 }
+
+a {
+  text-decoration: none; /* 하이퍼링크의 밑줄 제거 */
+}
