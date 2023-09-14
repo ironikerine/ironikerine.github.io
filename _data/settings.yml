@@ -1,8 +1,9 @@
 menu:
 #- {name: 'CV', url: '/cv'}
 - {name: 'People', url: '/people'}
+- {name: 'Res', url: '/researches'}
 - {name: 'Pubs', url: '/publications'}
-- {name: 'Projects', url: '/projects'}
+- {name: 'Proj', url: '/projects'}
 - {name: 'Courses', url: '/courses'}
 - {name: 'Contact', url: '/contact'}
 
