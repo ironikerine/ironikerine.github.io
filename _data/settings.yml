@@ -19,14 +19,26 @@ courses:
 - {name: 'Reinforced Concrete and Steel', url: 'RC-and-steel'}
 
 projects:
-- {name: 'Vector Calculus', url: 'vector-calculus'}
+- {name: 'Vibration Serviceability Evaluation for H', url: 'vector-calculus'}
 - {name: 'Quantum Mechanics', url: 'quantum-mechanics'}
 - {name: 'Stellar Structures', url: 'stellar-structures'}
+
+# \subsection*{Research Director}
+# \years{2020}에너지-내진성능~동시확보를~위한~열교차단파스너의~실물대실험, \texttt{교육부}\\
+# \years{2020-2023}지진력~추정~학습기술을~적용한~중소형~시설물~지진피해평가관리기술~개발, \texttt{한국산업기술평가관리원}\\
+# \years{2018-2021}비대칭~Bouc-Wen~모형~개발~및~실시간~손상정도~산정~알고리즘~개발, \texttt{한국연구재단}\\
+# \years{2019}보령메디앙스 물류센터 진동측정, (주)\texttt{센구조연구소}\\
+
+# \subsection*{Participating Researcher}
+# \years{2018-2018}5G~통신~Infra~내진모델~개발, (주) \texttt{SK Telecom}\\
+# \years{2018-2021}건축물~비구조요소~내진성능~확보기술~개발, \texttt{국토교통과학기술진흥원}\\
+# \years{2013-2018}지진~및~기후변화~대응~소규모~기존~건축물~구조~안전성~향상기술~개발, \texttt{국토교통과학기술진흥원}\\
+# \years{2013-2013}Sliding Step을~이용한~조립식~시스템~철골계단~개발, (주)\texttt{태영건설}\\
 
 social:
 - {icon: 'github', link: 'https://github.com/ironikerine'}
 - {icon: 'orcid', link: 'https://orcid.org/0000-0002-0110-1546'}
 - {icon: 'linkedin', link: 'https://linkedin.com/in/sung-yong-kim-4a6187181'}
 
--contact:
+contacts:
 - {name: 'Jin-Hyun Ahn', title: 'Graduate Student', department: 'School of Architecture', institution: 'Changwon National University', institution_address: '20 Changwondaehak-ro Uichang-gu Changwon-si, Gyeongsangnam-do 51140 KOREA.', phone: '(082) 55-213-3806', email: 'sungyong.kim@changwon.ac.kr', office: 'Engineering Building 51-207', image: 'assets/img/contact.jpg'}

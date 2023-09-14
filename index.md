@@ -3,6 +3,5 @@ layout: home
 title: "Home"
 ---
 
-This theme allows an academic person to showcase their research interests, publications, research group, curriculum vitae, any courses that they may be teaching, or anything else they may want to put out into the world.
+Welcome to EEVC Laboratory! We are dedicated professionals in the field of architectural engineering with a specialization in structural dynamics. With a strong passion for seismic analysis and vibration control, We have garnered extensive knowledge and experience to contribute to the advancement of this critical area. 
 
-Academics can use this home page to describe their research interests, display their latest publications, or provide an introduction to their research group.
