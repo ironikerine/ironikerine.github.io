@@ -3,17 +3,15 @@ layout: page
 title: "Structural Stability"
 ---
 
-#### Course Information
+# Syllabus
 
-[Course Outline](/courses/vector-calculus/Sample_Course_Outline.pdf)
+# Lecture Notes
 
-#### Lecture Notes
+- [Lecture 1](/courses/vector-calculus/Sample_Lecture_Notes.pdf)
 
-[Lecture 1](/courses/vector-calculus/Sample_Lecture_Notes.pdf)
+- [Lecture 2](/courses/vector-calculus/Sample_Lecture_Notes.pdf)
 
-[Lecture 2](/courses/vector-calculus/Sample_Lecture_Notes.pdf)
-
-[Lecture 3](/courses/vector-calculus/Sample_Lecture_Notes.pdf)
+- [Lecture 3](/courses/vector-calculus/Sample_Lecture_Notes.pdf)
 
 #### Homework
 
@@ -32,3 +30,11 @@ title: "Structural Stability"
 #### Exams
 
 [Exam 1](/courses/vector-calculus/Sample_Exam.pdf)
+
+## 추가
+
+At the free end, 
+
+$$y''(L)=0$$
+
+and the shear force $V=-\mathrm{d}M/\mathrm{d}x=-EIy'''$ is equal to the transverse component of $P$ acting at the free end column cross section $Py'$
