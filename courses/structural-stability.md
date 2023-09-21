@@ -3,7 +3,8 @@ layout: page
 title: "Structural Stability"
 ---
 
-# Syllabus
+# Course Information
+
 
 # Lecture Notes
 

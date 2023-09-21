@@ -11,6 +11,7 @@ people:
 - {name: 'Sung-Yong Kim', title: 'Associate Professor', department: 'School of Architecture', institution: 'Changwon National University', institution_address: '20 Changwondaehak-ro Uichang-gu Changwon-si, Gyeongsangnam-do 51140 KOREA.', phone: '(082) 55-213-3806', email: 'sungyong.kim@changwon.ac.kr', office: 'Engineering Building 51-218', image: 'assets/img/lab-technician.jpg', url: 'primary-investigator'}
 #- {name: 'Lab Technician', title: 'Researcher', department: 'Physics & Astronomy', institution: 'Some University', institution_address: '1 Main Street, Canada', phone: '(000) 000-0000', email: 'hello@university.edu', office: 'Science Building 505', image: 'assets/img/lab-technician.jpg', url: 'lab-technician'}
 - {name: 'Jin-Hyun Ahn' , title: 'MS Course', email: 'wlsgus5596@naver.com', office: 'Engineering Building 51-207', image: 'assets/img/graduate-student.jpg', url: 'jin-hyun'}
+- {name: 'Sang-Joon Lee' , title: 'MS Course', email: 'wlsgus5596@naver.com', office: 'Engineering Building 51-207', image: 'assets/img/graduate-student.jpg', url: 'jin-hyun'}
 #- {name: 'Lab Technician', title: 'Researcher', department: 'Physics & Astronomy', institution: 'Some University', institution_address: '1 Main Street, Canada', phone: '(000) 000-0000', email: 'hello@university.edu', office: 'Science Building 505', image: 'assets/img/lab-technician.jpg', url: 'lab-technician'}
 
 courses:
@@ -20,7 +21,8 @@ courses:
 - {name: 'Reinforced Concrete and Steel Structures', url: 'RC-and-steel'}
 
 projects:
-- {name: 'Vibration Serviceability Evaluation for H', url: 'hana-bank'}
+- {name: '[SEN Enginnering Group] Vibration Servicability Evaluation for H-Bank', url: 'hana-bank'}
+- {name: '[Samsung Industry] High friction coefficient for high-strength bolted connection', url: 'samsung-friction'}
 
 # \subsection*{Research Director}
 # \years{2020}에너지-내진성능~동시확보를~위한~열교차단파스너의~실물대실험, \texttt{교육부}\\
