@@ -22,7 +22,7 @@ courses:
 
 projects:
 - {name: '[SEN Enginnering Group] Vibration Servicability Evaluation for H-Bank', url: 'hana-bank'}
-- {name: '[Samsung Industry] High friction coefficient for high-strength bolted connection', url: 'samsung-friction'}
+- {name: '[Samsung Industry] High Friction Coefficient for High-Strength Bolted Connection', url: 'samsung-friction'}
 
 # \subsection*{Research Director}
 # \years{2020}에너지-내진성능~동시확보를~위한~열교차단파스너의~실물대실험, \texttt{교육부}\\

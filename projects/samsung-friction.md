@@ -7,4 +7,4 @@ title: "고장력볼트 마찰접합부 과제"
 
 # Related Documents
 
-[link](_site\2023\09\15\Aluminium-spray.html)
+[link](..\2023\09\15\Aluminium-spray.html)
