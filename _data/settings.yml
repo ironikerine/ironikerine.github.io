@@ -21,7 +21,8 @@ courses:
 - {name: 'Reinforced Concrete and Steel Structures', url: 'RC-and-steel'}
 
 projects:
-- {name: '[SEN Enginnering Group] Vibration Servicability Evaluation for H-Bank', url: 'hana-bank'}
+- {name: '[SEN Enginnering Group] Vibration Servicability Evaluation for H-Bank', url: 'h-bank'}
+- {name: '[SEN Enginnering Group] Vibration Servicability Evaluation for H-Bank', url: 'w-bank'}
 - {name: '[Samsung Industry] High Friction Coefficient for High-Strength Bolted Connection', url: 'samsung-friction'}
 
 # \subsection*{Research Director}

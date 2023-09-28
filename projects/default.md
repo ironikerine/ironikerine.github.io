@@ -1,6 +1,6 @@
 ---
-layout: post
-title: "고장력볼트 마찰접합부 과제"
+layout: page
+title: "Vibration Serviceability Evaluation for H Bank"
 ---
 
 # Project Information
@@ -16,4 +16,4 @@ Sen Structural Group
 
 # Related Document
 
-<!-- PDF files to the subfolder. -->
+Test
