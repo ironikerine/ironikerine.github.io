@@ -6,7 +6,7 @@ title: "고장력볼트 마찰접합부 과제"
 # Project Information
 
 ## Client
-Sen Structural Group
+Samsung Industry
 
 ## Duration
 -
