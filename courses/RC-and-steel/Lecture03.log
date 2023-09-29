@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.10.17)  19 SEP 2023 00:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.10.17)  29 SEP 2023 12:03
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -995,8 +995,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.89 	\end{frame}
-                 
+l.89 \end{frame}
+                
 I could not locate the file with any of these extensions:
 .pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
 Try typing  <return>  to proceed.
@@ -1016,8 +1016,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.96 	\end{frame}
-                 
+l.96 \end{frame}
+                
 I could not locate the file with any of these extensions:
 .pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
 Try typing  <return>  to proceed.
@@ -1033,8 +1033,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.103 	\end{frame}
-                  
+l.103 \end{frame}
+                 
 I could not locate the file with any of these extensions:
 .pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
 Try typing  <return>  to proceed.
@@ -1050,8 +1050,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.125 	\end{frame}
-                  
+l.125 \end{frame}
+                 
 I could not locate the file with any of these extensions:
 .pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
 Try typing  <return>  to proceed.
@@ -1067,8 +1067,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.147 	\end{frame}
-                  
+l.147 \end{frame}
+                 
 I could not locate the file with any of these extensions:
 .pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
 Try typing  <return>  to proceed.
@@ -1084,8 +1084,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.156 	\end{frame}
-                  
+l.156 \end{frame}
+                 
 I could not locate the file with any of these extensions:
 .pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
 Try typing  <return>  to proceed.
@@ -1098,8 +1098,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.156 	\end{frame}
-                  
+l.156 \end{frame}
+                 
 I could not locate the file with any of these extensions:
 .pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
 Try typing  <return>  to proceed.
@@ -1115,8 +1115,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.163 	\end{frame}
-                  
+l.163 \end{frame}
+                 
 I could not locate the file with any of these extensions:
 .pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
 Try typing  <return>  to proceed.
@@ -1132,8 +1132,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.187 	\end{frame}
-                  
+l.187 \end{frame}
+                 
 I could not locate the file with any of these extensions:
 .pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
 Try typing  <return>  to proceed.
@@ -1149,8 +1149,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.211 	\end{frame}
-                  
+l.211 \end{frame}
+                 
 I could not locate the file with any of these extensions:
 .pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
 Try typing  <return>  to proceed.
@@ -1166,8 +1166,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.223 	\end{frame}
-                  
+l.223 \end{frame}
+                 
 I could not locate the file with any of these extensions:
 .pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
 Try typing  <return>  to proceed.
@@ -1180,8 +1180,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.223 	\end{frame}
-                  
+l.223 \end{frame}
+                 
 I could not locate the file with any of these extensions:
 .pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
 Try typing  <return>  to proceed.
@@ -1197,8 +1197,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.229 	\end{frame}
-                  
+l.229 \end{frame}
+                 
 I could not locate the file with any of these extensions:
 .pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
 Try typing  <return>  to proceed.
@@ -1214,8 +1214,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.235 	\end{frame}
-                  
+l.235 \end{frame}
+                 
 I could not locate the file with any of these extensions:
 .pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
 Try typing  <return>  to proceed.
@@ -1231,8 +1231,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.241 	\end{frame}
-                  
+l.241 \end{frame}
+                 
 I could not locate the file with any of these extensions:
 .pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
 Try typing  <return>  to proceed.
@@ -1248,8 +1248,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.247 	\end{frame}
-                  
+l.247 \end{frame}
+                 
 I could not locate the file with any of these extensions:
 .pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
 Try typing  <return>  to proceed.
@@ -1265,8 +1265,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.253 	\end{frame}
-                  
+l.253 \end{frame}
+                 
 I could not locate the file with any of these extensions:
 .pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
 Try typing  <return>  to proceed.
@@ -1282,8 +1282,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.259 	\end{frame}
-                  
+l.259 \end{frame}
+                 
 I could not locate the file with any of these extensions:
 .pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
 Try typing  <return>  to proceed.
@@ -1299,8 +1299,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.265 	\end{frame}
-                  
+l.265 \end{frame}
+                 
 I could not locate the file with any of these extensions:
 .pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
 Try typing  <return>  to proceed.
@@ -1316,8 +1316,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.271 	\end{frame}
-                  
+l.271 \end{frame}
+                 
 I could not locate the file with any of these extensions:
 .pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
 Try typing  <return>  to proceed.
@@ -1335,8 +1335,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.299 	\end{frame}
-                  
+l.299 \end{frame}
+                 
 I could not locate the file with any of these extensions:
 .pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
 Try typing  <return>  to proceed.
@@ -1352,8 +1352,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.306 	\end{frame}
-                  	
+l.306 \end{frame}
+                 	
 I could not locate the file with any of these extensions:
 .pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
 Try typing  <return>  to proceed.
@@ -1369,8 +1369,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.313 	\end{frame}
-                  
+l.313 \end{frame}
+                 
 I could not locate the file with any of these extensions:
 .pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
 Try typing  <return>  to proceed.
@@ -1386,8 +1386,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.319 	\end{frame}
-                  
+l.319 \end{frame}
+                 
 I could not locate the file with any of these extensions:
 .pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
 Try typing  <return>  to proceed.
@@ -1421,13 +1421,13 @@ Package rerunfilecheck Info: Checksums for `Lecture03.out':
 Here is how much of TeX's memory you used:
  31104 strings out of 475071
  619775 string characters out of 5782907
- 902627 words of memory out of 5000000
+ 902629 words of memory out of 5000000
  51749 multiletter control sequences out of 15000+600000
  529515 words of font info for 153 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,11n,122p,1974b,752s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {c:/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmac.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmad.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmae.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmb0.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmb1.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmb2.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmb3.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmb4.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmb5.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmb7.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmb8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmb9.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmba.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmbb.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmbc.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmbd.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmc0.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmc1.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmc2.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmc5.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmc6.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmc7.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmc8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmc9.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmcc.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmcd.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmce.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmd0.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmd1.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmd2.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmd3.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmd4.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmd5.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmd6.pfb><c:/texlive/2022/texmf-dist/fonts/type1/urw/avantgar/uagd8a.pfb><c:/texlive/2022/texmf-dist/fonts/type1/urw/avantgar/uagk8a.pfb>
-Output written on Lecture03.pdf (25 pages, 879972 bytes).
+Output written on Lecture03.pdf (25 pages, 879970 bytes).
 PDF statistics:
  379 PDF objects out of 1000 (max. 8388607)
  257 compressed objects within 3 object streams

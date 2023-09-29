@@ -73,333 +73,328 @@
 	\titlepage
 \end{frame}
 
-\section{4. 철근콘크리트구조}	
-	\begin{frame}{4.1 개요}
-		\textbf{1. 철근콘크리트의 원리}
-		
-		\textbf{철근콘크리트(reinforced concrete)} \alert{철근}의 주위에 \alert{콘크리트}를 타설하여 일체화한 것	
-		\begin{itemize}
-			\item 콘크리트: 시멘트, 모래, 자갈 등의 혼합물에 물을 첨가하여 유동체로 만든 다음 이것을 일정한 형태로 굳힌 것. 압축강도는 20--120 MPa이고 인장강도는 압축강도의 5 -- 10\%임. 일반적으로 인장강도는 휨 설계 시 무시. 
-			\item 강재: 높은 강도를 갖는 우수한 구조재료이지만 고가이며 화열이나 녹에 취약하다는 결점이 있음. 인장강도는 240--600 MPa임(SD240, SD500 and SD600).
-			\item 콘크리트의 약한 인장강도를 철근이 보완.
-			\item 콘크리트 내화피복을 통해 철근의 낮은 내화성능 보완.
-		\end{itemize}
-	\end{frame}
-	\begin{frame}{4.1 개요}
-		\textbf{2. 철근콘크리트의 장단점}
-		
-		\alert{장점}
-		
-		\begin{itemize}
-			\item 공사비와 유지비가 저렴함.
-			\item 내구성과 내화학성이 뛰어남.
-			\item 다양하고 자유로운 조형이 가능함. 
-		\end{itemize}
-		
-		\alert{단점}
-		
-		\begin{itemize}
-			\item 무게에 비하여 강도가 낮음. 비중은 철골에 비해 낮으나(1/3수준), 강도가 더욱 낮기 때문에(1/10수준) 철골에 비해 긴 경간에서는 불리. 
-			\item 인장강도가 압축강도의 10\%수준이므로, 인장 측에서의 균열이 쉽게 발생함. 
-			\item 거푸집과 지주(동바리)의 사용: 타설 이후에도 일정기간이 지난 후에 강도가 발현되기 때문에 거푸집을 지주로 지지해야 함. 전체 공사비의 30\% 정도. 
-			\item 시간에 따른 변형을 일으킴[크리프(creep): 하중과 관계있는 시간경과에 따른 변형; 건조수축(shrinkage): 하중과 관계없는 시간경과에 따른 변형].
-			\item 시공이 번거로움. 
-		\end{itemize}
-	\end{frame}
-	\begin{frame}{4.1 개요}
-		\textbf{3. 철근콘크리트구조의 종류}
-		
-		\alert{1) 구조방식에 의한 분류}
-		
-		\begin{description}
-			\item[라멘구조] 기둥과 보를 강접합으로 처리하여 수평하중을 지탱함. 가장 일반적인 RC조의 구법.
-			\item[벽식구조] 벽체와 슬래브로 구성된 구조. 기둥이나 보가 없으며 수평하중은 물론 연직하중도 내력벽으로 지탱함. 공동주택 등 많은 벽체가 필요하고 낮은 층고가 허용되는 구조에 적합함. 
-			\item[무량판구조] 보를 사용하지 않고 기둥이 직접 바닥슬래브를 지지하는 방식. 시공이 매우 편리하며 보가 없으므로 층고를 낮출 수 있음. 공동주택에 주로 사용.
-			\item[쉘구조] 지붕이나 벽을 3차원의 절판이나 곡면판으로 처리하여 면외방향의 강성을 얻도록 한 것. 대공간을 구성하는 구조이나 현재에는 많이 사용되지 않음. 
-		\end{description}
-	\end{frame}
-	\begin{frame}{4.1 개요}
-		\textbf{3. 철근콘크리트구조의 종류}
-		
-		\alert{라멘(rahmen) 구조}
-		\begin{figure}
-			\includegraphics[height=0.5\textheight]{05RAHMEN}
-			\vspace{-.3cm}
-		\end{figure}	
-	\end{frame}
-	\begin{frame}{4.1 개요}
-		\textbf{3. 철근콘크리트구조의 종류}
-		
-		\alert{벽식구조}
-		\begin{figure}
-			\includegraphics[height=0.5\textheight]{05WALL}
-			\vspace{-.3cm}
-		\end{figure}	
-	\end{frame}
-	\begin{frame}{4.1 개요}
-		\textbf{3. 철근콘크리트구조의 종류}
-		
-		\alert{무량판구조}
-		\begin{figure}
-			\includegraphics[height=0.5\textheight]{05WALL}
-			\vspace{-.3cm}
-		\end{figure}	
-	\end{frame}
-	\begin{frame}{4.1 개요}
-		\textbf{3. 철근콘크리트구조의 종류}
-		
-		\alert{쉘구조}
-		\begin{figure}
-			\includegraphics[height=0.5\textheight]{05SHELL}
-			\vspace{-.3cm}
-		\end{figure}	
-	\end{frame}
-	\begin{frame}{4.1 개요}
-		\textbf{3. 철근콘크리트구조의 종류}
-		
-		\alert{2) 생산방식에 의한 분류}
-		
-		\begin{description}
-			\item[현장타설 콘크리트] 현장에서 건축물의 형태에 따라 조립한 형틀 내부에 콘크리트를 타설한 것. 일체식.
-			\item[프리캐스트 콘크리트] 미리 공장에서 타설, 양생된 콘크리트 부재를 현장으로 운반하여 조립하는 방식. 
-		\end{description}
-	\end{frame}
-	\begin{frame}{4.2 재료}
-		\textbf{1. 재료의 구성}
-		
-		보통강도 일반 콘크리트: 시멘트, 물, 모래(세골재), 자갈(조골재), 혼화재
-		\begin{itemize}
-			\item 무게비율 = 1:0.5:2:4
-			\item 강도, 시공연도(workability), 크리프 등 요구특성에 따라서 혼합비율이 달라짐
-			\item 고강도 콘크리트 사용 시: 물/시멘트 비율이 0.3까지 낮아짐. 조골재의 크기를 감소시킴(직경 25mm 이하).
-			\item 콘크리트펌프 이용 시 세골재의 비율이 높아짐.
-		\end{itemize}
-		골재의 요구조건
-		\begin{itemize}
-			\item 충분한 강도, 깨끗한 표면.
-			\item 세골재와 조골재의 적절한 크기의 비율(조밀한 구성).
-			\item 콘크리트 타설에 적절한 최대골재크기(거푸집과 철근 사이에 밀실한 타설).
-		\end{itemize}
-		수화작용, 양생(curing): 시멘트는 수경성이므로 지속적인 물의 공급이 중요함. 
-	\end{frame}
-	\begin{frame}{4.2 재료}
-		\textbf{2. 시멘트의 종류}
-		\begin{description}
-			\item[1종] 보통시멘트
-			\item[2종] 중용열시멘트: 시공연도 증가, 동파에 의한 내구성 증진. 도로포장, 노출콘크리트에 사용. 수화작용의 속도가 빠르지 않아서 발열량이 적고 장기강도가 뛰어남. 
-			\item[3종] 조강시멘트: 빠른 시공이 요구될 때 사용. 동절기에 사용. 분말도가 큼.
-			\item[4종] 저열시멘트: mass concrete에 사용(대규모의 기초판 등). Mass가 큰 경우 내부와 외부의 수화열발산정도의 차이에 의하여 균열 발생. 
-			\item[5종] 내황산염시멘트: 공장, 오수처리시설에 사용(일반시멘트는 황산염에 매우 약함). 
-		\end{description}
-	\end{frame}
-	\begin{frame}{4.2 재료}
-		\textbf{3. 혼화재(admixture)의 종류}
-		
-		강도증진, 내구성증진, 조기강도발현(조강제), 강도발현지연(완결제), 시공연도증진(감수제, 표면활성제), 내화학성증진 등 다양한 혼화제 사용 가능.
-		\begin{itemize}
-			\item \textbf{Fly ash, pozzolan} 내구성 증진, 조직을 치밀하게 만듬.
-			\item \textbf{Silica fume} 고강도 콘크리트에 사용.
-			\item \textbf{Superplasticizer} 시공연도 증진, 콘크리트의 압송에 필수적임. 			
-		\end{itemize}
-	\end{frame}
-	\begin{frame}{4.2 재료}
-		\textbf{4. 콘크리트의 종류}
-		
-		\begin{itemize}
-			\item \textbf{보통중량콘크리트} 무게 2.4 ton/m$^3$.
-			\item \textbf{경량콘크리트} 구조용, 단열용, 경량골재사용. 무게 1.0--1.8 ton/m$^3$. 구조용으로는 주로 슬래브에 사용. 
-			\item \textbf{고강도콘크리트} 80 MPa 까지는 일반시멘트로 생산 가능. 100--150 MPa 는 혼화재(silica fume, 슬래그 등) 사용. 
-			\item \textbf{유동화콘크리트} 유동화제(plasticizer)를 첨가하여 시공성 증진. 
-		\end{itemize}
-		\textbf{5. 물--시멘트 비}
-		
-		시공성을 위하여 수화작용에 필요한 양 이상의 물이 필요함. 콘크리트의 quality를 위하여 60\% 이하로 유지하여야 함. 
-		
-		\textbf{6. 슬럼프 값}
-		
-		콘크리트의 시공연도를 판단하는 지표. 표준 슬럼프 값: 기둥, 벽(100--150 mm); 바닥, 보(50--100 mm).	
-	\end{frame}
-	\begin{frame}{4.2 재료}
-		\textbf{6. 슬럼프 값}
-		
-		\alert{슬럼프 시험}
-		\begin{figure}
-			\includegraphics[height=0.6\textheight]{05SLUMP}
-			\vspace{-.3cm}
-		\end{figure}	
-	\end{frame}
-	\begin{frame}{4.3 거푸집}
-		\textbf{1. 거푸집의 기능과 요건}
-		
-		\textbf{거푸집(formwork, shuttering)} 형틀이라고 불리는 가설물의 일종으로 콘크리트가 응결, 경화하는 동안 일정한 형태와 치수를 유지시키는 역할을 하며, 동시에 콘크리트가 경화하는데 필요한 수분의 누출을 방지하고 외기의 영향을 차단하여 콘크리트가 적절하게 양생되도록 함. 
-		
-		\begin{figure}
-			\includegraphics[height=0.5\textheight]{05FORMWORK}
-			\vspace{-.3cm}
-		\end{figure}	
-	\end{frame}
-	\begin{frame}{4.3 거푸집}
-		\textbf{2. 거푸집의 종류}
-		
-		\textbf{합판형틀(plywood form)} 건축에서 가장 널리 사용됨. 경량이며 가공이 용이함. 
-		
-		\begin{figure}
-			\includegraphics[height=0.7\textheight]{05PLYWOOD}
-			\vspace{-.3cm}
-		\end{figure}	
-	\end{frame}
-	\begin{frame}{4.3 거푸집}
-		\textbf{2. 거푸집의 종류}
-		
-		\textbf{강제형틀(metal form)} 현장에서의 가공은 어려우나 내구성이 있어 반복사용이 가능. 아파트와 같이 규격화된 건축물에 사용하면 매우 효과적.
-		
-		\begin{figure}
-			\includegraphics[height=0.6\textheight]{05METALFORM}
-			\vspace{-.3cm}
-		\end{figure}	
-	\end{frame}
-	\begin{frame}{4.3 거푸집}
-		\textbf{2. 거푸집의 종류}
-		
-		\textbf{유로폼} 철재의 틀에 합판을 붙여 만든 패널폼의 일종으로 가장 초보적인 단계의 시스템화 거푸집. 거푸집의 모듈화를 통하여 현장제작에 소요되는 인력을 줄이고 자재의 전용 횟수를 증대시킬 목적으로 개발됨. 기본패널의 크기는 600 mm$\times$1,200 mm이며 주로 벽체와 기둥에 사용됨. 
-		
-		\textbf{알루미늄형틀/플라스틱형틀/목재널형틀} 
-		\begin{figure}
-			\includegraphics[height=0.5\textheight]{05EUROFORM}
-			\vspace{-.3cm}
-		\end{figure}
-	\end{frame}
-	\begin{frame}{4.3 거푸집}
-		\textbf{3. 특수거푸집}: 시공성 증진을 위하여 특수하게 제작된 거푸집.
-		
-		\textbf{터널폼(tunnel form)} 아파트와 같이 동일한 형태의 공간이 반복되는 경우. 방 한 개 크기의 대형 철제형틀을 사용. 형틀의 설치, 해체 및 수평방향의 이동에는 크레인을 사용.
-		\begin{figure}
-			\includegraphics[height=0.6\textheight]{05TUNNELFORM}
-			\vspace{-.3cm}
-		\end{figure}
-	\end{frame}
-	\begin{frame}{4.3 거푸집}
-		\textbf{3. 특수거푸집}: 시공성 증진을 위하여 특수하게 제작된 거푸집.
-		
-		\textbf{갱폼(gang form)} 소형 패널을 무리로 조합하여 대형 거푸집으로 만든 것으로 설치 및 해체에는 크레인을 사용. 
-		\begin{figure}
-			\includegraphics[height=0.6\textheight]{05GANGFORM}
-			\vspace{-.3cm}
-		\end{figure}
-	\end{frame}
-	\begin{frame}{4.3 거푸집}
-		\textbf{3. 특수거푸집}: 시공성 증진을 위하여 특수하게 제작된 거푸집.
-		
-		\textbf{슬립폼(slip form)} 소형 패널을 무리로 조합하여 대형 거푸집으로 만든 것으로 설치 및 해체에는 크레인을 사용. 
-		
-		\textbf{4. 탈형}: 거푸집 존치 이후 거푸집을 떼어내는 작업. 콘크리트의 강도가 충분하지 않은 상태에서 탈형하는 것은 구조체의 붕괴를 초래할 수 있기 때문에 시멘트의 종류, 거푸집의 종류 및 사용개소, 평균기온 등에 따라 거푸집 존치기간을 별도로 규정. 보나 슬래브 하단의 거푸집은 보통콘크리트의 경우 상온에서 최소 9일 이상, 벽이나 기둥의 경우에는 4일 이상이 필요. 
-		\begin{figure}
-			\includegraphics[height=0.3\textheight]{05SLIPFORM}
-			\vspace{-.3cm}
-		\end{figure}
-	\end{frame}	
-	\begin{frame}{4.4 철근}
-		\textbf{1. 철근과 콘크리트}: 동일한 열팽창율을 가짐. 콘크리트의 알칼리 성분이 철근의 부식 방지. 
-		
-		\textbf{2. 철근의 크기와 종류}
-		
-		\alert{1) 보통철근}: 항복강도: 400--500 MPa	
-		\begin{description}
-			\item[원형철근] 철근마디가 없음.
-			\item[이형철근] 부착력의 증대를 위하여 마디를 형성하고 있음. 
-			\item[Epoxy-coated bar] 부식이 우려되는 곳에 사용. 교량/주차장. 
-		\end{description}				
+\section{Reinforced Concrete}	
 
-		\begin{figure}
-			\includegraphics[height=0.5\textheight]{05BARS}
-			\vspace{-.3cm}
-		\end{figure}
-	\end{frame}
-	\begin{frame}{4.4 철근}	
-		\alert{2) 강선(tendon)}: 프리스트레스 콘크리트에 사용되는 고강도 철근.	
-		\begin{description}
-			\item[strand] 항복강도 1900--2200 MPa. 가는 강선을 꼬아서 만든 강선.
-			\item[고강도강봉] 항복강도 1000--1200 MPa. 
-		\end{description}				
+\begin{frame}{Introduction to Reinforced Concrete}
+철근콘크리트의 원리: 철근의 주위에 콘크리트를 타설하여 일체화한 것
+	\begin{itemize}
+		\item 콘크리트: 시멘트, 모래, 자갈 등의 혼합물에 물을 첨가하여 유동체로 만든 다음 이것을 일정한 형태로 굳힌 것. 압축강도는 20--120 MPa이고 인장강도는 압축강도의 5 -- 10\%임. 일반적으로 인장강도는 휨 설계 시 무시. 
+		\item 강재: 높은 강도를 갖는 우수한 구조재료이지만 고가이며 화열이나 녹에 취약하다는 결점이 있음. 인장강도는 240--600 MPa임(SD240, SD500 and SD600).
+		\item 콘크리트의 약한 인장강도를 철근이 보완.
+		\item 콘크리트 내화피복을 통해 철근의 낮은 내화성능 보완.
+	\end{itemize}
+\end{frame}
 
-		\alert{3) 용접철망}: 작은 철근을 격자형으로 용접. 
-		\begin{figure}
-			\includegraphics[height=0.4\textheight]{05STRAND}
-			\vspace{-.3cm}
-		\end{figure}
-	\end{frame}
-	\begin{frame}{4.4 철근}
-		\textbf{3. 주철근의 배치} 
-		
-		\alert{1) 주근의 위치}
-		
-		\textbf{주근(longitudinal bars)} 기둥, 보 부재의 축방향으로 배치되어 축력과 휨모멘트를 저항하는 철근. 철근배근의 형태를 갖추기 위하여 설치하는 경우도 있으며, 온도팽창이나 건조수축에 의한 균열을 제어하기 위해 배치하기도 함. 
-		\begin{description}
-			\item[보] 주로 휨모멘트에 의하여 인장력이 발생하는 위치에 주근을 배치.
-			\item[기둥] 축력과 휨모멘트를 저항하도록 주근을 배치함. 일반적으로 단면에 고르게 분포하도록 배치하며, 동일한 배치를 전체 길이에 걸쳐서 배치함. 
-		\end{description}				
+\begin{frame}{Introduction to Reinforced Concrete}
+철근콘크리트의 장점
 
-		\begin{figure}
-			\includegraphics[height=0.4\textheight]{05LONGBARS}
-			\vspace{-.3cm}
-		\end{figure}
-	\end{frame}
-	\begin{frame}
-		\begin{figure}
-			\includegraphics[height=0.6\textheight]{05BARLOC}
-			\vspace{-.3cm}
-		\end{figure}
-	\end{frame}
-	\begin{frame}{4.4 철근}
-		\textbf{4. 철근의 이음과 정착} 
-		
-		제품, 시공성, 운반 등의 이유로 철근은 길이가 한정되어 있으므로 철근의 이음이 필요함. 철근이 인장력을 발휘하기 위해서는 철근의 이음과 정착을 위한 충분한 길이가 필요함. 
+\begin{itemize}
+	\item 공사비와 유지비가 저렴함.
+	\item 내구성과 내화학성이 뛰어남.
+	\item 다양하고 자유로운 조형이 가능함. 
+\end{itemize}
 
-		\begin{figure}
-			\includegraphics[height=0.6\textheight]{05LONGITU}
-			\vspace{-.3cm}
-		\end{figure}
-	\end{frame}
-	\begin{frame}{4.4 철근}
-		\textbf{4. 철근의 이음과 정착} 
-		
-		일반직선정착/굽힘정착 
+철근콘크리트의 단점
 
-		\begin{figure}
-			\includegraphics[height=0.35\textheight]{05HOLDB}
-			\vspace{-.3cm}
-		\end{figure}
-	\end{frame}
-	\begin{frame}{4.4 철근}
-		\textbf{5. 철근의 간격} 
-		
-		콘크리트가 적절히 타설되도록 일정 이상의 간격을 확보해야 함. 철근사이 간격 = 최대골재직경의 4/3 이상. 
+\begin{itemize}
+	\item 무게에 비하여 강도가 낮음. 비중은 철골에 비해 낮으나(1/3수준), 강도가 더욱 낮기 때문에(1/10수준) 철골에 비해 긴 경간에서는 불리. 
+	\item 인장강도가 압축강도의 10\%수준이므로, 인장 측에서의 균열이 쉽게 발생함. 
+	\item 거푸집과 지주(동바리)의 사용: 타설 이후에도 일정기간이 지난 후에 강도가 발현되기 때문에 거푸집을 지주로 지지해야 함. 전체 공사비의 30\% 정도. 
+	\item 시간에 따른 변형을 일으킴[크리프(creep): 하중과 관계있는 시간경과에 따른 변형; 건조수축(shrinkage): 하중과 관계없는 시간경과에 따른 변형].
+	\item 시공이 번거로움. 
+\end{itemize}
 
-		\begin{figure}
-			\includegraphics[height=0.45\textheight]{05BARSPACING}
-			\vspace{-.3cm}
-		\end{figure}
-	\end{frame}	
-	\begin{frame}{4.4 철근}
-		\textbf{6. 피복 두께}: 내화성/내구성 확보, 철근의 정착.
-		
-		\begin{description}
-			\item[수중타설콘크리트] 100 mm
-			\item[흙에 접하여 묻히는 경우] 80 mm
-			\item[옥외에 노출되는 경우] 40--60 mm (철근 직경에 따라 다름)
-			\item[옥외에 노출되지 않는 경우] 보, 기둥 40 mm, 슬래브 20 mm
-		\end{description}
-	\end{frame}
-	\begin{frame}{4.4 철근}
-		\textbf{7. 횡보강근} 
-		
-		기둥: 타이근(tie); 보: 늑근(stirrup)
-		
-		보조철근의 역할: 콘크리트의 횡구속, 전단저항보강, 철근의 위치고정, 주철근의 좌굴방지. 
+\end{frame}
 
-		\begin{figure}
-			\includegraphics[height=0.3\textheight]{05STIR}
-			\vspace{-.3cm}
-		\end{figure}
-	\end{frame}
+\begin{frame}{Introduction to Reinforced Concrete}
+구조방식에 의한 RC구조 분류
+
+\begin{description}
+	\item[라멘구조] 기둥과 보를 강접합으로 처리하여 수평하중을 지탱함. 가장 일반적인 RC조의 구법.
+	\item[벽식구조] 벽체와 슬래브로 구성된 구조. 기둥이나 보가 없으며 수평하중은 물론 연직하중도 내력벽으로 지탱함. 공동주택 등 많은 벽체가 필요하고 낮은 층고가 허용되는 구조에 적합함. 
+	\item[무량판구조] 보를 사용하지 않고 기둥이 직접 바닥슬래브를 지지하는 방식. 시공이 매우 편리하며 보가 없으므로 층고를 낮출 수 있음. 공동주택에 주로 사용.
+	\item[쉘구조] 지붕이나 벽을 3차원의 절판이나 곡면판으로 처리하여 면외방향의 강성을 얻도록 한 것. 대공간을 구성하는 구조이나 현재에는 많이 사용되지 않음. 
+\end{description}
+\end{frame}
+
+\begin{frame}{Introduction to Reinforced Concrete}
+라멘구조(Rahmen Structures)
+\begin{figure}
+	\includegraphics[height=0.5\textheight]{05RAHMEN}
+	\vspace{-.3cm}
+\end{figure}	
+\end{frame}
+
+\begin{frame}{Introduction to Reinforced Concrete}
+벽식구조(Wall Structures)
+\begin{figure}
+	\includegraphics[height=0.5\textheight]{05WALL}
+	\vspace{-.3cm}
+\end{figure}	
+\end{frame}
+
+\begin{frame}{Introduction to Reinforced Concrete}
+무량판구조()
+\begin{figure}
+	\includegraphics[height=0.5\textheight]{05WALL}
+	\vspace{-.3cm}
+\end{figure}	
+\end{frame}
+
+\begin{frame}{Introduction to Reinforced Concrete}
+쉘구조(Sheel Structures)
+\begin{figure}
+	\includegraphics[height=0.5\textheight]{05SHELL}
+	\vspace{-.3cm}
+\end{figure}	
+\end{frame}
+
+\begin{frame}{4.1 개요}
+\textbf{3. 철근콘크리트구조의 종류}
+
+\alert{2) 생산방식에 의한 분류}
+
+\begin{description}
+	\item[현장타설 콘크리트] 현장에서 건축물의 형태에 따라 조립한 형틀 내부에 콘크리트를 타설한 것. 일체식.
+	\item[프리캐스트 콘크리트] 미리 공장에서 타설, 양생된 콘크리트 부재를 현장으로 운반하여 조립하는 방식. 
+\end{description}
+\end{frame}
+\begin{frame}{4.2 재료}
+\textbf{1. 재료의 구성}
+
+보통강도 일반 콘크리트: 시멘트, 물, 모래(세골재), 자갈(조골재), 혼화재
+\begin{itemize}
+	\item 무게비율 = 1:0.5:2:4
+	\item 강도, 시공연도(workability), 크리프 등 요구특성에 따라서 혼합비율이 달라짐
+	\item 고강도 콘크리트 사용 시: 물/시멘트 비율이 0.3까지 낮아짐. 조골재의 크기를 감소시킴(직경 25mm 이하).
+	\item 콘크리트펌프 이용 시 세골재의 비율이 높아짐.
+\end{itemize}
+골재의 요구조건
+\begin{itemize}
+	\item 충분한 강도, 깨끗한 표면.
+	\item 세골재와 조골재의 적절한 크기의 비율(조밀한 구성).
+	\item 콘크리트 타설에 적절한 최대골재크기(거푸집과 철근 사이에 밀실한 타설).
+\end{itemize}
+수화작용, 양생(curing): 시멘트는 수경성이므로 지속적인 물의 공급이 중요함. 
+\end{frame}
+\begin{frame}{4.2 재료}
+\textbf{2. 시멘트의 종류}
+\begin{description}
+	\item[1종] 보통시멘트
+	\item[2종] 중용열시멘트: 시공연도 증가, 동파에 의한 내구성 증진. 도로포장, 노출콘크리트에 사용. 수화작용의 속도가 빠르지 않아서 발열량이 적고 장기강도가 뛰어남. 
+	\item[3종] 조강시멘트: 빠른 시공이 요구될 때 사용. 동절기에 사용. 분말도가 큼.
+	\item[4종] 저열시멘트: mass concrete에 사용(대규모의 기초판 등). Mass가 큰 경우 내부와 외부의 수화열발산정도의 차이에 의하여 균열 발생. 
+	\item[5종] 내황산염시멘트: 공장, 오수처리시설에 사용(일반시멘트는 황산염에 매우 약함). 
+\end{description}
+\end{frame}
+\begin{frame}{4.2 재료}
+\textbf{3. 혼화재(admixture)의 종류}
+
+강도증진, 내구성증진, 조기강도발현(조강제), 강도발현지연(완결제), 시공연도증진(감수제, 표면활성제), 내화학성증진 등 다양한 혼화제 사용 가능.
+\begin{itemize}
+	\item \textbf{Fly ash, pozzolan} 내구성 증진, 조직을 치밀하게 만듬.
+	\item \textbf{Silica fume} 고강도 콘크리트에 사용.
+	\item \textbf{Superplasticizer} 시공연도 증진, 콘크리트의 압송에 필수적임. 			
+\end{itemize}
+\end{frame}
+\begin{frame}{4.2 재료}
+\textbf{4. 콘크리트의 종류}
+
+\begin{itemize}
+	\item \textbf{보통중량콘크리트} 무게 2.4 ton/m$^3$.
+	\item \textbf{경량콘크리트} 구조용, 단열용, 경량골재사용. 무게 1.0--1.8 ton/m$^3$. 구조용으로는 주로 슬래브에 사용. 
+	\item \textbf{고강도콘크리트} 80 MPa 까지는 일반시멘트로 생산 가능. 100--150 MPa 는 혼화재(silica fume, 슬래그 등) 사용. 
+	\item \textbf{유동화콘크리트} 유동화제(plasticizer)를 첨가하여 시공성 증진. 
+\end{itemize}
+\textbf{5. 물--시멘트 비}
+
+시공성을 위하여 수화작용에 필요한 양 이상의 물이 필요함. 콘크리트의 quality를 위하여 60\% 이하로 유지하여야 함. 
+
+\textbf{6. 슬럼프 값}
+
+콘크리트의 시공연도를 판단하는 지표. 표준 슬럼프 값: 기둥, 벽(100--150 mm); 바닥, 보(50--100 mm).	
+\end{frame}
+\begin{frame}{4.2 재료}
+\textbf{6. 슬럼프 값}
+
+\alert{슬럼프 시험}
+\begin{figure}
+	\includegraphics[height=0.6\textheight]{05SLUMP}
+	\vspace{-.3cm}
+\end{figure}	
+\end{frame}
+\begin{frame}{4.3 거푸집}
+\textbf{1. 거푸집의 기능과 요건}
+
+\textbf{거푸집(formwork, shuttering)} 형틀이라고 불리는 가설물의 일종으로 콘크리트가 응결, 경화하는 동안 일정한 형태와 치수를 유지시키는 역할을 하며, 동시에 콘크리트가 경화하는데 필요한 수분의 누출을 방지하고 외기의 영향을 차단하여 콘크리트가 적절하게 양생되도록 함. 
+
+\begin{figure}
+	\includegraphics[height=0.5\textheight]{05FORMWORK}
+	\vspace{-.3cm}
+\end{figure}	
+\end{frame}
+\begin{frame}{4.3 거푸집}
+\textbf{2. 거푸집의 종류}
+
+\textbf{합판형틀(plywood form)} 건축에서 가장 널리 사용됨. 경량이며 가공이 용이함. 
+
+\begin{figure}
+	\includegraphics[height=0.7\textheight]{05PLYWOOD}
+	\vspace{-.3cm}
+\end{figure}	
+\end{frame}
+\begin{frame}{4.3 거푸집}
+\textbf{2. 거푸집의 종류}
+
+\textbf{강제형틀(metal form)} 현장에서의 가공은 어려우나 내구성이 있어 반복사용이 가능. 아파트와 같이 규격화된 건축물에 사용하면 매우 효과적.
+
+\begin{figure}
+	\includegraphics[height=0.6\textheight]{05METALFORM}
+	\vspace{-.3cm}
+\end{figure}	
+\end{frame}
+\begin{frame}{4.3 거푸집}
+\textbf{2. 거푸집의 종류}
+
+\textbf{유로폼} 철재의 틀에 합판을 붙여 만든 패널폼의 일종으로 가장 초보적인 단계의 시스템화 거푸집. 거푸집의 모듈화를 통하여 현장제작에 소요되는 인력을 줄이고 자재의 전용 횟수를 증대시킬 목적으로 개발됨. 기본패널의 크기는 600 mm$\times$1,200 mm이며 주로 벽체와 기둥에 사용됨. 
+
+\textbf{알루미늄형틀/플라스틱형틀/목재널형틀} 
+\begin{figure}
+	\includegraphics[height=0.5\textheight]{05EUROFORM}
+	\vspace{-.3cm}
+\end{figure}
+\end{frame}
+\begin{frame}{4.3 거푸집}
+\textbf{3. 특수거푸집}: 시공성 증진을 위하여 특수하게 제작된 거푸집.
+
+\textbf{터널폼(tunnel form)} 아파트와 같이 동일한 형태의 공간이 반복되는 경우. 방 한 개 크기의 대형 철제형틀을 사용. 형틀의 설치, 해체 및 수평방향의 이동에는 크레인을 사용.
+\begin{figure}
+	\includegraphics[height=0.6\textheight]{05TUNNELFORM}
+	\vspace{-.3cm}
+\end{figure}
+\end{frame}
+\begin{frame}{4.3 거푸집}
+\textbf{3. 특수거푸집}: 시공성 증진을 위하여 특수하게 제작된 거푸집.
+
+\textbf{갱폼(gang form)} 소형 패널을 무리로 조합하여 대형 거푸집으로 만든 것으로 설치 및 해체에는 크레인을 사용. 
+\begin{figure}
+	\includegraphics[height=0.6\textheight]{05GANGFORM}
+	\vspace{-.3cm}
+\end{figure}
+\end{frame}
+\begin{frame}{4.3 거푸집}
+\textbf{3. 특수거푸집}: 시공성 증진을 위하여 특수하게 제작된 거푸집.
+
+\textbf{슬립폼(slip form)} 소형 패널을 무리로 조합하여 대형 거푸집으로 만든 것으로 설치 및 해체에는 크레인을 사용. 
+
+\textbf{4. 탈형}: 거푸집 존치 이후 거푸집을 떼어내는 작업. 콘크리트의 강도가 충분하지 않은 상태에서 탈형하는 것은 구조체의 붕괴를 초래할 수 있기 때문에 시멘트의 종류, 거푸집의 종류 및 사용개소, 평균기온 등에 따라 거푸집 존치기간을 별도로 규정. 보나 슬래브 하단의 거푸집은 보통콘크리트의 경우 상온에서 최소 9일 이상, 벽이나 기둥의 경우에는 4일 이상이 필요. 
+\begin{figure}
+	\includegraphics[height=0.3\textheight]{05SLIPFORM}
+	\vspace{-.3cm}
+\end{figure}
+\end{frame}	
+\begin{frame}{4.4 철근}
+\textbf{1. 철근과 콘크리트}: 동일한 열팽창율을 가짐. 콘크리트의 알칼리 성분이 철근의 부식 방지. 
+
+\textbf{2. 철근의 크기와 종류}
+
+\alert{1) 보통철근}: 항복강도: 400--500 MPa	
+\begin{description}
+	\item[원형철근] 철근마디가 없음.
+	\item[이형철근] 부착력의 증대를 위하여 마디를 형성하고 있음. 
+	\item[Epoxy-coated bar] 부식이 우려되는 곳에 사용. 교량/주차장. 
+\end{description}				
+
+\begin{figure}
+	\includegraphics[height=0.5\textheight]{05BARS}
+	\vspace{-.3cm}
+\end{figure}
+\end{frame}
+\begin{frame}{4.4 철근}	
+\alert{2) 강선(tendon)}: 프리스트레스 콘크리트에 사용되는 고강도 철근.	
+\begin{description}
+	\item[strand] 항복강도 1900--2200 MPa. 가는 강선을 꼬아서 만든 강선.
+	\item[고강도강봉] 항복강도 1000--1200 MPa. 
+\end{description}				
+
+\alert{3) 용접철망}: 작은 철근을 격자형으로 용접. 
+\begin{figure}
+	\includegraphics[height=0.4\textheight]{05STRAND}
+	\vspace{-.3cm}
+\end{figure}
+\end{frame}
+\begin{frame}{4.4 철근}
+\textbf{3. 주철근의 배치} 
+
+\alert{1) 주근의 위치}
+
+\textbf{주근(longitudinal bars)} 기둥, 보 부재의 축방향으로 배치되어 축력과 휨모멘트를 저항하는 철근. 철근배근의 형태를 갖추기 위하여 설치하는 경우도 있으며, 온도팽창이나 건조수축에 의한 균열을 제어하기 위해 배치하기도 함. 
+\begin{description}
+	\item[보] 주로 휨모멘트에 의하여 인장력이 발생하는 위치에 주근을 배치.
+	\item[기둥] 축력과 휨모멘트를 저항하도록 주근을 배치함. 일반적으로 단면에 고르게 분포하도록 배치하며, 동일한 배치를 전체 길이에 걸쳐서 배치함. 
+\end{description}				
+
+\begin{figure}
+	\includegraphics[height=0.4\textheight]{05LONGBARS}
+	\vspace{-.3cm}
+\end{figure}
+\end{frame}
+\begin{frame}
+\begin{figure}
+	\includegraphics[height=0.6\textheight]{05BARLOC}
+	\vspace{-.3cm}
+\end{figure}
+\end{frame}
+\begin{frame}{4.4 철근}
+\textbf{4. 철근의 이음과 정착} 
+
+제품, 시공성, 운반 등의 이유로 철근은 길이가 한정되어 있으므로 철근의 이음이 필요함. 철근이 인장력을 발휘하기 위해서는 철근의 이음과 정착을 위한 충분한 길이가 필요함. 
+
+\begin{figure}
+	\includegraphics[height=0.6\textheight]{05LONGITU}
+	\vspace{-.3cm}
+\end{figure}
+\end{frame}
+\begin{frame}{4.4 철근}
+\textbf{4. 철근의 이음과 정착} 
+
+일반직선정착/굽힘정착 
+
+\begin{figure}
+	\includegraphics[height=0.35\textheight]{05HOLDB}
+	\vspace{-.3cm}
+\end{figure}
+\end{frame}
+\begin{frame}{4.4 철근}
+\textbf{5. 철근의 간격} 
+
+콘크리트가 적절히 타설되도록 일정 이상의 간격을 확보해야 함. 철근사이 간격 = 최대골재직경의 4/3 이상. 
+
+\begin{figure}
+	\includegraphics[height=0.45\textheight]{05BARSPACING}
+	\vspace{-.3cm}
+\end{figure}
+\end{frame}	
+\begin{frame}{4.4 철근}
+\textbf{6. 피복 두께}: 내화성/내구성 확보, 철근의 정착.
+
+\begin{description}
+	\item[수중타설콘크리트] 100 mm
+	\item[흙에 접하여 묻히는 경우] 80 mm
+	\item[옥외에 노출되는 경우] 40--60 mm (철근 직경에 따라 다름)
+	\item[옥외에 노출되지 않는 경우] 보, 기둥 40 mm, 슬래브 20 mm
+\end{description}
+\end{frame}
+\begin{frame}{4.4 철근}
+\textbf{7. 횡보강근} 
+
+기둥: 타이근(tie); 보: 늑근(stirrup)
+
+보조철근의 역할: 콘크리트의 횡구속, 전단저항보강, 철근의 위치고정, 주철근의 좌굴방지. 
+
+\begin{figure}
+	\includegraphics[height=0.3\textheight]{05STIR}
+	\vspace{-.3cm}
+\end{figure}
+\end{frame}
 \end{document}

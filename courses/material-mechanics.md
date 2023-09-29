@@ -3,32 +3,109 @@ layout: page
 title: "Material Mechanics"
 ---
 
-#### Course Information
+# Course Information
+- Course Title: Material Mechanics
 
-[Course Outline](/courses/stellar-structures/Sample_Course_Outline.pdf)
+- Course Code: - (to be updated)
 
-#### Lecture Notes
+- Course Description:
 
-[Lecture 1](/courses/stellar-structures/Sample_Lecture_Notes.pdf)
+(to be updated) 
+<!-- This course provides an in-depth exploration of reinforced concrete and steel structures. Students will learn to analyze structural requirements, design concrete and steel members, and apply industry standards. Topics include material properties, structural behavior, design codes, and hands-on design projects. -->
 
-[Lecture 2](/courses/stellar-structures/Sample_Lecture_Notes.pdf)
+- Prerequisites:
 
-[Lecture 3](/courses/stellar-structures/Sample_Lecture_Notes.pdf)
+<!-- Structural Mechanics
+Architectural Structures and Systems -->
 
-#### Homework
+- Instructor:
+Professor Sung-Yong Kim
 
-[Homework 1](/courses/stellar-structures/Sample_Lecture_Notes.pdf)
+# Course Schedule:
+## Week 1-2: Introduction to Stability Analysis
 
-[Homework 2](/courses/stellar-structures/Sample_Lecture_Notes.pdf)
+Introduction to structural stability
 
-[Homework 3](/courses/stellar-structures/Sample_Lecture_Notes.pdf)
+Lecture Notes [01](/courses/material-mechanics/Lecture01.pdf) [02](/courses/material-mechanics/Lecture02.pdf)
 
-#### Midterms
+## Week 3-4: Structural Analysis of RC Members
 
-[Midterm 1](/courses/stellar-structures/Sample_Midterm.pdf)
+Principles of structural analysis
+Load types and combinations
+Analysis of simply supported beams and slabs
+Moment-curvature relationships
 
-[Midterm 2](/courses/stellar-structures/Sample_Midterm.pdf)
+Lecture Notes [03](/courses/material-mechanics/Lecture03.pdf) [04](/courses/material-mechanics/Lecture04.pdf)
 
-#### Exams
+## Week 5-6: Flexural Design of Beams and One-Way Slabs
 
-[Exam 1](/courses/stellar-structures/Sample_Exam.pdf)
+Design assumptions and methods
+Tension and compression reinforcement
+Flexural strength calculations
+Serviceability requirements
+
+Lecture Notes [05](/courses/material-mechanics/Lecture05.pdf) [06](/courses/material-mechanics/Lecture06.pdf)
+
+## Week 7-8: Shear and Torsion in RC Members
+
+Shear and torsion behavior in concrete
+Shear reinforcement and stirrups
+Torsion design provisions
+Design for combined shear and torsion
+
+Lecture Notes [07](/courses/material-mechanics/Lecture07.pdf) [08](/courses/material-mechanics/Lecture08.pdf)
+
+
+## Week 9-10: Axial Load and Compression Members
+
+Design of columns and pedestals
+Short-term and long-term effects
+Interaction diagrams
+Column detailing
+
+Lecture Notes [09](/courses/material-mechanics/Lecture09.pdf) [10](/courses/material-mechanics/Lecture10.pdf)
+
+## Week 11-12: Bond and Development Length
+
+Bond stress and development length requirements
+Factors affecting bond strength
+Lap splicing and mechanical couplers
+Anchorage of reinforcement
+
+Lecture Notes [11](/courses/material-mechanics/Lecture11.pdf) [12](/courses/material-mechanics/Lecture12.pdf)
+
+## Week 13-14: Design of Two-Way Slabs and Beams
+
+Two-way slab systems
+Design methods for two-way slabs
+Design of flat plates
+Punching shear considerations
+
+Lecture Notes [13](/courses/material-mechanics/Lecture13.pdf) [14](/courses/material-mechanics/Lecture14.pdf)
+
+## Week 15: Final Design Projects and Presentations
+
+Group design projects applying all learned concepts
+Presentation of design projects to the class
+Peer review and critique
+
+Lecture Notes [15](/courses/material-mechanics/Lecture15.pdf)
+
+# Assessment Methods:
+
+Midterm Exam - 20%
+Final Exam - 30%
+Homework Assignments - 20%
+Group Design Projects - 20%
+Class Participation and Quizzes - 10%
+
+# Textbook:
+Chen, W.-F., & Lui, E. M. (1987). Structural Stability: Theory and Implementation. Elsevier.
+
+# Course Policies:
+
+Attendance is mandatory; excessive absences may result in grade penalties.
+Late submissions for assignments will incur grade deductions.
+Academic integrity is expected; plagiarism or cheating will not be tolerated.
+Office Hours:
+The instructor will hold regular office hours for individual or group consultations.

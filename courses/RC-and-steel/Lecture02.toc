@@ -1,2 +1,2 @@
 \babel@toc {english}{}\relax 
-\beamer@sectionintoc {1}{4. 철근콘크리트구조}{2}{0}{1}
+\beamer@sectionintoc {1}{Reinforced Concrete}{2}{0}{1}

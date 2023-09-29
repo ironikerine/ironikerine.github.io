@@ -74,247 +74,247 @@
 \end{frame}
 
 \section{2. 건축구조의 원리}	
-	\begin{frame}{2.2 내력, 응력과 변형}
-		\textbf{자유물체도(free body diagram)}: 물체에 작용하는 \alert{외력(하중과 반력)}을 도식적으로 표현한 그림.
-		
-		\begin{itemize}
-		 	\item \alert{정적평형을 이룬 경우, 모든 외력의 합은 0 (개념적으로 자명함)}.
-		 	\item \alert{반드시 전체 구조물이 도식화되어야 하는 것은 아님}. 구조물을 \alert{절단}하여 절단된 부재에 가해지는 \alert{외력}을 얻을 수 있고, 이 부재에 가해지는 외력으로부터 부재에 발생할 저항력인 \alert{내력}을 구하여 \alert{``구조를 해석''}함. 
-		\end{itemize}
-		\begin{figure}
-			\includegraphics[height=0.42\textheight]{02MOMENT01}
-			\vspace{-.3cm}
-			\caption{자유물체도 작성의 일례[\alert{전체 시스템의 자유물체도로부터 반력($R, M$) 결정} $\rightarrow$  외력이 밝혀진 부분에서부터 구조물을 부분구조물로 절단 $\rightarrow$ 부재에 가해지는, 부분구조물의 정적평형을 확보하기 위한 외력($P$) 산정 $\rightarrow$ 부재 내부에 발생하는 내력 및 단면에 작용하는 응력 산정]}
-		\end{figure}		
-	\end{frame}
-	\begin{frame}{2.2 내력, 응력과 변형}
-		\begin{figure}
-			\includegraphics[height=0.70\textheight]{02MOMENT02}
-			\vspace{-.3cm}
-			\caption{자유물체도 작성의 일례[전체 시스템의 자유물체도로부터 반력($R, M$) 결정 $\rightarrow$ \alert{외력이 밝혀진 부분에서부터 구조물을 부분구조물로 절단 $\rightarrow$ 부재에 가해지는, 부분구조물의 정적평형을 확보하기 위한 외력($P$) 산정 $\rightarrow$ 부재 내부에 발생하는 내력 및 단면에 작용하는 응력 산정}]}
-		\end{figure}		
-	\end{frame}
-	\begin{frame}{예제01: 보의 전단력과 모멘트 산정}
-		\textbf{Q} 아래와 같은 하중과 반력을 받는 구조물이 주어졌을 때, 산정된 반력과 하중을 토대로 a, b, c와 d지점에 작용하는 전단력과 모멘트를 결정하라.
-		\begin{figure}
-			\includegraphics[height=0.50\textheight]{02EX13}
-			\caption{}
-		\end{figure}					
-	\end{frame}
-	\begin{frame}{예제01: 보의 전단력과 모멘트 산정}
-		\textbf{A} (a 지점) $V_a=R_1=P/4, M_a=-PL/8$
-		
-		\begin{description}
-			\item[$\Sigma F_y=0$] $\rightarrow R_1 - V_a=0$
-			\item[$\Sigma M=0$] (at a) $\rightarrow R_1\times L/2 + M_a=0$
-		\end{description}
-		
-		(b 지점) $V_b=R_1=P/4, M_b=-3PL/16$
-
-		\begin{description}
-			\item[$\Sigma F_y=0$] $\rightarrow R_1 - V_b=0$
-			\item[$\Sigma M=0$] (at b) $\rightarrow R_1\times 3L/4 + M_b=0$
-		\end{description}
-
-		\vspace{-.5cm}
-		\begin{figure}
-			\centering
-			\includegraphics[height=0.33\textheight]{02EX14}
-			\caption{}
-		\end{figure}					
-	\end{frame}
-	\begin{frame}{예제01: 보의 전단력과 모멘트 산정}
-		\textbf{A} (c 지점) $V_c=R_2=3P/4, M_c=-PL/8$
-		
-		\begin{description}
-			\item[$\Sigma F_y=0$] $\rightarrow R_2 - V_c=0$
-			\item[$\Sigma M=0$] (at c) $\rightarrow R_2\times L/4 + M_c=0$
-		\end{description}
-		
-		(d 지점) $V_d=R_2=3P/4, M_d=0$
-
-		\begin{description}
-			\item[$\Sigma F_y=0$] $\rightarrow R_2 - V_d=0$
-			\item[$\Sigma M=0$] (at d) $\rightarrow R_2\times 0 + M_d=0$
-		\end{description}
-
-		\vspace{-.5cm}
-		\begin{figure}
-			\centering
-			\includegraphics[height=0.33\textheight]{02EX14}
-			\caption{}
-		\end{figure}					
-	\end{frame}
-	\begin{frame}{2.2 내력, 응력과 변형}
-		\begin{figure}
-			\includegraphics[height=0.22\textheight]{02SIGN01}
-			\caption{모멘트 부호 규칙}
-			
-			\includegraphics[height=0.30\textheight]{02SIGN02}			
-			\caption{전단력 부호 규칙}
-		\end{figure}		
-	\end{frame}
-	\begin{frame}{예제02: 보의 전단력과 모멘트선도 작성}
-		\textbf{Q} 아래와 같은 하중과 반력을 받는 구조물이 주어졌을 때, 산정된 반력과 하중을 토대로 $0\leq x\leq L$ 지점에 작용하는 전단력과 모멘트를 부호규약을 고려하여 산정하고, 이를 그림으로 나타내어라.
-		\begin{figure}
-			\includegraphics[height=0.50\textheight]{02EX16}
-			\caption{}
-		\end{figure}					
-	\end{frame}
-	\begin{frame}{예제02: 보의 전단력과 모멘트선도 작성}
-		\textbf{A}
-		
-		($0\leq x \leq 3L/4$) $V=R_1=3P/4, M=(P/4)x$
-		
-		\begin{description}
-			\item[$\Sigma F_y=0$] $\rightarrow R_1 - V=0$
-			\item[$\Sigma M=0$] (at $x$) $\rightarrow R_1\times x + M=0$
-		\end{description}
-		
-		($3L/4\leq x \leq L$) $V=-R_2=-3P/4=3P/4, M=3/4P(L-x)$
-
-		\begin{description}
-			\item[$\Sigma F_y=0$] $\rightarrow R_2 + V=0$
-			\item[$\Sigma M=0$] (at d) $\rightarrow M - R_2\times (L-x) =0$
-		\end{description}
-
-		\vspace{-.5cm}
-		\begin{figure}
-			\centering
-			\includegraphics[height=0.33\textheight]{02EX17}
-			\caption{전단력과 모멘트 계산과정}
-		\end{figure}					
-	\end{frame}
-	\begin{frame}{예제02: 보의 전단력과 모멘트선도 작성}
-		\textbf{A}
-		
-		($0\leq x \leq 3L/4$) $V=R_1=3P/4, M=(P/4)x$
-		
-		\begin{description}
-			\item[$\Sigma F_y=0$] $\rightarrow R_1 - V=0$
-			\item[$\Sigma M=0$] (at $x$) $\rightarrow R_1\times x + M=0$
-		\end{description}
-		
-		($3L/4\leq x \leq L$) $V=-R_2=-3P/4=3P/4, M=3/4P(L-x)$
-
-		\begin{description}
-			\item[$\Sigma F_y=0$] $\rightarrow R_2 + V=0$
-			\item[$\Sigma M=0$] (at $x$) $\rightarrow M - R_2\times (L-x) =0$
-		\end{description}
-
-		\vspace{-.5cm}
-		\begin{figure}
-			\centering
-			\includegraphics[height=0.33\textheight]{02EX18}
-			\caption{전단력선도(좌)와 모멘트선도(우)}
-		\end{figure}					
-	\end{frame}
-	\begin{frame}{예제03: 캔틸레버의 전단력과 모멘트선도 작성}
-		\textbf{Q} 아래와 같은 하중과 반력을 받는 구조물이 주어졌을 때, 산정된 반력과 하중을 토대로 $0\leq x\leq L$ 지점에 작용하는 전단력과 모멘트를 부호규약을 고려하여 산정하고, 이를 그림으로 나타내어라.
-		\begin{figure}
-			\includegraphics[height=0.25\textheight]{02EX19}
-		\end{figure}
-		\vspace{-.5cm}
-		\textbf{A}
-		\begin{figure}
-			\includegraphics[height=0.25\textheight]{02EX20}
-			\caption{전단력선도(좌)와 모멘트선도(우)}
-		\end{figure}							
-	\end{frame}
-	\begin{frame}{예제04: 보의 전단력과 모멘트선도 작성}
-		\textbf{Q \& A} 아래와 같은 하중과 반력을 받는 구조물이 주어졌을 때, 산정된 반력과 하중을 토대로 $0\leq x\leq L$ 지점에 작용하는 전단력과 모멘트를 부호규약을 고려하여 산정하고, 이를 그림으로 나타내어라.
-		\begin{figure}
-			\includegraphics[height=0.70\textheight]{02EX21}			
-		\end{figure}
-	\end{frame}
-	\begin{frame}
-		\begin{figure}
-			\includegraphics[height=0.70\textheight]{02CANT01}
-			\caption{A cantilevered building}		
-		\end{figure}
-	\end{frame}
-	\begin{frame}
-		\begin{figure}
-			\includegraphics[height=0.70\textheight]{02CANT02}
-			\caption{A solar support structure}	
-		\end{figure}
-	\end{frame}
-	\begin{frame}
-		\begin{figure}
-			\includegraphics[height=0.70\textheight]{02BEAMTYPES01}
-			\caption{Different beam types I}
-		\end{figure}
-	\end{frame}
-	\begin{frame}
-		\begin{figure}
-			\includegraphics[height=0.70\textheight]{02BEAMTYPES02}
-			\caption{Different beam types II}
-		\end{figure}
-	\end{frame}
-	\begin{frame}
-		\begin{figure}
-			\includegraphics[height=0.70\textheight]{02CANT03}
-			\caption{High-rise buildings}	
-		\end{figure}
-	\end{frame}
-	\begin{frame}{Case study I: Eiffel tower}
-		\begin{figure}
-			\includegraphics[height=0.70\textheight]{02EIFFEL00}
-			\caption{Eiffel tower}	
-		\end{figure}
-	\end{frame}
-	\begin{frame}{Case study I: Eiffel tower}
-		\begin{figure}
-			\includegraphics[height=0.70\textheight]{02EIFFEL01}
-			\caption{Eiffel tower: geometry (adapted from Billington and Mark 1983)}	
-		\end{figure}
-	\end{frame}
-	\begin{frame}{Case study I: Eiffel tower}
-		\begin{table}[]
-			\caption{Geometrical properties of Eiffel tower estimated (adapted from Billington and Mark 1983)}
-			\vspace{-.3cm}
-			\centering
-			\begin{tabular}{@{}cccc@{}}
-			\toprule
-			Location & Height, m & Width, m & $\beta$, deg \\
-			\midrule
-			Support & 0 & 100 & 18.4\\
-			First platform & 57 & 66 & 15.1\\
-			Second platform & 116 & 37 & 11.6\\
-			Intermediate platform & 196 & 12 & 6.6\\
-			Top platform & 276 & 1 & 1.5\\
-			Top & 300 & 0 & 0\\
-			\bottomrule
-			\end{tabular}
-		\end{table}	
-	\end{frame}
-	\begin{frame}{Case study I: Eiffel tower}
-	에펠탑의 총 중량은 약 84,000 kN (8,400 ton)
+\begin{frame}{2.2 내력, 응력과 변형}
+	\textbf{자유물체도(free body diagram)}: 물체에 작용하는 \alert{외력(하중과 반력)}을 도식적으로 표현한 그림.
 	
-	자중은 균등하게 분포하지 않고, 각 플랫폼 별로 아래와 같이 주어짐
-		\begin{figure}
-			\includegraphics[height=0.5\textheight]{02EIFFEL03}
-			\caption{Eiffel tower, dead load idealization (adapted from Billington and Mark 1983)}	
-		\end{figure}
-	\end{frame}
-	\begin{frame}{Case study I: Eiffel tower}
-	적재하중(활하중)은 첫/두 번째 플랫폼이 지배적이며, 다른 플랫폼의 적재하중은 무시할 수 있을 정도로 작다고 가정
-		\begin{figure}
-			\includegraphics[height=0.5\textheight]{02EIFFEL04}
-			\caption{Eiffel tower, live load idealization (adapted from Billington and Mark 1983)}	
-		\end{figure}
-	\end{frame}	
-	\begin{frame}{Case study I: Eiffel tower}
-	풍하중은 일반적으로 상층으로 갈 수록 그 크기가 커지는 곡선형태를 띄나, 단순화를 위해 균일한 하중이 가해진다고 가정
-		\begin{figure}
-			\includegraphics[height=0.5\textheight]{02EIFFEL05}
-			\caption{Eiffel tower, live load idealization (adapted from Billington and Mark 1983)}	
-		\end{figure}
-	\end{frame}
-	\begin{frame}{Case study I: Eiffel tower}
-		\begin{figure}
-			\includegraphics[height=0.8\textheight]{02EIFFEL06}
-			\caption{Eiffel tower, live load idealization (adapted from Billington and Mark 1983)}	
-		\end{figure}
-	\end{frame}
+	\begin{itemize}
+		\item \alert{정적평형을 이룬 경우, 모든 외력의 합은 0 (개념적으로 자명함)}.
+		\item \alert{반드시 전체 구조물이 도식화되어야 하는 것은 아님}. 구조물을 \alert{절단}하여 절단된 부재에 가해지는 \alert{외력}을 얻을 수 있고, 이 부재에 가해지는 외력으로부터 부재에 발생할 저항력인 \alert{내력}을 구하여 \alert{``구조를 해석''}함. 
+	\end{itemize}
+	\begin{figure}
+		\includegraphics[height=0.42\textheight]{02MOMENT01}
+		\vspace{-.3cm}
+		\caption{자유물체도 작성의 일례[\alert{전체 시스템의 자유물체도로부터 반력($R, M$) 결정} $\rightarrow$  외력이 밝혀진 부분에서부터 구조물을 부분구조물로 절단 $\rightarrow$ 부재에 가해지는, 부분구조물의 정적평형을 확보하기 위한 외력($P$) 산정 $\rightarrow$ 부재 내부에 발생하는 내력 및 단면에 작용하는 응력 산정]}
+	\end{figure}		
+\end{frame}
+\begin{frame}{2.2 내력, 응력과 변형}
+	\begin{figure}
+		\includegraphics[height=0.70\textheight]{02MOMENT02}
+		\vspace{-.3cm}
+		\caption{자유물체도 작성의 일례[전체 시스템의 자유물체도로부터 반력($R, M$) 결정 $\rightarrow$ \alert{외력이 밝혀진 부분에서부터 구조물을 부분구조물로 절단 $\rightarrow$ 부재에 가해지는, 부분구조물의 정적평형을 확보하기 위한 외력($P$) 산정 $\rightarrow$ 부재 내부에 발생하는 내력 및 단면에 작용하는 응력 산정}]}
+	\end{figure}		
+\end{frame}
+\begin{frame}{예제01: 보의 전단력과 모멘트 산정}
+	\textbf{Q} 아래와 같은 하중과 반력을 받는 구조물이 주어졌을 때, 산정된 반력과 하중을 토대로 a, b, c와 d지점에 작용하는 전단력과 모멘트를 결정하라.
+	\begin{figure}
+		\includegraphics[height=0.50\textheight]{02EX13}
+		\caption{}
+	\end{figure}					
+\end{frame}
+\begin{frame}{예제01: 보의 전단력과 모멘트 산정}
+	\textbf{A} (a 지점) $V_a=R_1=P/4, M_a=-PL/8$
+	
+	\begin{description}
+		\item[$\Sigma F_y=0$] $\rightarrow R_1 - V_a=0$
+		\item[$\Sigma M=0$] (at a) $\rightarrow R_1\times L/2 + M_a=0$
+	\end{description}
+	
+	(b 지점) $V_b=R_1=P/4, M_b=-3PL/16$
+
+	\begin{description}
+		\item[$\Sigma F_y=0$] $\rightarrow R_1 - V_b=0$
+		\item[$\Sigma M=0$] (at b) $\rightarrow R_1\times 3L/4 + M_b=0$
+	\end{description}
+
+	\vspace{-.5cm}
+	\begin{figure}
+		\centering
+		\includegraphics[height=0.33\textheight]{02EX14}
+		\caption{}
+	\end{figure}					
+\end{frame}
+\begin{frame}{예제01: 보의 전단력과 모멘트 산정}
+	\textbf{A} (c 지점) $V_c=R_2=3P/4, M_c=-PL/8$
+	
+	\begin{description}
+		\item[$\Sigma F_y=0$] $\rightarrow R_2 - V_c=0$
+		\item[$\Sigma M=0$] (at c) $\rightarrow R_2\times L/4 + M_c=0$
+	\end{description}
+	
+	(d 지점) $V_d=R_2=3P/4, M_d=0$
+
+	\begin{description}
+		\item[$\Sigma F_y=0$] $\rightarrow R_2 - V_d=0$
+		\item[$\Sigma M=0$] (at d) $\rightarrow R_2\times 0 + M_d=0$
+	\end{description}
+
+	\vspace{-.5cm}
+	\begin{figure}
+		\centering
+		\includegraphics[height=0.33\textheight]{02EX14}
+		\caption{}
+	\end{figure}					
+\end{frame}
+\begin{frame}{2.2 내력, 응력과 변형}
+	\begin{figure}
+		\includegraphics[height=0.22\textheight]{02SIGN01}
+		\caption{모멘트 부호 규칙}
+		
+		\includegraphics[height=0.30\textheight]{02SIGN02}			
+		\caption{전단력 부호 규칙}
+	\end{figure}		
+\end{frame}
+\begin{frame}{예제02: 보의 전단력과 모멘트선도 작성}
+	\textbf{Q} 아래와 같은 하중과 반력을 받는 구조물이 주어졌을 때, 산정된 반력과 하중을 토대로 $0\leq x\leq L$ 지점에 작용하는 전단력과 모멘트를 부호규약을 고려하여 산정하고, 이를 그림으로 나타내어라.
+	\begin{figure}
+		\includegraphics[height=0.50\textheight]{02EX16}
+		\caption{}
+	\end{figure}					
+\end{frame}
+\begin{frame}{예제02: 보의 전단력과 모멘트선도 작성}
+	\textbf{A}
+	
+	($0\leq x \leq 3L/4$) $V=R_1=3P/4, M=(P/4)x$
+	
+	\begin{description}
+		\item[$\Sigma F_y=0$] $\rightarrow R_1 - V=0$
+		\item[$\Sigma M=0$] (at $x$) $\rightarrow R_1\times x + M=0$
+	\end{description}
+	
+	($3L/4\leq x \leq L$) $V=-R_2=-3P/4=3P/4, M=3/4P(L-x)$
+
+	\begin{description}
+		\item[$\Sigma F_y=0$] $\rightarrow R_2 + V=0$
+		\item[$\Sigma M=0$] (at d) $\rightarrow M - R_2\times (L-x) =0$
+	\end{description}
+
+	\vspace{-.5cm}
+	\begin{figure}
+		\centering
+		\includegraphics[height=0.33\textheight]{02EX17}
+		\caption{전단력과 모멘트 계산과정}
+	\end{figure}					
+\end{frame}
+\begin{frame}{예제02: 보의 전단력과 모멘트선도 작성}
+	\textbf{A}
+	
+	($0\leq x \leq 3L/4$) $V=R_1=3P/4, M=(P/4)x$
+	
+	\begin{description}
+		\item[$\Sigma F_y=0$] $\rightarrow R_1 - V=0$
+		\item[$\Sigma M=0$] (at $x$) $\rightarrow R_1\times x + M=0$
+	\end{description}
+	
+	($3L/4\leq x \leq L$) $V=-R_2=-3P/4=3P/4, M=3/4P(L-x)$
+
+	\begin{description}
+		\item[$\Sigma F_y=0$] $\rightarrow R_2 + V=0$
+		\item[$\Sigma M=0$] (at $x$) $\rightarrow M - R_2\times (L-x) =0$
+	\end{description}
+
+	\vspace{-.5cm}
+	\begin{figure}
+		\centering
+		\includegraphics[height=0.33\textheight]{02EX18}
+		\caption{전단력선도(좌)와 모멘트선도(우)}
+	\end{figure}					
+\end{frame}
+\begin{frame}{예제03: 캔틸레버의 전단력과 모멘트선도 작성}
+	\textbf{Q} 아래와 같은 하중과 반력을 받는 구조물이 주어졌을 때, 산정된 반력과 하중을 토대로 $0\leq x\leq L$ 지점에 작용하는 전단력과 모멘트를 부호규약을 고려하여 산정하고, 이를 그림으로 나타내어라.
+	\begin{figure}
+		\includegraphics[height=0.25\textheight]{02EX19}
+	\end{figure}
+	\vspace{-.5cm}
+	\textbf{A}
+	\begin{figure}
+		\includegraphics[height=0.25\textheight]{02EX20}
+		\caption{전단력선도(좌)와 모멘트선도(우)}
+	\end{figure}							
+\end{frame}
+\begin{frame}{예제04: 보의 전단력과 모멘트선도 작성}
+	\textbf{Q \& A} 아래와 같은 하중과 반력을 받는 구조물이 주어졌을 때, 산정된 반력과 하중을 토대로 $0\leq x\leq L$ 지점에 작용하는 전단력과 모멘트를 부호규약을 고려하여 산정하고, 이를 그림으로 나타내어라.
+	\begin{figure}
+		\includegraphics[height=0.70\textheight]{02EX21}			
+	\end{figure}
+\end{frame}
+\begin{frame}
+	\begin{figure}
+		\includegraphics[height=0.70\textheight]{02CANT01}
+		\caption{A cantilevered building}		
+	\end{figure}
+\end{frame}
+\begin{frame}
+	\begin{figure}
+		\includegraphics[height=0.70\textheight]{02CANT02}
+		\caption{A solar support structure}	
+	\end{figure}
+\end{frame}
+\begin{frame}
+	\begin{figure}
+		\includegraphics[height=0.70\textheight]{02BEAMTYPES01}
+		\caption{Different beam types I}
+	\end{figure}
+\end{frame}
+\begin{frame}
+	\begin{figure}
+		\includegraphics[height=0.70\textheight]{02BEAMTYPES02}
+		\caption{Different beam types II}
+	\end{figure}
+\end{frame}
+\begin{frame}
+	\begin{figure}
+		\includegraphics[height=0.70\textheight]{02CANT03}
+		\caption{High-rise buildings}	
+	\end{figure}
+\end{frame}
+\begin{frame}{Case study I: Eiffel tower}
+	\begin{figure}
+		\includegraphics[height=0.70\textheight]{02EIFFEL00}
+		\caption{Eiffel tower}	
+	\end{figure}
+\end{frame}
+\begin{frame}{Case study I: Eiffel tower}
+	\begin{figure}
+		\includegraphics[height=0.70\textheight]{02EIFFEL01}
+		\caption{Eiffel tower: geometry (adapted from Billington and Mark 1983)}	
+	\end{figure}
+\end{frame}
+\begin{frame}{Case study I: Eiffel tower}
+	\begin{table}[]
+		\caption{Geometrical properties of Eiffel tower estimated (adapted from Billington and Mark 1983)}
+		\vspace{-.3cm}
+		\centering
+		\begin{tabular}{@{}cccc@{}}
+		\toprule
+		Location & Height, m & Width, m & $\beta$, deg \\
+		\midrule
+		Support & 0 & 100 & 18.4\\
+		First platform & 57 & 66 & 15.1\\
+		Second platform & 116 & 37 & 11.6\\
+		Intermediate platform & 196 & 12 & 6.6\\
+		Top platform & 276 & 1 & 1.5\\
+		Top & 300 & 0 & 0\\
+		\bottomrule
+		\end{tabular}
+	\end{table}	
+\end{frame}
+\begin{frame}{Case study I: Eiffel tower}
+에펠탑의 총 중량은 약 84,000 kN (8,400 ton)
+
+자중은 균등하게 분포하지 않고, 각 플랫폼 별로 아래와 같이 주어짐
+	\begin{figure}
+		\includegraphics[height=0.5\textheight]{02EIFFEL03}
+		\caption{Eiffel tower, dead load idealization (adapted from Billington and Mark 1983)}	
+	\end{figure}
+\end{frame}
+\begin{frame}{Case study I: Eiffel tower}
+적재하중(활하중)은 첫/두 번째 플랫폼이 지배적이며, 다른 플랫폼의 적재하중은 무시할 수 있을 정도로 작다고 가정
+	\begin{figure}
+		\includegraphics[height=0.5\textheight]{02EIFFEL04}
+		\caption{Eiffel tower, live load idealization (adapted from Billington and Mark 1983)}	
+	\end{figure}
+\end{frame}	
+\begin{frame}{Case study I: Eiffel tower}
+풍하중은 일반적으로 상층으로 갈 수록 그 크기가 커지는 곡선형태를 띄나, 단순화를 위해 균일한 하중이 가해진다고 가정
+	\begin{figure}
+		\includegraphics[height=0.5\textheight]{02EIFFEL05}
+		\caption{Eiffel tower, live load idealization (adapted from Billington and Mark 1983)}	
+	\end{figure}
+\end{frame}
+\begin{frame}{Case study I: Eiffel tower}
+	\begin{figure}
+		\includegraphics[height=0.8\textheight]{02EIFFEL06}
+		\caption{Eiffel tower, live load idealization (adapted from Billington and Mark 1983)}	
+	\end{figure}
+\end{frame}
 \end{document}

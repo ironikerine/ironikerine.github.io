@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.10.17)  14 SEP 2023 11:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.10.17)  29 SEP 2023 12:01
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -971,40 +971,41 @@ Overfull \vbox (24.67139pt too high) detected at line 74
 
 [1
 
-{c:/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    Trying to load font information for LUC+nanumgt on input line 76.
+{c:/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2
+
+]
+LaTeX Font Info:    Trying to load font information for LUC+nanumgt on input line 86.
  (c:/texlive/2022/texmf-dist/tex/latex/nanumtype1/lucnanumgt.fd
 File: lucnanumgt.fd 2013/02/12 v0.1 Nanum Gothic font definitions
 )
-
-LaTeX Font Warning: Font shape `LUC/nanumgt/b/n' undefined
-(Font)              using `LUC/nanumgt/m/n' instead on input line 76.
-
-[2
-
-]
-LaTeX Font Info:    Font shape `T1/pag/b/n' in size <9> not available
-(Font)              Font shape `T1/pag/db/n' tried instead on input line 87.
-LaTeX Font Info:    Trying to load font information for TS1+pag on input line 87.
+LaTeX Font Info:    Trying to load font information for TS1+pag on input line 86.
  (c:/texlive/2022/texmf-dist/tex/latex/psnfss/ts1pag.fd
 File: ts1pag.fd 2001/06/04 font definitions for TS1/pag.
 )
 LaTeX Font Info:    Font shape `T1/pag/b/n' in size <10> not available
-(Font)              Font shape `T1/pag/db/n' tried instead on input line 87.
+(Font)              Font shape `T1/pag/db/n' tried instead on input line 86.
  [3
 
 ] [4
 
-] [5
+]
+LaTeX Font Info:    Font shape `T1/pag/b/n' in size <9> not available
+(Font)              Font shape `T1/pag/db/n' tried instead on input line 118.
+
+
+LaTeX Font Warning: Font shape `LUC/nanumgt/b/n' undefined
+(Font)              using `LUC/nanumgt/m/n' instead on input line 118.
+
+[5
 
 ]
 <../../assets/img/05RAHMEN.png, id=84, 606.1044pt x 252.4632pt>
 File: ../../assets/img/05RAHMEN.png Graphic file (type png)
 <use ../../assets/img/05RAHMEN.png>
-Package pdftex.def Info: ../../assets/img/05RAHMEN.png  used on input line 129.
+Package pdftex.def Info: ../../assets/img/05RAHMEN.png  used on input line 126.
 (pdftex.def)             Requested size: 314.5842pt x 131.03383pt.
 
-Overfull \hbox (7.29433pt too wide) in paragraph at lines 129--129
+Overfull \hbox (7.29433pt too wide) in paragraph at lines 126--126
  [] 
  []
 
@@ -1014,14 +1015,14 @@ Overfull \hbox (7.29433pt too wide) in paragraph at lines 129--129
 <../../assets/img/05WALL.png, id=92, 586.3506pt x 337.26pt>
 File: ../../assets/img/05WALL.png Graphic file (type png)
 <use ../../assets/img/05WALL.png>
-Package pdftex.def Info: ../../assets/img/05WALL.png  used on input line 138.
+Package pdftex.def Info: ../../assets/img/05WALL.png  used on input line 134.
 (pdftex.def)             Requested size: 227.8169pt x 131.03383pt.
  [7
 
  <../../assets/img/05WALL.png>]
 File: ../../assets/img/05WALL.png Graphic file (type png)
 <use ../../assets/img/05WALL.png>
-Package pdftex.def Info: ../../assets/img/05WALL.png  used on input line 147.
+Package pdftex.def Info: ../../assets/img/05WALL.png  used on input line 142.
 (pdftex.def)             Requested size: 227.8169pt x 131.03383pt.
  [8
 
@@ -1029,7 +1030,7 @@ Package pdftex.def Info: ../../assets/img/05WALL.png  used on input line 147.
 <../../assets/img/05SHELL.jpg, id=105, 449.0376pt x 299.1978pt>
 File: ../../assets/img/05SHELL.jpg Graphic file (type jpg)
 <use ../../assets/img/05SHELL.jpg>
-Package pdftex.def Info: ../../assets/img/05SHELL.jpg  used on input line 156.
+Package pdftex.def Info: ../../assets/img/05SHELL.jpg  used on input line 150.
 (pdftex.def)             Requested size: 196.65901pt x 131.03383pt.
  [9
 
@@ -1047,7 +1048,7 @@ Package pdftex.def Info: ../../assets/img/05SHELL.jpg  used on input line 156.
 <../../assets/img/05SLUMP.png, id=138, 616.2222pt x 326.1786pt>
 File: ../../assets/img/05SLUMP.png Graphic file (type png)
 <use ../../assets/img/05SLUMP.png>
-Package pdftex.def Info: ../../assets/img/05SLUMP.png  used on input line 230.
+Package pdftex.def Info: ../../assets/img/05SLUMP.png  used on input line 225.
 (pdftex.def)             Requested size: 297.06207pt x 157.24219pt.
  [15
 
@@ -1055,7 +1056,7 @@ Package pdftex.def Info: ../../assets/img/05SLUMP.png  used on input line 230.
 <../../assets/img/05FORMWORK.png, id=145, 442.65375pt x 302.3295pt>
 File: ../../assets/img/05FORMWORK.png Graphic file (type png)
 <use ../../assets/img/05FORMWORK.png>
-Package pdftex.def Info: ../../assets/img/05FORMWORK.png  used on input line 240.
+Package pdftex.def Info: ../../assets/img/05FORMWORK.png  used on input line 235.
 (pdftex.def)             Requested size: 191.85036pt x 131.03383pt.
  [16
 
@@ -1063,7 +1064,7 @@ Package pdftex.def Info: ../../assets/img/05FORMWORK.png  used on input line 240
 <../../assets/img/05PLYWOOD.jpg, id=152, 259.97125pt x 194.7275pt>
 File: ../../assets/img/05PLYWOOD.jpg Graphic file (type jpg)
 <use ../../assets/img/05PLYWOOD.jpg>
-Package pdftex.def Info: ../../assets/img/05PLYWOOD.jpg  used on input line 250.
+Package pdftex.def Info: ../../assets/img/05PLYWOOD.jpg  used on input line 245.
 (pdftex.def)             Requested size: 244.92043pt x 183.44655pt.
  [17
 
@@ -1071,7 +1072,7 @@ Package pdftex.def Info: ../../assets/img/05PLYWOOD.jpg  used on input line 250.
 <../../assets/img/05METALFORM.jpg, id=158, 367.3725pt x 190.7125pt>
 File: ../../assets/img/05METALFORM.jpg Graphic file (type jpg)
 <use ../../assets/img/05METALFORM.jpg>
-Package pdftex.def Info: ../../assets/img/05METALFORM.jpg  used on input line 260.
+Package pdftex.def Info: ../../assets/img/05METALFORM.jpg  used on input line 255.
 (pdftex.def)             Requested size: 302.90665pt x 157.24219pt.
  [18
 
@@ -1079,7 +1080,7 @@ Package pdftex.def Info: ../../assets/img/05METALFORM.jpg  used on input line 26
 <../../assets/img/05EUROFORM.png, id=164, 542.77782pt x 380.17032pt>
 File: ../../assets/img/05EUROFORM.png Graphic file (type png)
 <use ../../assets/img/05EUROFORM.png>
-Package pdftex.def Info: ../../assets/img/05EUROFORM.png  used on input line 271.
+Package pdftex.def Info: ../../assets/img/05EUROFORM.png  used on input line 266.
 (pdftex.def)             Requested size: 187.08463pt x 131.03383pt.
  [19
 
@@ -1087,7 +1088,7 @@ Package pdftex.def Info: ../../assets/img/05EUROFORM.png  used on input line 271
 <../../assets/img/05TUNNELFORM.jpg, id=172, 401.5pt x 277.035pt>
 File: ../../assets/img/05TUNNELFORM.jpg Graphic file (type jpg)
 <use ../../assets/img/05TUNNELFORM.jpg>
-Package pdftex.def Info: ../../assets/img/05TUNNELFORM.jpg  used on input line 280.
+Package pdftex.def Info: ../../assets/img/05TUNNELFORM.jpg  used on input line 275.
 (pdftex.def)             Requested size: 227.8894pt x 157.24219pt.
  [20
 
@@ -1095,7 +1096,7 @@ Package pdftex.def Info: ../../assets/img/05TUNNELFORM.jpg  used on input line 2
 <../../assets/img/05GANGFORM.jpg, id=178, 642.4pt x 481.8pt>
 File: ../../assets/img/05GANGFORM.jpg Graphic file (type jpg)
 <use ../../assets/img/05GANGFORM.jpg>
-Package pdftex.def Info: ../../assets/img/05GANGFORM.jpg  used on input line 289.
+Package pdftex.def Info: ../../assets/img/05GANGFORM.jpg  used on input line 284.
 (pdftex.def)             Requested size: 209.64992pt x 157.24219pt.
  [21
 
@@ -1103,7 +1104,7 @@ Package pdftex.def Info: ../../assets/img/05GANGFORM.jpg  used on input line 289
 <../../assets/img/05SLIPFORM.jpg, id=184, 903.375pt x 234.8775pt>
 File: ../../assets/img/05SLIPFORM.jpg Graphic file (type jpg)
 <use ../../assets/img/05SLIPFORM.jpg>
-Package pdftex.def Info: ../../assets/img/05SLIPFORM.jpg  used on input line 300.
+Package pdftex.def Info: ../../assets/img/05SLIPFORM.jpg  used on input line 295.
 (pdftex.def)             Requested size: 302.38783pt x 78.6211pt.
  [22
 
@@ -1111,10 +1112,10 @@ Package pdftex.def Info: ../../assets/img/05SLIPFORM.jpg  used on input line 300
 <../../assets/img/05BARS.png, id=190, 609.27625pt x 557.08125pt>
 File: ../../assets/img/05BARS.png Graphic file (type png)
 <use ../../assets/img/05BARS.png>
-Package pdftex.def Info: ../../assets/img/05BARS.png  used on input line 317.
+Package pdftex.def Info: ../../assets/img/05BARS.png  used on input line 312.
 (pdftex.def)             Requested size: 143.31009pt x 131.03383pt.
 
-Overfull \vbox (3.85081pt too high) detected at line 317
+Overfull \vbox (3.85081pt too high) detected at line 312
  []
 
 [23
@@ -1123,7 +1124,7 @@ Overfull \vbox (3.85081pt too high) detected at line 317
 <../../assets/img/05STRAND.jpg, id=196, 578.91281pt x 227.34938pt>
 File: ../../assets/img/05STRAND.jpg Graphic file (type jpg)
 <use ../../assets/img/05STRAND.jpg>
-Package pdftex.def Info: ../../assets/img/05STRAND.jpg  used on input line 330.
+Package pdftex.def Info: ../../assets/img/05STRAND.jpg  used on input line 325.
 (pdftex.def)             Requested size: 266.92146pt x 104.82545pt.
  [24
 
@@ -1131,10 +1132,10 @@ Package pdftex.def Info: ../../assets/img/05STRAND.jpg  used on input line 330.
 <../../assets/img/05LONGBARS.png, id=204, 461.92575pt x 243.91125pt>
 File: ../../assets/img/05LONGBARS.png Graphic file (type png)
 <use ../../assets/img/05LONGBARS.png>
-Package pdftex.def Info: ../../assets/img/05LONGBARS.png  used on input line 346.
+Package pdftex.def Info: ../../assets/img/05LONGBARS.png  used on input line 341.
 (pdftex.def)             Requested size: 198.51846pt x 104.82545pt.
 
-Overfull \vbox (2.3548pt too high) detected at line 346
+Overfull \vbox (2.3548pt too high) detected at line 341
  []
 
 [25
@@ -1143,7 +1144,7 @@ Overfull \vbox (2.3548pt too high) detected at line 346
 <../../assets/img/05BARLOC.jpg, id=212, 552.0625pt x 310.15875pt>
 File: ../../assets/img/05BARLOC.jpg Graphic file (type jpg)
 <use ../../assets/img/05BARLOC.jpg>
-Package pdftex.def Info: ../../assets/img/05BARLOC.jpg  used on input line 352.
+Package pdftex.def Info: ../../assets/img/05BARLOC.jpg  used on input line 347.
 (pdftex.def)             Requested size: 279.88023pt x 157.24219pt.
  [26
 
@@ -1151,7 +1152,7 @@ Package pdftex.def Info: ../../assets/img/05BARLOC.jpg  used on input line 352.
 <../../assets/img/05LONGITU.png, id=218, 513.92pt x 371.3875pt>
 File: ../../assets/img/05LONGITU.png Graphic file (type png)
 <use ../../assets/img/05LONGITU.png>
-Package pdftex.def Info: ../../assets/img/05LONGITU.png  used on input line 362.
+Package pdftex.def Info: ../../assets/img/05LONGITU.png  used on input line 357.
 (pdftex.def)             Requested size: 217.59363pt x 157.24219pt.
  [27
 
@@ -1159,7 +1160,7 @@ Package pdftex.def Info: ../../assets/img/05LONGITU.png  used on input line 362.
 <../../assets/img/05HOLDB.png, id=224, 293.898pt x 110.814pt>
 File: ../../assets/img/05HOLDB.png Graphic file (type png)
 <use ../../assets/img/05HOLDB.png>
-Package pdftex.def Info: ../../assets/img/05HOLDB.png  used on input line 372.
+Package pdftex.def Info: ../../assets/img/05HOLDB.png  used on input line 367.
 (pdftex.def)             Requested size: 243.27155pt x 91.72527pt.
  [28
 
@@ -1167,7 +1168,7 @@ Package pdftex.def Info: ../../assets/img/05HOLDB.png  used on input line 372.
 <../../assets/img/05BARSPACING.png, id=231, 380.622pt x 159.59625pt>
 File: ../../assets/img/05BARSPACING.png Graphic file (type png)
 <use ../../assets/img/05BARSPACING.png>
-Package pdftex.def Info: ../../assets/img/05BARSPACING.png  used on input line 382.
+Package pdftex.def Info: ../../assets/img/05BARSPACING.png  used on input line 377.
 (pdftex.def)             Requested size: 281.2493pt x 117.92964pt.
  [29
 
@@ -1177,7 +1178,7 @@ Package pdftex.def Info: ../../assets/img/05BARSPACING.png  used on input line 3
 <../../assets/img/05STIR.png, id=243, 413.74574pt x 174.6525pt>
 File: ../../assets/img/05STIR.png Graphic file (type png)
 <use ../../assets/img/05STIR.png>
-Package pdftex.def Info: ../../assets/img/05STIR.png  used on input line 404.
+Package pdftex.def Info: ../../assets/img/05STIR.png  used on input line 399.
 (pdftex.def)             Requested size: 186.25331pt x 78.6211pt.
  [31
 
@@ -1196,18 +1197,18 @@ Package pdftex.def Info: ../../assets/img/05STIR.png  used on input line 404.
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `Lecture02.out' has not changed.
-(rerunfilecheck)             Checksum: 0A928AB5CD55AC6CB39F9B45171F34DB;125.
+(rerunfilecheck)             Checksum: 50B2E1E8009D41613E57F38F21389E2B;141.
  ) 
 Here is how much of TeX's memory you used:
- 30676 strings out of 475071
- 613490 string characters out of 5782907
+ 30667 strings out of 475071
+ 613280 string characters out of 5782907
  902719 words of memory out of 5000000
- 51292 multiletter control sequences out of 15000+600000
- 518248 words of font info for 123 fonts, out of 8000000 for 9000
+ 51283 multiletter control sequences out of 15000+600000
+ 516184 words of font info for 116 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,11n,122p,1974b,752s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {c:/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmac.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmad.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmae.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmaf.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmb0.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmb1.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmb2.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmb3.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmb4.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmb5.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmb6.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmb7.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmb8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmb9.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmba.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmbb.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmbc.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmbd.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmbe.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmc0.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmc1.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmc2.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmc5.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmc6.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmc7.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmc8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmc9.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmcc.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmcd.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmce.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmcf.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmd0.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmd1.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmd2.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmd3.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmd4.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmd5.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmd6.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmd7.pfb><c:/texlive/2022/texmf-dist/fonts/type1/urw/avantgar/uagd8a.pfb><c:/texlive/2022/texmf-dist/fonts/type1/urw/avantgar/uagk8a.pfb>
-Output written on Lecture02.pdf (31 pages, 6545181 bytes).
+Output written on Lecture02.pdf (31 pages, 6544883 bytes).
 PDF statistics:
  444 PDF objects out of 1000 (max. 8388607)
  289 compressed objects within 3 object streams

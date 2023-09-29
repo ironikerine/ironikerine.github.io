@@ -4,3 +4,11 @@
 .sass-cache
 _site
 Gemfile.lock
+*.log
+*.toc
+*.gz
+*.out
+*.nav
+*.fls
+*.aux
+*.fdb_latexmk
