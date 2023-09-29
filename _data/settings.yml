@@ -41,6 +41,7 @@ social:
 - {icon: 'github', link: 'https://github.com/ironikerine'}
 - {icon: 'orcid', link: 'https://orcid.org/0000-0002-0110-1546'}
 - {icon: 'linkedin', link: 'https://linkedin.com/in/sung-yong-kim-4a6187181'}
+- {icon: 'google scholar', link: 'https://scholar.google.com/citations?user=NPAkYewAAAAJ&hl=en'}
 
 contacts:
 - {name: 'Jin-Hyun Ahn', title: 'Graduate Student', department: 'School of Architecture', institution: 'Changwon National University', institution_address: '20 Changwondaehak-ro Uichang-gu Changwon-si, Gyeongsangnam-do 51140 KOREA.', phone: '(082) 55-213-3806', email: 'sungyong.kim@changwon.ac.kr', office: 'Engineering Building 51-207', image: 'assets/img/contact.jpg'}

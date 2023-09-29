@@ -1,7 +1,8 @@
 url: "ironikerine.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+# url: "localhost:4000" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
 title: "EEVC Lab" # the name of your site, e.g. ACME Corp.
-description: "Earthquake Engineering and Vibration Control Laboratory"
+description: "EqEngrg and VibCtrl Lab"
 #theme: academic-jekyll-theme
 
 # Analytics
