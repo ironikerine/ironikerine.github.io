@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.10.17)  29 SEP 2023 12:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.10.17)  10 OCT 2023 10:04
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -936,6 +936,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 Package hyperref Info: Link coloring OFF on input line 70.
+ (./Lecture03.out) (./Lecture03.out)
 \@outlinefile=\write5
 \openout5 = `Lecture03.out'.
 
@@ -970,430 +971,22 @@ Overfull \vbox (24.67139pt too high) detected at line 74
 
 [1
 
-{c:/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    Trying to load font information for LUC+nanumgt on input line 76.
+{c:/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2
+
+]
+LaTeX Font Info:    Font shape `T1/pag/b/n' in size <9> not available
+(Font)              Font shape `T1/pag/db/n' tried instead on input line 91.
+LaTeX Font Info:    Trying to load font information for LUC+nanumgt on input line 91.
  (c:/texlive/2022/texmf-dist/tex/latex/nanumtype1/lucnanumgt.fd
 File: lucnanumgt.fd 2013/02/12 v0.1 Nanum Gothic font definitions
 )
 
 LaTeX Font Warning: Font shape `LUC/nanumgt/b/n' undefined
-(Font)              using `LUC/nanumgt/m/n' instead on input line 76.
+(Font)              using `LUC/nanumgt/m/n' instead on input line 91.
 
-[2
-
-]
-LaTeX Font Info:    Font shape `T1/pag/b/n' in size <9> not available
-(Font)              Font shape `T1/pag/db/n' tried instead on input line 89.
-LaTeX Font Info:    Trying to load font information for TS1+pag on input line 89.
- (c:/texlive/2022/texmf-dist/tex/latex/psnfss/ts1pag.fd
-File: ts1pag.fd 2001/06/04 font definitions for TS1/pag.
-)
-
-c:/Users/user/Documents/Drive/Projects/LABMAN/homepage/ironikerine.github.io/courses/RC-and-steel/Lecture03.tex:89: LaTeX Error: File `02MOMENT01' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.89 \end{frame}
-                
-I could not locate the file with any of these extensions:
-.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-LaTeX Font Info:    Font shape `T1/pag/b/n' in size <8> not available
-(Font)              Font shape `T1/pag/db/n' tried instead on input line 89.
 LaTeX Font Info:    Font shape `T1/pag/b/n' in size <10> not available
-(Font)              Font shape `T1/pag/db/n' tried instead on input line 89.
+(Font)              Font shape `T1/pag/db/n' tried instead on input line 91.
 [3
-
-]
-
-c:/Users/user/Documents/Drive/Projects/LABMAN/homepage/ironikerine.github.io/courses/RC-and-steel/Lecture03.tex:96: LaTeX Error: File `02MOMENT02' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.96 \end{frame}
-                
-I could not locate the file with any of these extensions:
-.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[4
-
-]
-
-c:/Users/user/Documents/Drive/Projects/LABMAN/homepage/ironikerine.github.io/courses/RC-and-steel/Lecture03.tex:103: LaTeX Error: File `02EX13' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.103 \end{frame}
-                 
-I could not locate the file with any of these extensions:
-.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[5
-
-]
-
-c:/Users/user/Documents/Drive/Projects/LABMAN/homepage/ironikerine.github.io/courses/RC-and-steel/Lecture03.tex:125: LaTeX Error: File `02EX14' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.125 \end{frame}
-                 
-I could not locate the file with any of these extensions:
-.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[6
-
-]
-
-c:/Users/user/Documents/Drive/Projects/LABMAN/homepage/ironikerine.github.io/courses/RC-and-steel/Lecture03.tex:147: LaTeX Error: File `02EX14' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.147 \end{frame}
-                 
-I could not locate the file with any of these extensions:
-.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[7
-
-]
-
-c:/Users/user/Documents/Drive/Projects/LABMAN/homepage/ironikerine.github.io/courses/RC-and-steel/Lecture03.tex:156: LaTeX Error: File `02SIGN01' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.156 \end{frame}
-                 
-I could not locate the file with any of these extensions:
-.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-c:/Users/user/Documents/Drive/Projects/LABMAN/homepage/ironikerine.github.io/courses/RC-and-steel/Lecture03.tex:156: LaTeX Error: File `02SIGN02' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.156 \end{frame}
-                 
-I could not locate the file with any of these extensions:
-.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[8
-
-]
-
-c:/Users/user/Documents/Drive/Projects/LABMAN/homepage/ironikerine.github.io/courses/RC-and-steel/Lecture03.tex:163: LaTeX Error: File `02EX16' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.163 \end{frame}
-                 
-I could not locate the file with any of these extensions:
-.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[9
-
-]
-
-c:/Users/user/Documents/Drive/Projects/LABMAN/homepage/ironikerine.github.io/courses/RC-and-steel/Lecture03.tex:187: LaTeX Error: File `02EX17' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.187 \end{frame}
-                 
-I could not locate the file with any of these extensions:
-.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[10
-
-]
-
-c:/Users/user/Documents/Drive/Projects/LABMAN/homepage/ironikerine.github.io/courses/RC-and-steel/Lecture03.tex:211: LaTeX Error: File `02EX18' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.211 \end{frame}
-                 
-I could not locate the file with any of these extensions:
-.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[11
-
-]
-
-c:/Users/user/Documents/Drive/Projects/LABMAN/homepage/ironikerine.github.io/courses/RC-and-steel/Lecture03.tex:223: LaTeX Error: File `02EX19' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.223 \end{frame}
-                 
-I could not locate the file with any of these extensions:
-.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-c:/Users/user/Documents/Drive/Projects/LABMAN/homepage/ironikerine.github.io/courses/RC-and-steel/Lecture03.tex:223: LaTeX Error: File `02EX20' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.223 \end{frame}
-                 
-I could not locate the file with any of these extensions:
-.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[12
-
-]
-
-c:/Users/user/Documents/Drive/Projects/LABMAN/homepage/ironikerine.github.io/courses/RC-and-steel/Lecture03.tex:229: LaTeX Error: File `02EX21' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.229 \end{frame}
-                 
-I could not locate the file with any of these extensions:
-.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[13
-
-]
-
-c:/Users/user/Documents/Drive/Projects/LABMAN/homepage/ironikerine.github.io/courses/RC-and-steel/Lecture03.tex:235: LaTeX Error: File `02CANT01' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.235 \end{frame}
-                 
-I could not locate the file with any of these extensions:
-.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[14
-
-]
-
-c:/Users/user/Documents/Drive/Projects/LABMAN/homepage/ironikerine.github.io/courses/RC-and-steel/Lecture03.tex:241: LaTeX Error: File `02CANT02' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.241 \end{frame}
-                 
-I could not locate the file with any of these extensions:
-.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[15
-
-]
-
-c:/Users/user/Documents/Drive/Projects/LABMAN/homepage/ironikerine.github.io/courses/RC-and-steel/Lecture03.tex:247: LaTeX Error: File `02BEAMTYPES01' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.247 \end{frame}
-                 
-I could not locate the file with any of these extensions:
-.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[16
-
-]
-
-c:/Users/user/Documents/Drive/Projects/LABMAN/homepage/ironikerine.github.io/courses/RC-and-steel/Lecture03.tex:253: LaTeX Error: File `02BEAMTYPES02' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.253 \end{frame}
-                 
-I could not locate the file with any of these extensions:
-.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[17
-
-]
-
-c:/Users/user/Documents/Drive/Projects/LABMAN/homepage/ironikerine.github.io/courses/RC-and-steel/Lecture03.tex:259: LaTeX Error: File `02CANT03' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.259 \end{frame}
-                 
-I could not locate the file with any of these extensions:
-.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[18
-
-]
-
-c:/Users/user/Documents/Drive/Projects/LABMAN/homepage/ironikerine.github.io/courses/RC-and-steel/Lecture03.tex:265: LaTeX Error: File `02EIFFEL00' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.265 \end{frame}
-                 
-I could not locate the file with any of these extensions:
-.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[19
-
-]
-
-c:/Users/user/Documents/Drive/Projects/LABMAN/homepage/ironikerine.github.io/courses/RC-and-steel/Lecture03.tex:271: LaTeX Error: File `02EIFFEL01' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.271 \end{frame}
-                 
-I could not locate the file with any of these extensions:
-.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[20
-
-] [21
-
-]
-
-c:/Users/user/Documents/Drive/Projects/LABMAN/homepage/ironikerine.github.io/courses/RC-and-steel/Lecture03.tex:299: LaTeX Error: File `02EIFFEL03' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.299 \end{frame}
-                 
-I could not locate the file with any of these extensions:
-.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[22
-
-]
-
-c:/Users/user/Documents/Drive/Projects/LABMAN/homepage/ironikerine.github.io/courses/RC-and-steel/Lecture03.tex:306: LaTeX Error: File `02EIFFEL04' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.306 \end{frame}
-                 	
-I could not locate the file with any of these extensions:
-.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[23
-
-]
-
-c:/Users/user/Documents/Drive/Projects/LABMAN/homepage/ironikerine.github.io/courses/RC-and-steel/Lecture03.tex:313: LaTeX Error: File `02EIFFEL05' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.313 \end{frame}
-                 
-I could not locate the file with any of these extensions:
-.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[24
-
-]
-
-c:/Users/user/Documents/Drive/Projects/LABMAN/homepage/ironikerine.github.io/courses/RC-and-steel/Lecture03.tex:319: LaTeX Error: File `02EIFFEL06' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.319 \end{frame}
-                 
-I could not locate the file with any of these extensions:
-.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[25
 
 ]
 \tf@nav=\write6
@@ -1409,28 +1002,22 @@ If that doesn't work, type  X <return>  to quit.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-Package rerunfilecheck Warning: File `Lecture03.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Lecture03.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  4CC8F2E31098AE4DCDB4C7ED1A875DEB;125.
+Package rerunfilecheck Info: File `Lecture03.out' has not changed.
+(rerunfilecheck)             Checksum: AC5B6E889658F7D47E518F80F4479573;63.
  ) 
 Here is how much of TeX's memory you used:
- 31104 strings out of 475071
- 619775 string characters out of 5782907
- 902629 words of memory out of 5000000
- 51749 multiletter control sequences out of 15000+600000
- 529515 words of font info for 153 fonts, out of 8000000 for 9000
+ 30180 strings out of 475071
+ 603400 string characters out of 5782907
+ 900707 words of memory out of 5000000
+ 50894 multiletter control sequences out of 15000+600000
+ 507689 words of font info for 93 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,11n,122p,1974b,752s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{c:/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmac.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmad.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmae.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmb0.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmb1.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmb2.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmb3.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmb4.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmb5.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmb7.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmb8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmb9.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmba.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmbb.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmbc.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmbd.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmc0.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmc1.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmc2.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmc5.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmc6.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmc7.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmc8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmc9.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmcc.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmcd.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmce.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmd0.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmd1.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmd2.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmd3.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmd4.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmd5.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmd6.pfb><c:/texlive/2022/texmf-dist/fonts/type1/urw/avantgar/uagd8a.pfb><c:/texlive/2022/texmf-dist/fonts/type1/urw/avantgar/uagk8a.pfb>
-Output written on Lecture03.pdf (25 pages, 879970 bytes).
+{c:/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmac.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmad.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmae.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmb2.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmb4.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmb5.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmb7.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmb8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmb9.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmba.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmbc.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmbd.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmbe.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmc0.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmc1.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmc2.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmc5.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmc7.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmc8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmc9.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmcd.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmce.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmd0.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmd3.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmd4.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmd5.pfb><c:/texlive/2022/texmf-dist/fonts/type1/urw/avantgar/uagd8a.pfb><c:/texlive/2022/texmf-dist/fonts/type1/urw/avantgar/uagk8a.pfb>
+Output written on Lecture03.pdf (3 pages, 484634 bytes).
 PDF statistics:
- 379 PDF objects out of 1000 (max. 8388607)
- 257 compressed objects within 3 object streams
- 52 named destinations out of 1000 (max. 500000)
- 43 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 183 PDF objects out of 1000 (max. 8388607)
+ 114 compressed objects within 2 object streams
+ 8 named destinations out of 1000 (max. 500000)
+ 51 words of extra memory for PDF output out of 10000 (max. 10000000)
 
