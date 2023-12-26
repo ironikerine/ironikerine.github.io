@@ -1,3 +1,0 @@
-\select@language {english}
-\beamer@sectionintoc {1}{2. 건축구조의 원리}{2}{0}{1}
-\beamer@sectionintoc {2}{3. 트러스(Reference: Hibbler, Structural Analysis)}{17}{0}{2}
