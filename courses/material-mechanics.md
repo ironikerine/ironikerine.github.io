@@ -1,12 +1,12 @@
 ---
 layout: page
-title: "Material Mechanics"
+title: "AEA0164: Mechanics of Materials in Architecture and Buildings"
 ---
 
 # Course Information
-- Course Title: Material Mechanics
+- Course Title: Mechanics of Materials in Architecture and Buildings
 
-- Course Code: - (to be updated)
+- Course Code: AEA0164
 
 - Course Description:
 

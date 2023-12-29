@@ -15,7 +15,7 @@ people:
 - {name: 'Sang-Joon Lee' , title: 'MS Course', email: 'wlsgus5596@naver.com', office: 'Engineering Building 51-207', image: 'assets/img/graduate-student.jpg', url: 'sang-joon'}
 
 courses:
-- {name: 'Material Mechanics', url: 'material-mechanics'}
+- {name: 'AEA0164: Mechanics of Materials in Architecture and Buildings', url: 'material-mechanics'}
 - {name: 'Structural Analysis', url: 'structural-analysis'}
 - {name: 'Structural Stability', url: 'structural-stability'}
 - {name: 'Reinforced Concrete and Steel Structures', url: 'RC-and-steel'}
