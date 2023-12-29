@@ -1,22 +1,19 @@
 ---
 layout: page
-title: "Solutions"
+title: "Structural Mechanics and Systems"
 ---
 
 # Course Information
-- Course Title: Material Mechanics
+- Course Title: Structural Mechanics and Systems
 
-- Course Code: - (to be updated)
+- Course Code: ARA0119
 
 - Course Description:
 
 (to be updated) 
 <!-- This course provides an in-depth exploration of reinforced concrete and steel structures. Students will learn to analyze structural requirements, design concrete and steel members, and apply industry standards. Topics include material properties, structural behavior, design codes, and hands-on design projects. -->
 
-- Prerequisites:
-
-<!-- Structural Mechanics
-Architectural Structures and Systems -->
+- Prerequisites: None
 
 - Instructor:
 Professor Sung-Yong Kim

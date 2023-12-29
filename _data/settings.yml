@@ -18,6 +18,7 @@ courses:
 - {name: 'AEA0164: Mechanics of Materials in Architecture and Buildings', url: 'material-mechanics'}
 - {name: 'Structural Analysis', url: 'structural-analysis'}
 - {name: 'Structural Stability', url: 'structural-stability'}
+- {name: 'ARA0119: Structural Mechanics and Systems', url: structural-systems}
 - {name: 'Reinforced Concrete and Steel Structures', url: 'RC-and-steel'}
 # - {name: 'Solutions', url: 'Solutions'}
 

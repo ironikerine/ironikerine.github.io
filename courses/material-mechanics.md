@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "AEA0164: Mechanics of Materials in Architecture and Buildings"
+title: "Mechanics of Materials in Architecture and Buildings"
 ---
 
 # Course Information
