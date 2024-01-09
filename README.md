@@ -8,11 +8,11 @@ The following sections describe usage instructions for this Jekyll theme,includi
 
 #### Home
 
-The `_layouts/home.html` layout defines the home page for this theme. An introduction to your research group or to yourself can be provided, along with a list of featured publications. There is also a section for providing any updates through posts placed in the `_posts` directory.
+`_layouts/home.html` 파일은 주요 출판물 목록과 함께 연구 그룹이나 자신에 대한 소개를 제공한다. `_posts` 디렉토리에 있는 게시물을 통해 업데이트를 제공하는 섹션도 있다.
 
 #### People
 
-The `_layouts/people.html` layout can be used to showcase and describe people in your research group. People are defined in the `_data/settings.yml` file, and markdown pages for each person with the `_layouts/page.html` layout can be placed in the `people` directory.
+`_layouts/people.html` 파일은 연구 그룹의 사람들을 보여주고 설명하는 데 사용된다. 사람은 `_data/settings.yml` 파일에 정의되어 있으며 `_layouts/page.html` 파일이 있는 각 사람에 대한 마크다운 페이지는 `people` 디렉토리에 배치한다.
 
 #### Publications
 
