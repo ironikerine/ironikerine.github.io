@@ -26,6 +26,7 @@ projects:
 - {name: '[SEN Enginnering Group] Vibration Servicability Evaluation for H-Bank', url: 'h-bank'}
 - {name: '[SEN Enginnering Group] Vibration Servicability Evaluation for H-Bank', url: 'w-bank'}
 - {name: '[Samsung Industry] High Friction Coefficient for High-Strength Bolted Connection', url: 'samsung-friction'}
+- {name: '[POSCO and POSCO EnC] 내화물', url: 'POSCOEnC01'}
 
 # \subsection*{Research Director}
 # \years{2020}에너지-내진성능~동시확보를~위한~열교차단파스너의~실물대실험, \texttt{교육부}\\
