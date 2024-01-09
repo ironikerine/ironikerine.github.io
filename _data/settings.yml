@@ -15,12 +15,12 @@ people:
 - {name: 'Sang-Joon Lee' , title: 'MS Course', email: 'wlsgus5596@naver.com', office: 'Engineering Building 51-207', image: 'assets/img/graduate-student.jpg', url: 'sang-joon'}
 
 courses:
-- {name: 'AEA0164: Mechanics of Materials in Architecture and Buildings', url: 'material-mechanics'}
+- {name: 'AEA0164: 건축재료역학', url: 'material-mechanics'}
 - {name: 'Structural Analysis', url: 'structural-analysis'}
 - {name: 'Structural Stability', url: 'structural-stability'}
-- {name: 'ARA0119: Structural Mechanics and Systems', url: structural-systems}
+- {name: 'ARA0119: 구조역학 및 시스템', url: structural-systems}
 - {name: 'Reinforced Concrete and Steel Structures', url: 'RC-and-steel'}
-# - {name: 'Solutions', url: 'Solutions'}
+# - {name: 'ARA0119: 구조역학 및 시스템', url: 'Solutions'}
 
 projects:
 - {name: '[SEN Enginnering Group] Vibration Servicability Evaluation for H-Bank', url: 'h-bank'}
