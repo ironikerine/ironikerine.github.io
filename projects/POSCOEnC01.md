@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "내화물 잔존"
+title: "비파괴 내화물 잔존량 측정기술 개발"
 ---
 
 # Project Information
