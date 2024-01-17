@@ -21,7 +21,7 @@ Office: 경남 창원시 의창구 창원대학로 20, 51호관 51209호
 
 ### Current Research
 
-- Inward Open Blst Door Design
+- Inward Open Blast Door Design
 
 
 ### Education
