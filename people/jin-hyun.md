@@ -3,11 +3,9 @@ layout: page
 title: "Jin-Hyun Ahn"
 ---
 
-Graduate Student
+M.S. Course (2023.03 - Current)
 
-T: (082) 10-8639-
-
-E: wlsgus5596@naver.com
+E: 20237095@gs.cwnu.ac.kr
 
 Office: Engineering Building 51-209
 
