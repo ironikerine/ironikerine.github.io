@@ -11,8 +11,8 @@ people:
 - {name: 'Sung-Yong Kim', title: 'Associate Professor', department: 'School of Architecture', institution: 'Changwon National University', institution_address: '20 Changwondaehak-ro Uichang-gu Changwon-si, Gyeongsangnam-do 51140 KOREA.', phone: '(082) 55-213-3806', email: 'sungyong.kim@changwon.ac.kr', office: 'Engineering Building 51-218', image: 'assets/img/lab-technician.jpg', url: 'primary-investigator'}
 #- {name: 'Lab Technician', title: 'Researcher', department: 'Physics & Astronomy', institution: 'Some University', institution_address: '1 Main Street, Canada', phone: '(000) 000-0000', email: 'hello@university.edu', office: 'Science Building 505', image: 'assets/img/lab-technician.jpg', url: 'lab-technician'}
 - {name: 'Jin-Hyun Ahn' , title: 'MS Course', email: 'wlsgus5596@naver.com', office: 'Engineering Building 51-207', image: 'assets/img/graduate-student.jpg', url: 'jin-hyun'}
-- {name: 'Jun-Jae Lim', title: 'MS Course', email: 'wlsgus5596@naver.com', office: 'Engineering Building 51-207', image: 'assets/img/graduate-student.jpg', url: 'jun-jae'}
-- {name: 'Sang-Joon Lee' , title: 'MS Course', email: 'wlsgus5596@naver.com', office: 'Engineering Building 51-207', image: 'assets/img/graduate-student.jpg', url: 'sang-joon'}
+- {name: 'Jun-Jae Lim', title: 'MS Course', email: 'rkdlq2468@naver.com', office: 'Engineering Building 51-207', image: 'assets/img/JJ LIM.jpg', url: 'jun-jae'}
+- {name: 'Sang-Joon Lee' , title: 'MS Course', email: 'gigonoto@naver.com', office: 'Engineering Building 51-207', image: 'assets/img/SJ Lee.jpg', url: 'sang-joon'}
 
 courses:
 - {name: 'AEA0164: Mechanics of Materials in Architecture and Buildings', url: 'material-mechanics'}

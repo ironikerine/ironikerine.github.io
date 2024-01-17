@@ -3,13 +3,37 @@ layout: page
 title: "Sang-Joon Lee"
 ---
 
-Graduate Student
+## Sang-Joon Lee 
 
-T: (082) 10-8639-
+Master Couse (2024.03 - Current)
 
-E: wlsgus5596@naver.com
+E: gigonoto@naver.com
 
-Office: Engineering Building 51-209
+Office: 경남 창원시 의창구 창원대학로 20, 51호관 51209호
+
+
+### Research Interest
+
+- Disaster Preparedness  
+- Blast Door   
+- Blast Resistant Design of Civil RC Structure
+
+
+### Current Research
+
+- Inward Open Blst Door Design
+
+
+### Education
+
+- 2020 - 2023 : 창원대학교 건축공학과, 학사
+
+
+### Grants, Honors, and Awards
+
+- 이공계 국가장학금
+- 창원대학교 총장상
+- 우수논문발표상
 
 ---
 
