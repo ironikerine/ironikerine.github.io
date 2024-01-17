@@ -14,6 +14,7 @@ Office: Engineering Building 51-218
 ---
 ### Current Position
 M.S. Course, School of Architecture, Changwon National University, Korea
+
 ---
 
 ### Research Interest
