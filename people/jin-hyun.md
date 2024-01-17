@@ -1,13 +1,25 @@
 ---
 layout: page
-title: "Jin-Hyun Ahn"
+title: "Student"
 ---
 
-M.S. Course (2023.03 - Current)
+## Jin-Hyun An
 
-E: 20237095@gs.cwnu.ac.kr
+E: wlsgus5596@naver.com
 
 Office: Engineering Building 51-209
 
 ---
+### Current Position
+M.S. Course, School of Architecture, Changwon National University, Korea
 
+---
+### Research Area
+
+- Non-Structural Elements
+- Seismic Design
+- Vibration Control
+
+### Education
+
+- 2017-2023: Bachelor, Changwon National University, Korea
