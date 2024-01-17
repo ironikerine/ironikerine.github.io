@@ -3,13 +3,17 @@ layout: page
 title: "Sang-Joon Lee"
 ---
 
-Graduate Student
+Master Couse
 
-T: (082) 10-8639-
+T: N/A
 
-E: wlsgus5596@naver.com
+E: gigonoto@naver.com
 
-Office: Engineering Building 51-209
+Office: 경남 창원시 의창구 창원대학로 20, 51호관 51209호
 
+## Research Interest
+Disaster Preparedness
+Blast Door 
+Blast Resistant Design of Civil RC Structure
 ---
 
