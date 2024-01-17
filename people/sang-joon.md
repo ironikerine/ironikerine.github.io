@@ -1,29 +1,31 @@
 ---
 layout: page
-title: "Sang-Joon Lee"
+title: "Student"
 ---
 
 ## Sang-Joon Lee 
 
-Master Couse (2024.03 - Current)
-
 E: gigonoto@naver.com
 
-Office: 경남 창원시 의창구 창원대학로 20, 51호관 51209호
+Office: Engineering Building 51-218
 
+---
+
+### Current Position
+M.S. Course, School of Architecture, Changwon National University, Korea
+
+---
 
 ### Research Interest
 
+- Inward Open Blast Door Design   
+- Blast Resistant Design of Shelter In Place
 - Disaster Preparedness  
-- Blast Door   
-- Blast Resistant Design of Civil RC Structure
 
 
-### Current Research
+### Education
 
-- Inward Open Blast Door Design
-
-
+- 2020-2024 : Bachelor, Changwon National University, Korea
 
 ---
 
