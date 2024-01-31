@@ -9,7 +9,7 @@ title: "Structura Mechanics part4"
 
 # 4.2-4 다음 3이동단 라멘을 해석하라
 
-<img src="/assets/img/Structural_Mechanics_Study/SM_4,2-4_1.PNG" width="1800"/>
+<img src="/assets/img/Structural_Mechanics_Study/SM_4,2-4_1.PNG" width="1200"/>
 
 
 ## 정정 여부 판별
@@ -41,12 +41,12 @@ $⟳+\displaystyle\sum_{at A} M = 0$  에서  $120kN \times 3m - 90kN \times 3m 
 
 ## 부재별, 절점별 자유물체도
 
-<img src="/assets/img/Structural_Mechanics_Study/SM_4,2-4_2.PNG" width="1800"/>
+<img src="/assets/img/Structural_Mechanics_Study/SM_4,2-4_2.PNG" width="1200"/>
 <br />
 
 ## 라멘 해석
 
-<img src="/assets/img/Structural_Mechanics_Study/SM_4,2-4_3.PNG" width="1800"/>
-<img src="/assets/img/Structural_Mechanics_Study/SM_4,2-4_4.PNG" width="1800"/>
-<img src="/assets/img/Structural_Mechanics_Study/SM_4,2-4_5.PNG" width="1800"/>
+<img src="/assets/img/Structural_Mechanics_Study/SM_4,2-4_3.PNG" width="1200"/>
+<img src="/assets/img/Structural_Mechanics_Study/SM_4,2-4_4.PNG" width="1200"/>
+<img src="/assets/img/Structural_Mechanics_Study/SM_4,2-4_5.PNG" width="1200"/>
 
