@@ -10,6 +10,9 @@ title: "Structura Mechanics part4"
 # 4.2-4 다음 3이동단 라멘을 해석하라
 
 ![img](/assets/img/Structural_Mechanics_Study/SM_4,2-4_1.PNG)
+<img src="/assets/img/Structural_Mechanics_Study/SM_4,2-4_1.PNG" width="1800"/>
+<img src="/assets/img/Structural_Mechanics_Study/SM_4,2-4_1.PNG" width="500"/>
+
 
 ## 정정 여부 판별
 
