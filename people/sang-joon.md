@@ -11,12 +11,16 @@ E: gigonoto@naver.com
 
 Office: Engineering Building 51-218
 <br />
+
 ---
+
 <br />
 ### Current Position
 M.S. Course, School of Architecture, Changwon National University, Korea
 <br />
+
 ---
+
 <br />
 ### Research Interest
 
