@@ -213,7 +213,7 @@ $V - 2 \times x = 0$
 
 $∴ V = 2x$ $kN$
 
-$ M + 2x \times \frac {x}{2} = 0$
+$M + 2x \times \frac {x}{2} = 0$
 
 $∴ M= -x^2$ $kN$
 
