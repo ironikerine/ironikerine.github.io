@@ -9,7 +9,7 @@ title: "Structura Mechanics part4"
 
 # 4.1-3 다음 내민보를 해석하라.
 
-<img src="/assets/img/Structural_Mechanics_Study/SM_4.1-3_1.PNG" width="1200"/>
+<img src="/assets/img/Structural_Mechanics_Study/SM_4.1-3_1.jpg" width="1200"/>
 
 ## 1. 부정정 차수 판별
 
@@ -25,7 +25,7 @@ $∴$ 위 구조물은 정정구조물로 판별
 
 ## 2. 반력
 
-<img src="/assets/img/Structural_Mechanics_Study/SM_4.1-3_2.PNG" width="1200"/>
+<img src="/assets/img/Structural_Mechanics_Study/SM_4.1-3_2.jpg" width="1200"/>
 <br />
 
 $→+ \sum X = 0$  에서  $H_A - 0kN = 0$
@@ -45,7 +45,7 @@ $∴ R_B = 206.25kN$ $/$ $R_A = 133.75kN$
 
 ## 3. 부재력 계산
 
-<img src="/assets/img/Structural_Mechanics_Study/SM_4.1-3_3.PNG" width="1200"/>
+<img src="/assets/img/Structural_Mechanics_Study/SM_4.1-3_3.jpg" width="1200"/>
 <br />
 
 $\overline{CB}구간$ $(0\leq x \leq 3)$
@@ -62,7 +62,7 @@ $M + 20 \times x + 150 = 0$
 
 $∴ M= -20x - 150  kN$
 
-<img src="/assets/img/Structural_Mechanics_Study/SM_4.1-3_4.PNG" width="1200"/>
+<img src="/assets/img/Structural_Mechanics_Study/SM_4.1-3_4.jpg" width="1200"/>
 <br />
 
 $\overline{AB}구간$ $(3\leq x \leq 8)$
@@ -83,24 +83,24 @@ $∴ M= -20x^2 + 306.25x - 948.75  kN$
 
 4-1 축방향력도(AFD)
 
-<img src="/assets/img/Structural_Mechanics_Study/SM_4.1-3_5.PNG" width="1200"/>
+<img src="/assets/img/Structural_Mechanics_Study/SM_4.1-3_5.jpg" width="1200"/>
 <br />
 
 4.2 전단력도(SFD)
 
-<img src="/assets/img/Structural_Mechanics_Study/SM_4.1-3_6.PNG" width="1200"/>
+<img src="/assets/img/Structural_Mechanics_Study/SM_4.1-3_6.jpg" width="1200"/>
 <br />
 
 4.3 휨모멘트도(BMD)
 
-<img src="/assets/img/Structural_Mechanics_Study/SM_4.1-3_7.PNG" width="1200"/>
+<img src="/assets/img/Structural_Mechanics_Study/SM_4.1-3_7.jpg" width="1200"/>
 <br />
 
 ---
 
 # 4.2-4 다음 3이동단 라멘을 해석하라
 
-<img src="/assets/img/Structural_Mechanics_Study/SM_4,2-4_1.PNG" width="1200"/>
+<img src="/assets/img/Structural_Mechanics_Study/SM_4,2-4_1.jpg" width="1200"/>
 
 
 ## 정정 여부 판별
