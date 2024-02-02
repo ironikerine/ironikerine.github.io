@@ -18,6 +18,8 @@ title: "Lim Jun-jae graduation thesis material"
 <img src="/assets/img/Junjae-graduation thesis/2층 평면.jpg" width="1200"/>
 
 <img src="/assets/img/Junjae-graduation thesis/3층 평면.jpg" width="1200"/>
+
+<img src="/assets/img/Junjae-graduation thesis/단면.jpg" width="1200"/>
 <br />
 
 예제 건물의 설계는 KDS 41 30 : 2022를 적용하였으며, 각 부재별로 보는 모멘트, 기둥은 축력과 모멘트, 그리고 가새는 축력에 대하여 힌지(hinge) 특성을 정의하였다. 하중조건은 아래와 같다.
