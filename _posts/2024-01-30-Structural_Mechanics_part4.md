@@ -49,7 +49,7 @@ $∴ R_B = 206.25kN$ $/$ $R_A = 133.75kN$
 
 ## 3. 부재력 계산
 
-<img src="/assets/img/Structural_Mechanics_Study/SM_4.1-3_3.jpg" width="1200"/>
+<img src="/assets/img/Structural_Mechanics_Study/SM_4.1-3_3.jpg" width="600"/>
 <br />
 
 $\overline{CB}구간$ $(0\leq x \leq 3)$
@@ -66,7 +66,7 @@ $M + 20 \times x + 150 = 0$
 
 $∴ M= -20x - 150  kN$
 
-<img src="/assets/img/Structural_Mechanics_Study/SM_4.1-3_4.jpg" width="1200"/>
+<img src="/assets/img/Structural_Mechanics_Study/SM_4.1-3_4.jpg" width="800"/>
 <br />
 
 $\overline{AB}구간$ $(3\leq x \leq 8)$
@@ -145,10 +145,10 @@ $∴ R_B = 0.8kN$ $/$ $R_A = 9.2kN$
 
 ## 3. 부재력 계산
 
-<img src="/assets/img/Structural_Mechanics_Study/SM_4.2-1_3.jpg" width="1200"/>
+<img src="/assets/img/Structural_Mechanics_Study/SM_4.2-1_3.jpg" width="600"/>
 <br />
 
-<img src="/assets/img/Structural_Mechanics_Study/SM_4.2-1_4.jpg" width="1200"/>
+<img src="/assets/img/Structural_Mechanics_Study/SM_4.2-1_4.jpg" width="600"/>
 <br />
 
 $\overline{AC}구간$ $(0\leq x \leq 4)$
@@ -166,7 +166,7 @@ $-M - 8 \times x = 0$
 
 $∴ M= -8x$   $kN$
 
-<img src="/assets/img/Structural_Mechanics_Study/SM_4.2-1_5.jpg" width="1200"/>
+<img src="/assets/img/Structural_Mechanics_Study/SM_4.2-1_5.jpg" width="600"/>
 <br />
 
 $\overline{CD}구간$ $(0\leq x \leq 2)$
@@ -183,7 +183,7 @@ $-32 + 9.2x -M = 0$
 
 $∴ M= 9.2x - 32  kN$
 
-<img src="/assets/img/Structural_Mechanics_Study/SM_4.2-1_6.jpg" width="1200"/>
+<img src="/assets/img/Structural_Mechanics_Study/SM_4.2-1_6.jpg" width="600"/>
 <br />
 
 $\overline{CD}구간$ $(2\leq x \leq 5)$
@@ -200,7 +200,7 @@ $-32 + 9.2 \times x - 10 \times (x-2) = 0$
 
 $∴ M= -0.8x - 12$ $kN$
 
-<img src="/assets/img/Structural_Mechanics_Study/SM_4.2-1_7.jpg" width="1200"/>
+<img src="/assets/img/Structural_Mechanics_Study/SM_4.2-1_7.jpg" width="600"/>
 <br />
 
 $\overline{BD}구간$ $(0\leq x \leq 4)$
