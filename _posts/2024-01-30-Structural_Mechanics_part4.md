@@ -145,7 +145,7 @@ $∴ R_B = 0.8kN$ $/$ $R_A = 9.2kN$
 
 ## 3. 부재력 계산
 
-<img src="/assets/img/Structural_Mechanics_Study/SM_4.2-1_3.jpg" width="600"/>
+<img src="/assets/img/Structural_Mechanics_Study/SM_4.2-1_3.jpg" width="1200"/>
 <br />
 
 <img src="/assets/img/Structural_Mechanics_Study/SM_4.2-1_4.jpg" width="600"/>
