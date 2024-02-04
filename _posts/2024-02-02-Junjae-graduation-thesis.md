@@ -8,18 +8,19 @@ title: "Lim Jun-jae graduation thesis material"
 <br />
 <br />
 
-# 예제건물의 기본 구조설계
+# 대상구조물
 
-## (1) 예제건물의 기본 사항
+## (1) 개요
 
-예제건물은 함안에 위치한 공장 및 창고 용도의 3층 건물이다. 
-그림1 과 그림2는 예제건축물의 평면 계획과 단면계획이다.
+대상 구조물은 그림 1에서와 같이 3개 층으로 구성된 철골모멘트골조 구조물로 40m $\times$ 32.8m의 평면에  높이 20m의 공장 및 창고 건물이다.(그림 2, 그림 3, 그림 4 참고) 대상 구조물은 횡하중에 대한 변위제한을 만족시키기 위해 가새를 설치하였으며, 가새들은 '세장한 가새'를 사용하였다. 이는 가새를 인장력에 대해서만 거동시키기 위함으로 대상 구조물에 설치된 가새들의 세장비는 200을 초과하도록 설계하였다.
 
-<img src="/assets/img/Junjae-graduation thesis/2층 평면.jpg" width="1200"/>
+<img src="/assets/img/Junjae-graduation thesis/그림1.jpg" width="1200"/>
 
-<img src="/assets/img/Junjae-graduation thesis/3층 평면.jpg" width="1200"/>
+<img src="/assets/img/Junjae-graduation thesis/그림2.jpg" width="1200"/>
 
-<img src="/assets/img/Junjae-graduation thesis/단면.jpg" width="1200"/>
+<img src="/assets/img/Junjae-graduation thesis/그림3.jpg" width="1200"/>
+
+<img src="/assets/img/Junjae-graduation thesis/그림4.jpg" width="1200"/>
 <br />
 
 예제 건물의 설계는 KDS 41 30 : 2022를 적용하였으며, 각 부재별로 보는 모멘트, 기둥은 축력과 모멘트, 그리고 가새는 축력에 대하여 힌지(hinge) 특성을 정의하였다. 하중조건은 아래와 같다.
