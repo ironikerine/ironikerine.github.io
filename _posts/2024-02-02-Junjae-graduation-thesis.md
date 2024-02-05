@@ -47,7 +47,7 @@ title: "Lim Jun-jae graduation thesis material"
 
 ### 3.2 선형동적해석(응답스펙트럼해석법)
 
-### 3.2.1 부재의 DCR 검토
+#### 3.2.1 부재의 DCR 검토
 
 <img src="/assets/img/Junjae-graduation thesis/DCR1.png" width="1200"/>
 <br />
@@ -58,6 +58,7 @@ title: "Lim Jun-jae graduation thesis material"
 <img src="/assets/img/Junjae-graduation thesis/DCR3.png" width="1200"/>
 <br />
 
+#### 3.2.2 변위 검토
 
-<br />
+
 
