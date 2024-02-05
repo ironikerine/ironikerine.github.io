@@ -49,13 +49,13 @@ title: "Lim Jun-jae graduation thesis material"
 
 ### 3.2.1 부재의 DCR 검토
 
-<img src="/assets/img/Junjae-graduation thesis/DCR1.PNG" width="1200"/>
+<img src="/assets/img/Junjae-graduation thesis/DCR1.png" width="1200"/>
 <br />
 
-<img src="/assets/img/Junjae-graduation thesis/DCR2.PNG" width="1200"/>
+<img src="/assets/img/Junjae-graduation thesis/DCR2.png" width="1200"/>
 <br />
 
-<img src="/assets/img/Junjae-graduation thesis/DCR3.PNG" width="1200"/>
+<img src="/assets/img/Junjae-graduation thesis/DCR3.png" width="1200"/>
 <br />
 
 
