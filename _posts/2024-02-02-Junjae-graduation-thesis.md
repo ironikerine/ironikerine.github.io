@@ -64,4 +64,4 @@ title: "Lim Jun-jae graduation thesis material"
 
 ### 3.2 비선형정적해석(PUSHOVER해석)
 
-<img src="/assets/img/Junjae-graduation thesis/PUSHOVER CURVE.png" width="1200"/>
+<img src="/assets/img/Junjae-graduation thesis/PUSHOVER CURVE.png" width="600"/>
