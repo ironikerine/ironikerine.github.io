@@ -87,4 +87,4 @@ $$T \geq T_s일 때, 스펙트럼가속도 S_a=5초$$
 
 <img src="/assets/img/Junjae-graduation thesis/FEMA성능목표.png" width="1200"/>
 
-<img src="/assets/img/Junjae-graduation thesis/성능변위.png" width="1200"/>
+<img src="/assets/img/Junjae-graduation thesis/성능점변위.png" width="1200"/>
