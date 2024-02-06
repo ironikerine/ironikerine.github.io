@@ -18,7 +18,7 @@ title: "Lim Jun-jae graduation thesis material"
 
 <img src="/assets/img/Junjae-graduation thesis/그림2.jpg" width="1200"/>
 
-<img src="/assets/img/Junjae-graduation thesis/그림3.jpg" width="1200"/>
+<img src="/assets/img/Junjae-graduation thesis/그림3.jpg" width="1200"/>                                                                                                       
 
 <img src="/assets/img/Junjae-graduation thesis/그림4.jpg" width="1200"/>
 <br />
@@ -47,7 +47,22 @@ title: "Lim Jun-jae graduation thesis material"
 
 ### 3.2 선형동적해석(응답스펙트럼해석법)
 
-#### 3.2.1 부재의 DCR 검토
+#### 3.2.1 설계응답스펙트럼
+
+지진의 설계응답스펙트럼은 다음 식에 따라 구한 후 작성한다.
+
+$$T \leq T_0일 때, 스펙트럼가속도 S_a=0.6 \frac{S_{DS}}{T_0} +0.4 S_{DS}$$
+
+$$T_0 < T \leq T_s일 때, 스펙트럼가속도 S_a=S_{DS}$$
+
+$$T_s < T \leq T_L일 때, 스펙트럼가속도 S_a=\frac{S_{DS}}{T_0}$$
+
+$$T \geq T_s일 때, 스펙트럼가속도 S_a=5초$$
+
+<img src="/assets/img/Junjae-graduation thesis/응답스펙트럼.png" width="1200"/>
+<br />
+
+#### 3.2.2 부재의 DCR 검토
 
 <img src="/assets/img/Junjae-graduation thesis/DCR1.png" width="1200"/>
 <br />
