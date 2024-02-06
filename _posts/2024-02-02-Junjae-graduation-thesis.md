@@ -58,9 +58,13 @@ $$T_0 < T \leq T_s일 때, 스펙트럼가속도 S_a=S_{DS}$$
 $$T_s < T \leq T_L일 때, 스펙트럼가속도 S_a=\frac{S_{DS}}{T_0}$$
 
 $$T \geq T_s일 때, 스펙트럼가속도 S_a=5초$$
+<br />
+<br />
 
 <img src="/assets/img/Junjae-graduation thesis/응답스펙트럼.png" width="1200"/>
 <br />
+
+<img src="/assets/img/Junjae-graduation thesis/표5.jpg" width="1200"/>
 
 #### 3.2.2 부재의 DCR 검토
 
