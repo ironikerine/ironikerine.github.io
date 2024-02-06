@@ -84,3 +84,7 @@ $$T \geq T_s일 때, 스펙트럼가속도 S_a=5초$$
 ### 3.2 비선형정적해석(PUSHOVER해석)
 
 <img src="/assets/img/Junjae-graduation thesis/PUSHOVER CURVE.png" width="600"/>
+
+<img src="/assets/img/Junjae-graduation thesis/FEMA성능목표.png" width="1200"/>
+
+<img src="/assets/img/Junjae-graduation thesis/성능변위.png" width="1200"/>
