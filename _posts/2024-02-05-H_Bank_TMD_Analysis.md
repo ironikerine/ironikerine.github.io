@@ -21,15 +21,15 @@ title: "H_Bank_TMD_Analysis"
 <br/>
 
 ### H_Bank_TMD 질량 변경
-- TMD의 질량을 200kg에서 100kg으로 변경하여 비교한다. 질량이외의 수치는 질량과 상관관계에 있는 수치 이외에는 동일하게 진행한다. 
+- TMD의 질량을 200kg에서 100kg으로 변경하여 비교한다. 진동수와 감쇠비를 고정으로 하며, 질량을 변경하였을때 진동수와 감쇠비를 고정값으로 맞추기 위해 강성과 감쇠는 다음과 같이 진행한다.
 <br/> &nbsp;&ensp;&emsp;
 <br/>
-    - 동일한 값
+    - 고정 값
      1. Frequency&emsp;&emsp;&nbsp;: 5.4 &ensp; Hz
      2. Damping ratio&ensp;: 0.08
 <br/>
 <br/>
-    - 변경된 값
+    - 변경 값
      1. Mass&emsp;&emsp;: 100 &ensp; kg
      2. Stiffness&nbsp;&nbsp;: 110000 &ensp; N/m
      3. Damping&nbsp;: 543 &ensp; N&nbsp;sec/m
