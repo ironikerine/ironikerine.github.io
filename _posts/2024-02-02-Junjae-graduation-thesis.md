@@ -43,7 +43,7 @@ title: "Lim Jun-jae graduation thesis material"
 
 ### 3.1 주요 부재 설계
 
-<img src="/assets/img/Junjae-graduation thesis/표4.jpg" width="1200"/>
+<img src="/assets/img/Junjae-graduation thesis/부재표(특).jpg" width="1200"/>
 
 ### 3.2 선형동적해석(응답스펙트럼해석법)
 
@@ -64,7 +64,7 @@ $$T \geq T_s일 때, 스펙트럼가속도 S_a=5초$$
 <img src="/assets/img/Junjae-graduation thesis/응답스펙트럼.png" width="1200"/>
 <br />
 
-<img src="/assets/img/Junjae-graduation thesis/표5.jpg" width="1200"/>
+<img src="/assets/img/Junjae-graduation thesis/주기.jpg" width="1200"/>
 
 #### 3.2.2 부재의 DCR 검토
 
@@ -83,9 +83,23 @@ $$T \geq T_s일 때, 스펙트럼가속도 S_a=5초$$
 
 ### 3.2 비선형정적해석(PUSHOVER해석)
 
-<img src="/assets/img/Junjae-graduation thesis/PUSHOVER CURVE.png" width="600"/>
+#### 3.2.1 Pushover Curve
 
-<img src="/assets/img/Junjae-graduation thesis/FEMA성능목표.png" width="1200"/>
+<img src="/assets/img/Junjae-graduation thesis/밑면전단력변위곡선.png" width="800"/>
+
+<img src="/assets/img/Junjae-graduation thesis/성능점산정.png" width="800"/>
+
+<img src="/assets/img/Junjae-graduation thesis/성능점.jpg" width="800"/>
+
+#### 3.2.2 Pushover Elemetn Yield Status
+
+<img src="/assets/img/Junjae-graduation thesis/FEMA성능 부재항복.png" width="1200"/>
+
+#### 3.2.2 Pushover Hinge
+
+<img src="/assets/img/Junjae-graduation thesis/FEMA성능 성능목표.png" width="1200"/>
+
+#### 3.2.2 Pushover Deformations
 
 <img src="/assets/img/Junjae-graduation thesis/성능점변위.png" width="1200"/>
 
