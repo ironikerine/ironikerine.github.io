@@ -93,11 +93,11 @@ $$T \geq T_s일 때, 스펙트럼가속도 S_a=5초$$
 
 #### 3.2.2 Pushover Elemetn Yield Status
 
-<img src="/assets/img/Junjae-graduation thesis/FEMA성능 부재항복.png" width="1200"/>
+<img src="/assets/img/Junjae-graduation thesis/FEMA성능점 부재항복.png" width="1200"/>
 
 #### 3.2.2 Pushover Hinge
 
-<img src="/assets/img/Junjae-graduation thesis/FEMA성능 성능목표.png" width="1200"/>
+<img src="/assets/img/Junjae-graduation thesis/FEMA성능점 성능목표.png" width="1200"/>
 
 #### 3.2.2 Pushover Deformations
 
