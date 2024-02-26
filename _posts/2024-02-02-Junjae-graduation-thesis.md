@@ -164,7 +164,13 @@ $$\theta_y = \frac{M_{CE}l_b(1+\eta)}{6EI_b}$$
 
 $$\eta=\frac{12 E I_b}{l_b^2 G A_s}$$
 
+$$A_s=(d_b-2t_f)t_w$$
 
+$$A_s=(692-2 \times 20)\times 13 = 8.476 m^2$$
+
+$$\eta=\frac{12 \times 210,000 \times 0.00172}{16.4^2 \times 81,000 \times 8.476}=0.000385$$
+
+$$\theta_y = \frac{1342.755 \times 16.4 \times (1+0.000385)}{6 \times 210,000,000 \times 0.00172}=0.01016$$
 
 ### 3.3.2 Pushover Curve
 
