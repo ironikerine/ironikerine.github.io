@@ -158,6 +158,8 @@ $$\lambda_{rw} = 3.76 \sqrt{E/F_{ye}}= 3.76 \sqrt{\frac{210,000,000}{265,000}}=1
 
 $\lambda \leq \lambda_{pw}$ 이므로 웨브는 조밀단면
 
+H형강보는 비조밀 단면으로 판별
+
 ### 항복회전각 $\theta_y$
 
 보의 기대부재강도 $M_{CE}=1,342.8kN$와 보의 전단강도 $V_{CE}=1,346.7kN$으로
@@ -170,11 +172,11 @@ $$\eta=\frac{12 E I_b}{l_b^2 G A_s}$$
 
 $$A_s=(d_b-2t_f)t_w$$
 
-$$A_s=(692-2 \times 20)\times 13 = 8.476 m^2$$
+$$A_s=(0.692-2 \times 0.020)\times 0.013 = 0.008476 m^2$$
 
-$$\eta=\frac{12 \times 210,000 \times 0.00172}{16.4^2 \times 81,000 \times 8.476}=0.000385$$
+$$\eta=\frac{12 \times 210,000 \times 0.00172}{16.4^2 \times 81,000 \times 0.008476}=0.0235$$
 
-$$\theta_y = \frac{1342.755 \times 16.4 \times (1+0.000385)}{6 \times 210,000,000 \times 0.00172}=0.01016$$
+$$\theta_y = \frac{1342.755 \times 16.4 \times (1+0.000385)}{6 \times 210,000,000 \times 0.00172}=0.0104$$
 
 ### 3.3.2 Pushover Curve
 
