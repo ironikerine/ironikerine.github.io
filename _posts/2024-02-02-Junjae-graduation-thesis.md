@@ -41,13 +41,13 @@ title: "Lim Jun-jae graduation thesis material"
 
 ## (3) 해석결과
 
-### 3.1 주요 부재 설계
+### 3.1 주요 부재 설계(예비설계)
 
 <img src="/assets/img/Junjae-graduation thesis/부재표(특).jpg" width="1200"/>
 
 ### 3.2 선형동적해석(응답스펙트럼해석법)
 
-#### 3.2.1 설계응답스펙트럼
+### 3.2.1 설계응답스펙트럼
 
 지진의 설계응답스펙트럼은 다음 식에 따라 구한 후 작성한다.
 
@@ -66,7 +66,7 @@ $$T \geq T_s일 때, 스펙트럼가속도 S_a=5초$$
 
 <img src="/assets/img/Junjae-graduation thesis/주기.jpg" width="1200"/>
 
-#### 3.2.2 부재의 DCR 검토
+### 3.2.2 부재의 DCR 검토
 
 <img src="/assets/img/Junjae-graduation thesis/DCR1.png" width="1200"/>
 <br />
@@ -77,13 +77,96 @@ $$T \geq T_s일 때, 스펙트럼가속도 S_a=5초$$
 <img src="/assets/img/Junjae-graduation thesis/DCR3.png" width="1200"/>
 <br />
 
-#### 3.2.2 변위 검토
+### 3.2.3 변위 검토
 
 <img src="/assets/img/Junjae-graduation thesis/층간변위Y.png" width="1200"/>
 
-### 3.2 비선형정적해석(PUSHOVER해석)
+### 3.3 비선형정적해석(PUSHOVER해석)
 
-#### 3.2.1 Pushover Curve
+### 3.3.1 Pushover Hinge Properities(부재 모델)
+
+### 3.3.1.1 보 부재
+
+(1) 보 부재의 탄성구간 강성은  구조역학 원칙에 기반하여 '건축물 강구조 설계기준 (KDS 41 31 00)에 따라 산정한다.
+
+(2) 보 부재의 비선형 부재력-변형 모델링은 실험이나 정밀해석을 통해 얻어진 관계를 사용하거나, 일반화된 부재력-변형 관계로부터 다음을 따른다.
+
+(2-1) 모델링 변수 a, b, c는 표 1에 따른다.
+
+(2-2) 보의 변형도경화구간 기울기는 탄성구간 기울기의 3%가 허용되며, 실험에 의해 증명된 경우 이보다 더 큰 값을 사용할 수 있다.
+
+(2-3) 보의 총 회전각 $\theta$는 그림 5와 같이 현회전각(chord rootation)으로 정의된다. 현회전각은 항복회전각 $\theta_y$에 소성회전각을 더하여 산정한다.
+
+(2-4) 보 부재의 기대휨강도 $M_{CE}$와 기대전단강도 $V_{CE}$는 다음절에 따라 산정한다.
+
+<img src="/assets/img/Junjae-graduation thesis/비선형해석절차변수.jpg" width="1200"/>
+
+(3) 보의 길이 $l_b$가 $2.6M_{CE}/V_{CE}$ 이상인 경우 보 부재는 휨거동으로 간주하며 다음을 따른다.
+
+(3-1) 항복회전각 $\theta_y$는 변곡점의 위치를 보 중앙부로 가정하여 다음과 같이 산정할 수 있다.
+
+$$\theta_y = \frac{M_{CE} l_b (1+\eta)}{6EI_b}$$
+
+여기서,
+$$E=탄성계수$$
+$$M_{CE}=보의 기대부재강도$$
+$$I_b=보의 단면 2차 모멘트$$
+$$l_b=보의 길이$$
+$$\eta=\frac{12 E I_b}{l_b^2 G A_s}$$
+$$A_s=유효전단면적$$
+$$G=전단탄성계수$$
+
+(3-2) 전단변형이 부재 전체변형의 5% 이내이거나 해석에 전단에 의한 변형이 포함되지 않은 경우 항복회전각 식의 $\eta$를 0으로 택할 수 있다.
+
+(4) 보의 길이 $l_b$가 $1.6M_{CE}/V_{CE}$ 미만인 경우 보 부재는 전단거동으로 간주하고, 이 때 항복회전각 $\theta_y$는 편심거리 $e$에 보의 길이 $l_b$를 대입해서 산정한다.
+
+(5) 보의 길이 $l_b$가 $1.6M_{CE}/V_{CE}$ 이상 $2.6M_{CE}/V_{CE}$ 미만인 경우 보 부재는 전단-휨거동으로 간주하며, 보의 모델링 변수는 보의 길이에 따라 보-휨과 보-전단에 대해 선형보간하여 산정한다.
+
+### 보의 강도
+
+표 1에 따라 그림과 같은 비선형 부재력-번형 관계를 결정한다. 보의 기대부재강도 $Q_{CE}$는 선형절차와 동일한 값을 사용한다.
+
+비선형동적절차의 이력거동 모델링은 실험이나 정밀해석을 통해 얻어진 관계를 사용할 수 있으며, 포락곡선으로는 표 1에 사용된 모델을 적용할 수 있다.
+
+### 폭두께비 검토
+
+플랜지의 폭두께비 검토
+
+$$\lambda=\frac{b}{t_f}=\frac{300/2}{20}=26.61$$
+
+-내진조밀단면 폭두께비 : $b/t_f \leq \lambda_{pf} = 0.30 \sqrt{E/F_{ye}}$
+
+$$\lambda_{pf} = 0.30 \sqrt{E/F_{ye}}=0.30 \sqrt{\frac{210,000,000}{265,000}}=8.45$$
+
+-내진비조밀단면 폭두께비 : $b/t_f > \lambda_{rf} = 0.38 \sqrt{E/F_{ye}}$
+
+$$\lambda_{rf} = 0.38 \sqrt{E/F_{ye}}=0.38 \sqrt{\frac{210,000,000}{265,000}}=10.69$$
+
+$\lambda > \lambda_{rf}$ 이므로 플랜지는 비조밀단면
+
+웨브의 폭두께비 검토
+
+$$\lambda=\frac{h}{t_w}=\frac{692-2 \times 20}{13}=50.15$$
+
+-내진조밀단면 폭두께비 : $h/t_w \leq \lambda_{pw} = 2.45 \sqrt{E/F_{ye}}$
+
+$$\lambda_{pw} = 2.45 \sqrt{E/F_{ye}}=2.45 \sqrt{\frac{210,000,000}{265,000}}=68.97$$
+
+-내진비조밀단면 폭두께비 : $b/t_f > \lambda_{rw} = 3.76 \sqrt{E/F_{ye}}$
+
+$$\lambda_{rw} = 3.76 \sqrt{E/F_{ye}}= 3.76 \sqrt{\frac{210,000,000}{265,000}}=105.84$$
+
+$\lambda \leq \lambda_{pw}$ 이므로 웨브는 조밀단면
+
+### 항복회전각 $\theta_y$
+
+$$\theta_y = \frac{M_{CE}l_b(1+\eta)}{6EI_b}$$
+
+$$\eta=\frac{12 E I_b}{l_b^2 G A_s}$$
+
+
+
+### 3.3.2 Pushover Curve
 
 <img src="/assets/img/Junjae-graduation thesis/밑면전단력변위곡선.png" width="800"/>
 
@@ -91,15 +174,15 @@ $$T \geq T_s일 때, 스펙트럼가속도 S_a=5초$$
 
 <img src="/assets/img/Junjae-graduation thesis/성능점.jpg" width="800"/>
 
-#### 3.2.2 Pushover Elemetn Yield Status
+### 3.3.3 Pushover Elemetn Yield Status
 
 <img src="/assets/img/Junjae-graduation thesis/성능점 부재항복.png" width="1200"/>
 
-#### 3.2.2 Pushover Hinge
+### 3.3.4 Pushover Hinge
 
 <img src="/assets/img/Junjae-graduation thesis/성능점 성능목표.png" width="1200"/>
 
-#### 3.2.2 Pushover Deformations
+### 3.3.2 Pushover Deformations
 
 <img src="/assets/img/Junjae-graduation thesis/성능점변위.png" width="1200"/>
 
