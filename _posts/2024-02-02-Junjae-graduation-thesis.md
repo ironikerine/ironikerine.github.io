@@ -132,7 +132,7 @@ $$G=전단탄성계수$$
 
 플랜지의 폭두께비 검토
 
-$$\lambda=\frac{b}{t_f}=\frac{300/2}{20}=26.61$$
+$$\lambda=\frac{b}{t_f}=\frac{300/2}{20}=7.5$$
 
 -내진조밀단면 폭두께비 : $b/t_f \leq \lambda_{pf} = 0.30 \sqrt{E/F_{ye}}$
 
@@ -142,7 +142,7 @@ $$\lambda_{pf} = 0.30 \sqrt{E/F_{ye}}=0.30 \sqrt{\frac{210,000,000}{265,000}}=8.
 
 $$\lambda_{rf} = 0.38 \sqrt{E/F_{ye}}=0.38 \sqrt{\frac{210,000,000}{265,000}}=10.69$$
 
-$\lambda > \lambda_{rf}$ 이므로 플랜지는 비조밀단면
+$\lambda < \lambda_{pf}$ 이므로 플랜지는 조밀단면
 
 웨브의 폭두께비 검토
 
@@ -156,7 +156,7 @@ $$\lambda_{pw} = 2.45 \sqrt{E/F_{ye}}=2.45 \sqrt{\frac{210,000,000}{265,000}}=68
 
 $$\lambda_{rw} = 3.76 \sqrt{E/F_{ye}}= 3.76 \sqrt{\frac{210,000,000}{265,000}}=105.84$$
 
-$\lambda \leq \lambda_{pw}$ 이므로 웨브는 조밀단면
+$\lambda < \lambda_{pw}$ 이므로 웨브는 조밀단면
 
 H형강보는 비조밀 단면으로 판별
 
