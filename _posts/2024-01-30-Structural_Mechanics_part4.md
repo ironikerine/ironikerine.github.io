@@ -9,7 +9,7 @@ title: "Structura Mechanics part4"
 
 # 4.1-3 다음 내민보를 해석하라.
 
-<img src="/assets/img/Structural_Mechanics_Study/SM_4.1-3_1.jpg" width="1200"/>
+<img src="/assets/img/Structural_Mechanics_Study/SM_4.1-3_1.jpg" width="500"/>
 
 ## 1. 부정정 차수 판별
 
