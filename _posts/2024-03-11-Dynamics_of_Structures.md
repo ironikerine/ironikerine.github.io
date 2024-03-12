@@ -31,22 +31,22 @@ $$ u = u(0) \qquad \dot{u} = \dot{u}(0) $$
 ### 연습문제
 
 3\. 무게 250k의 추가 스프링과 감쇠기로 지지됨.<br/>
-처짐은 0.8m 이고, 수직 진동 사이클이 두 사이클 이후 1/8로 감쇠됨.
+처짐은 0.8m 이고, 수직 진동 사이클이 두 사이클 이후 1/8로 감쇠됨. <br/> <br/>
 
-(a) 무감쇠 고유진동수<br/>
-$u(0) = 0.8m, \quad \dot u(0) = 0$
-$k \times 0.8m = 250kg \times 9.8m/s^2, \quad k = 3,060N/m$
-$\omega_n = \sqrt{\dfrac{3,060N/m}{250kg}} = 3.5 rad/s$
-$f_n = \omega_n / 2\pi = 0.557Hz$
-∴ 무감쇠 고유진동수 = 0.557Hz
-
-(b) 감쇠비
-$\delta = (1/j) \ln(u_1/u_{j+1}) = 2\pi\zeta$
-$j=2$ 이고  $u_3 = u_1/8$ 이므로 $\zeta = \ln8 / 4\pi = 0.17$
-∴ 감쇠비 = 0.17
-
-(c) 감쇠 고유진동수
-$f_d = f_n \times \sqrt{1-\zeta^2} = 0.549Hz$
-∴ 감쇠 고유진동수 = 0.549Hz 로 감쇠로 인한 주파수 변화는 크지 않다
+(a) 무감쇠 고유진동수 <br/>
+$u(0) = 0.8m, \quad \dot u(0) = 0$ <br/>
+$k \times 0.8m = 250kg \times 9.8m/s^2, \quad k = 3,060N/m$ <br/>
+$\omega_n = \sqrt{\dfrac{3,060N/m}{250kg}} = 3.5 rad/s$ <br/>
+$f_n = \omega_n / 2\pi = 0.557Hz$ <br/>
+∴ 무감쇠 고유진동수 = 0.557Hz <br/>
+ <br/>
+(b) 감쇠비 <br/>
+$\delta = (1/j) \ln(u_1/u_{j+1}) = 2\pi\zeta$ <br/>
+$j=2$ 이고  $u_3 = u_1/8$ 이므로 $\zeta = \ln8 / 4\pi = 0.17$ <br/>
+∴ 감쇠비 = 0.17 <br/>
+ <br/>
+(c) 감쇠 고유진동수 <br/>
+$f_d = f_n \times \sqrt{1-\zeta^2} = 0.549Hz$ <br/>
+∴ 감쇠 고유진동수 = 0.549Hz 로 감쇠로 인한 주파수 변화는 크지 않다 <br/>
 
 
