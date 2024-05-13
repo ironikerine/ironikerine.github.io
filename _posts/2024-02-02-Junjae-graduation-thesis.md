@@ -98,6 +98,20 @@ X
 
 두 번째는 가새가 변형지배거동에 지배된 힌지속성을 적용한 구조물의 내진성능평가를 진행하였다. 이는 가새의 파단 모드를 총단면항복과 유효순단면파단으로 제어한 것으로, 가새가 항복 후 연성 거동을 통해 기대한 성능을 발현한 것이다. 이를 위해 파단 모드제어를 위한 가새 접합부 상세를 설계하였다.
 
+지배거동에 따른 비탄성변형 거동양상은 아래와 같이 분류된다.
+
+#### 3.3.1.1 Non-linear Hinge Properties(Force-dominated behavior)
+
+<img src="/assets/img/Junjae-graduation thesis/힘지배거동시.png" width="1200"/>
+
+힘지배거동으로 분류된 가새는 항복 이후 성능을 상실하는 비탄성변형 거동양상을 적용하였다.
+
+#### 3.3.1.2 Non-linear Hinge Properties(Transformation-dominated behavior)
+
+<img src="/assets/img/Junjae-graduation thesis/변형지배거동시.png" width="1200"/>
+
+변형지배거동으로 분류된 가새는 항복 이후 충분한 연성능력을 발휘하는 비탄성변형 거동양상을 적용하였다.
+
 ### 3.3.2 Pushover Curve
 
 <img src="/assets/img/Junjae-graduation thesis/밑면전단력변위곡선.png" width="800"/>
