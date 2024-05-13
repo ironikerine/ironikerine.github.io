@@ -19,7 +19,7 @@ title: "Lim Jun-jae graduation thesis material"
 
 대상 시설물은 지상 3층 규모의 공장 및 창고 시설물로 최고 높이 20m의 철골 구조물이다.(Fig. 1) 시설물은 외형적으로 철골모멘트골조와 세장한 가새가 함께 존재하는 건물 시스템이다. 철골모멘트골조의 보-기둥의 접합부는 컬럼트리 모멘트접합으로 강축과 약축 모두 모멘트접합으로 되어있다. 세장한 가새는 지진하중에 대한 시스템의 안정성과 변위 제어를 위해 설계되었으며, 단면은 L-75×75×6(전층)이다. 가새는 골조 프레임에 용접 전합된 거셋 플레이트에 고장력볼트로 접합되어 있다. 시설물은 현행 강구조설계기준(KDS 41 30 00:2022)과 건축물 내진설계기준(KDS 41 17 00:2022)을 토대로 설계되었다.
 
-<img src="/assets/img/Junjae-graduation thesis/Fig1.png" width="1200"/>
+<img src="/assets/img/Junjae-graduation thesis/Fig.1.png" width="1200"/>
 
 <img src="/assets/img/Junjae-graduation thesis/Fig.2.png" width="1200"/>
 
