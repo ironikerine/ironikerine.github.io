@@ -66,7 +66,6 @@ $$T \geq T_s일 때, 스펙트럼가속도 S_a=5초$$
 <img src="/assets/img/Junjae-graduation thesis/응답스펙트럼.png" width="1200"/>
 <br />
 
-<img src="/assets/img/Junjae-graduation thesis/주기.jpg" width="1200"/>
 
 ### 3.2.2 부재의 DCR 검토
 
@@ -79,9 +78,20 @@ $$T \geq T_s일 때, 스펙트럼가속도 S_a=5초$$
 <img src="/assets/img/Junjae-graduation thesis/DCR3.png" width="1200"/>
 <br />
 
-### 3.2.3 변위 검토
+### 3.2.4 Vibration Mode Shape
 
-<img src="/assets/img/Junjae-graduation thesis/층간변위Y.png" width="1200"/>
+<img src="/assets/img/Junjae-graduation thesis/Table.6.png" width="1200"/>
+
+### 3.2.3 Story Dirft
+
+#### 3.2.3.1 Dirft(X)
+
+<img src="/assets/img/Junjae-graduation thesis/drift X.png" width="1200"/>
+
+#### 3.2.3.2 Dirft(Y)
+
+<img src="/assets/img/Junjae-graduation thesis/drift Y.png" width="1200"/>
+
 
 ### 3.3 비선형정적해석(PUSHOVER해석)
 
