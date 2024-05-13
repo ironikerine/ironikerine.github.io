@@ -97,11 +97,11 @@ X
 
 <img src="/assets/img/Junjae-graduation thesis/EX,Y Y.png" width="1200"/>
 
-#### 3.2.5.3 Stiffness Irregularity(X) - EX,EY
+#### 3.2.5.3 Stiffness Irregularity(X) - RX,RY
 
 <img src="/assets/img/Junjae-graduation thesis/RX,Y X.png" width="1200"/>
 
-#### 3.2.5.4 Stiffness Irregularity(Y) - EX, EY
+#### 3.2.5.4 Stiffness Irregularity(Y) - RX, RY
 
 <img src="/assets/img/Junjae-graduation thesis/RX,Y Y.png" width="1200"/>
 
