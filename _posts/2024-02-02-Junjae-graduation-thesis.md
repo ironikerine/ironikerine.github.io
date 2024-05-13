@@ -33,7 +33,7 @@ title: "Lim Jun-jae graduation thesis material"
 
 ### 2.2. 지진하중
 
-기준에 따라 대상 시설물은 내진Ⅱ등급 시설물로 분류되고, Table.1, Table.2의 계수에 따라 설계 지진하중을 산정하였다.
+기준에 따라 대상 시설물은 내진Ⅱ등급 시설물로 분류되고, Table.4, Table.5의 계수에 따라 설계 지진하중을 산정하였다.
 
 <img src="/assets/img/Junjae-graduation thesis/Table.4.png" width="1200"/>
 
@@ -45,7 +45,7 @@ title: "Lim Jun-jae graduation thesis material"
 
 ### 3.1 주요 부재 설계(예비설계)
 
-<img src="/assets/img/Junjae-graduation thesis/부재표(특).jpg" width="1200"/>
+<img src="/assets/img/Junjae-graduation thesis/Table.1.png" width="1200"/>
 
 ### 3.2 선형동적해석(응답스펙트럼해석법)
 
