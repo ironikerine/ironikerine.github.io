@@ -131,9 +131,9 @@ X
 
 ### 3.3.2 Pushover Curve
 
-<img src="/assets/img/Junjae-graduation thesis/Pushover X.png" width="1200"/>
+<img src="/assets/img/Junjae-graduation thesis/pushover X.png" width="1200"/>
 
-<img src="/assets/img/Junjae-graduation thesis/Pushover Y.png" width="1200"/>
+<img src="/assets/img/Junjae-graduation thesis/pushover Y.png" width="1200"/>
 
 
 ### 3.3.3 Pushover Elemetn Yield Status
