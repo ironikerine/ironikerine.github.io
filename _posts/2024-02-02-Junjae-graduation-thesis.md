@@ -138,7 +138,15 @@ X
 
 ### 3.3.3 Pushover Curve
 
+#### 3.3.3.1 X-dir
+
+<img src="/assets/img/Junjae-graduation thesis/pushover X.png" width="1200"/>
+
 <img src="/assets/img/Junjae-graduation thesis/pushover X r1.png" width="1200"/>
+
+#### 3.3.3.2 Y-dir
+
+<img src="/assets/img/Junjae-graduation thesis/pushover Y.png" width="1200"/>
 
 <img src="/assets/img/Junjae-graduation thesis/pushover Y r1.png" width="1200"/>
 
