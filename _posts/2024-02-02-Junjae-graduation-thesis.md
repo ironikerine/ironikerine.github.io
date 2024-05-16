@@ -129,21 +129,28 @@ X
 
 변형지배거동으로 분류된 가새는 항복 이후 충분한 연성능력을 발휘하는 비탄성변형 거동양상을 적용하였다.
 
-### 3.3.2 Pushover Curve
+### 3.3.2 Pushover Curve - 가새 항복변위 적용 전/후 비교
 
-<img src="/assets/img/Junjae-graduation thesis/pushover X.png" width="1200"/>
+<img src="/assets/img/Junjae-graduation thesis/after detail compare X.png" width="1200"/>
 
-<img src="/assets/img/Junjae-graduation thesis/pushover Y.png" width="1200"/>
+<img src="/assets/img/Junjae-graduation thesis/after detail compare Y.png" width="1200"/>
 
 
-### 3.3.3 Pushover Elemetn Yield Status
+### 3.3.3 Pushover Curve
+
+<img src="/assets/img/Junjae-graduation thesis/pushover X r1.png" width="1200"/>
+
+<img src="/assets/img/Junjae-graduation thesis/pushover Y r1.png" width="1200"/>
+
+
+### 3.3.4 Pushover Elemetn Yield Status
 
 X
 
-### 3.3.4 Pushover Hinge
+### 3.3.5 Pushover Hinge
 
 X
 
-### 3.3.2 Pushover Deformations
+### 3.3.6 Pushover Deformations
 
 X
