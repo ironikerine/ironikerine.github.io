@@ -135,30 +135,43 @@ X
 
 <img src="/assets/img/Junjae-graduation thesis/after detail compare Y.png" width="1200"/>
 
+### 3.3.2 Pushover Curve - 가새 항복변위 적용 전/후 비교
 
-### 3.3.3 Pushover Curve
+<img src="/assets/img/Junjae-graduation thesis/after detail compare X.png" width="1200"/>
 
-#### 3.3.3.1 X-dir
+<img src="/assets/img/Junjae-graduation thesis/after detail compare Y.png" width="1200"/>
 
-<img src="/assets/img/Junjae-graduation thesis/pushover X.png" width="1200"/>
+### 3.3.3 Pushover Hinge Result
+
+#### 3.3.3.1 Force-Step
+
+<img src="/assets/img/Junjae-graduation thesis/brace axial.png" width="1200"/>
+
+#### 3.3.3.2 Deformation-Step
+
+<img src="/assets/img/Junjae-graduation thesis/brace deformation.png" width="1200"/>
+
+#### 3.3.3.3 Force-Deformation
+
+<img src="/assets/img/Junjae-graduation thesis/brace force-deformation.png" width="1200"/>
+
+#### 3.3.4.1 X-dir
 
 <img src="/assets/img/Junjae-graduation thesis/pushover X r1.png" width="1200"/>
 
-#### 3.3.3.2 Y-dir
-
-<img src="/assets/img/Junjae-graduation thesis/pushover Y.png" width="1200"/>
+#### 3.3.4.2 Y-dir
 
 <img src="/assets/img/Junjae-graduation thesis/pushover Y r1.png" width="1200"/>
 
 
-### 3.3.4 Pushover Elemetn Yield Status
+### 3.3.5 Pushover Elemetn Yield Status
 
 X
 
-### 3.3.5 Pushover Hinge
+### 3.3.6 Pushover Hinge
 
 X
 
-### 3.3.6 Pushover Deformations
+### 3.3.7 Pushover Deformations
 
 X
