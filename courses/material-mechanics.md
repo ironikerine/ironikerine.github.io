@@ -26,7 +26,7 @@ Professor Sung-Yong Kim
 
 Introduction to structural stability
 
-Lecture Notes [01](/courses/material-mechanics/Lecture01.pdf) [02](/courses/material-mechanics/Lecture02.pdf)
+<!-- Lecture Notes [01](/courses/material-mechanics/Lecture01.pdf) [02](/courses/material-mechanics/Lecture02.pdf) -->
 
 ## Week 3-4: Structural Analysis of RC Members
 
@@ -35,7 +35,7 @@ Load types and combinations
 Analysis of simply supported beams and slabs
 Moment-curvature relationships
 
-Lecture Notes [03](/courses/material-mechanics/Lecture03.pdf) [04](/courses/material-mechanics/Lecture04.pdf)
+<!-- Lecture Notes [03](/courses/material-mechanics/Lecture03.pdf) [04](/courses/material-mechanics/Lecture04.pdf) -->
 
 ## Week 5-6: Flexural Design of Beams and One-Way Slabs
 
@@ -44,7 +44,7 @@ Tension and compression reinforcement
 Flexural strength calculations
 Serviceability requirements
 
-Lecture Notes [05](/courses/material-mechanics/Lecture05.pdf) [06](/courses/material-mechanics/Lecture06.pdf)
+<!-- Lecture Notes [05](/courses/material-mechanics/Lecture05.pdf) [06](/courses/material-mechanics/Lecture06.pdf) -->
 
 ## Week 7-8: Shear and Torsion in RC Members
 
@@ -53,7 +53,7 @@ Shear reinforcement and stirrups
 Torsion design provisions
 Design for combined shear and torsion
 
-Lecture Notes [07](/courses/material-mechanics/Lecture07.pdf) [08](/courses/material-mechanics/Lecture08.pdf)
+<!-- Lecture Notes [07](/courses/material-mechanics/Lecture07.pdf) [08](/courses/material-mechanics/Lecture08.pdf) -->
 
 
 ## Week 9-10: Axial Load and Compression Members
@@ -63,7 +63,7 @@ Short-term and long-term effects
 Interaction diagrams
 Column detailing
 
-Lecture Notes [09](/courses/material-mechanics/Lecture09.pdf) [10](/courses/material-mechanics/Lecture10.pdf)
+<!-- Lecture Notes [09](/courses/material-mechanics/Lecture09.pdf) [10](/courses/material-mechanics/Lecture10.pdf) -->
 
 ## Week 11-12: Bond and Development Length
 
@@ -72,7 +72,7 @@ Factors affecting bond strength
 Lap splicing and mechanical couplers
 Anchorage of reinforcement
 
-Lecture Notes [11](/courses/material-mechanics/Lecture11.pdf) [12](/courses/material-mechanics/Lecture12.pdf)
+<!-- Lecture Notes [11](/courses/material-mechanics/Lecture11.pdf) [12](/courses/material-mechanics/Lecture12.pdf) -->
 
 ## Week 13-14: Design of Two-Way Slabs and Beams
 
@@ -81,7 +81,7 @@ Design methods for two-way slabs
 Design of flat plates
 Punching shear considerations
 
-Lecture Notes [13](/courses/material-mechanics/Lecture13.pdf) [14](/courses/material-mechanics/Lecture14.pdf)
+<!-- Lecture Notes [13](/courses/material-mechanics/Lecture13.pdf) [14](/courses/material-mechanics/Lecture14.pdf) -->
 
 ## Week 15: Final Design Projects and Presentations
 
@@ -89,15 +89,15 @@ Group design projects applying all learned concepts
 Presentation of design projects to the class
 Peer review and critique
 
-Lecture Notes [15](/courses/material-mechanics/Lecture15.pdf)
+<!-- Lecture Notes [15](/courses/material-mechanics/Lecture15.pdf) -->
 
-# Assessment Methods:
+# Assessment Methods
 
-Midterm Exam - 20%
-Final Exam - 30%
-Homework Assignments - 20%
-Group Design Projects - 20%
-Class Participation and Quizzes - 10%
+- Midterm Exam: 20%
+- Final Exam: 30%
+- Homework Assignments: 20%
+- Group Design Projects: 20%
+- Class Participation and Quizzes: 10%
 
 # Textbook:
 Chen, W.-F., & Lui, E. M. (1987). Structural Stability: Theory and Implementation. Elsevier.
