@@ -4,7 +4,7 @@ menu:
 - {name: 'Posts', url: '/researches'}
 - {name: 'Pubs', url: '/publications'}
 - {name: 'Proj', url: '/projects'}
-- {name: 'Courses', url: '/courses'}
+# - {name: 'Courses', url: '/courses'}
 - {name: 'Contact', url: '/contact'}
 
 people:
@@ -14,19 +14,19 @@ people:
 - {name: 'Jun-Jae Lim', title: 'MS Course', email: 'rkdlq2468@naver.com', office: 'Engineering Building 51-207', image: 'assets/img/JJ LIM.jpg', url: 'jun-jae'}
 - {name: 'Sang-Joon Lee' , title: 'MS Course(2024.03 - Current)', email: 'gigonoto@naver.com', office: 'Engineering Building 51-207', image: 'assets/img/SJ_Lee.jpg', url: 'sang-joon'}
 
-courses:
-- {name: 'AEA0164: Mechanics of Materials in Architecture and Buildings', url: 'material-mechanics'}
-- {name: 'Structural Analysis', url: 'structural-analysis'}
-- {name: 'Structural Stability', url: 'structural-stability'}
-- {name: 'ARA0119: Structural Mechanics and Systems', url: structural-systems}
-- {name: 'Reinforced Concrete and Steel Structures', url: 'RC-and-steel'}
-# - {name: 'ARA0119: 구조역학 및 시스템', url: 'Solutions'}
+# courses:
+# - {name: 'AEA0164: Mechanics of Materials in Architecture and Buildings', url: 'material-mechanics'}
+# - {name: 'Structural Analysis', url: 'structural-analysis'}
+# - {name: 'Structural Stability', url: 'structural-stability'}
+# - {name: 'ARA0119: Structural Mechanics and Systems', url: structural-systems}
+# - {name: 'Reinforced Concrete and Steel Structures', url: 'RC-and-steel'}
+# # - {name: 'ARA0119: 구조역학 및 시스템', url: 'Solutions'}
 
 projects:
 - {name: '[SEN Enginnering Group] Vibration Servicability Evaluation for H-Bank', url: 'h-bank'}
-- {name: '[SEN Enginnering Group] Vibration Servicability Evaluation for H-Bank', url: 'w-bank'}
+- {name: '[SEN Enginnering Group] Vibration Servicability Evaluation for W-Bank', url: 'w-bank'}
 - {name: '[Samsung CnT] High Friction Coefficient for High-Strength Bolted Connection', url: 'SamsungCnT01'}
-- {name: '[POSCO and POSCO EnC] 비파괴 내화물 잔존량 측정기술 개발', url: 'POSCOEnC01'}
+- {name: '[POSCO EnC, POSCO, and SNNC] 비파괴 내화물 잔존량 측정기술 개발', url: 'POSCOEnC01'}
 
 # \subsection*{Research Director}
 # \years{2020}에너지-내진성능~동시확보를~위한~열교차단파스너의~실물대실험, \texttt{교육부}\\
