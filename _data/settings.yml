@@ -4,7 +4,7 @@ menu:
 - {name: 'Posts', url: '/researches'}
 - {name: 'Pubs', url: '/publications'}
 - {name: 'Proj', url: '/projects'}
-# - {name: 'Courses', url: '/courses'}
+- {name: 'Courses', url: '/courses'}
 - {name: 'Contact', url: '/contact'}
 
 people:
@@ -14,13 +14,14 @@ people:
 - {name: 'Jun-Jae Lim', title: 'MS Course', email: 'rkdlq2468@naver.com', office: 'Engineering Building 51-207', image: 'assets/img/JJ LIM.jpg', url: 'jun-jae'}
 - {name: 'Sang-Joon Lee' , title: 'MS Course(2024.03 - Current)', email: 'gigonoto@naver.com', office: 'Engineering Building 51-207', image: 'assets/img/SJ_Lee.jpg', url: 'sang-joon'}
 
-# courses:
+courses:
 # - {name: 'AEA0164: Mechanics of Materials in Architecture and Buildings', url: 'material-mechanics'}
 # - {name: 'Structural Analysis', url: 'structural-analysis'}
 # - {name: 'Structural Stability', url: 'structural-stability'}
 # - {name: 'ARA0119: Structural Mechanics and Systems', url: structural-systems}
 # - {name: 'Reinforced Concrete and Steel Structures', url: 'RC-and-steel'}
 # # - {name: 'ARA0119: 구조역학 및 시스템', url: 'Solutions'}
+- {name: 'AEB2179: Finite Element Method', url: 'FEM'}
 
 projects:
 - {name: '[SEN Enginnering Group] Vibration Servicability Evaluation for H-Bank', url: 'h-bank'}
