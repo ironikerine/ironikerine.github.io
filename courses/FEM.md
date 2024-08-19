@@ -5,17 +5,15 @@ title: "AEB2179: Finite Element Method"
 
 # Course Information
 - Course Title: Finite Element Method
-
 - Course Code: AEB2179
-
 - Course Description: (to be updated)
 - Prerequisites:
-
-Structural Mechanics
-Architectural Structures and Systems
-
-- Instructor:
-Professor Sung-Yong Kim
+    - Material Mechanics, Structural Mechanics, Structural Analysis,
+    - Linear Algebra (Matrix Analysis)
+- Textbook
+    - Hibbeler, R. C. (2012). Structural Analysis (8th ed). Prentice Hall.
+    - McGuire, W., Gallagher, R. H., Ziemian, R. D., & MacGuire, W. (2000). Matrix structural analysis (2. ed). Wiley.
+    - Khennane, A. (2013). Introduction to Finite Element Analysis Using MATLAB and ABAQUS (0 ed.). CRC Press. https://doi.org/10.1201/b15042
 
 <!-- - [Course Outline](/courses/RC-and-steel/Syllabus.pdf) -->
 

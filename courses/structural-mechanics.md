@@ -1,15 +1,16 @@
 ---
 layout: page
-title: "Reinforced Concrete and Steel Structures"
+title: "Structural Mechanics in Architecture and Buildings"
 ---
 
 # Course Information
-- Course Title: Reinforced Concrete and Steel Structures
+- Course Title: Structural Stability
 
-- Course Code: ARA0111
+- Course Code: - (to be updated)
 
 - Course Description:
-This course provides an in-depth exploration of reinforced concrete and steel structures. Students will learn to analyze structural requirements, design concrete and steel members, and apply industry standards. Topics include material properties, structural behavior, design codes, and hands-on design projects.
+
+(to be updated) This course provides an in-depth exploration of reinforced concrete and steel structures. Students will learn to analyze structural requirements, design concrete and steel members, and apply industry standards. Topics include material properties, structural behavior, design codes, and hands-on design projects.
 
 - Prerequisites:
 
@@ -19,17 +20,16 @@ Architectural Structures and Systems
 - Instructor:
 Professor Sung-Yong Kim
 
-<!-- - [Course Outline](/courses/RC-and-steel/Syllabus.pdf) -->
-
 # Course Schedule:
-## Week 1-2: Introduction to Reinforced Concrete 
+## Week 1-2: Introduction to Stability Analysis
 
 Introduction to reinforced concrete as a construction material
 Historical development and applications
 Material properties of concrete and steel
 Design standards
 
-<!-- Lecture Notes [01](/courses/RC-and-steel/Lecture01.pdf) [02](/courses/RC-and-steel/Lecture02.pdf) -->
+<!-- [Lecture Note 01](/courses/structural-stability/Lecture01.pdf)
+[Lecture Note 01](/courses/structural-stability/Lecture02.pdf) -->
 
 ## Week 3-4: Structural Analysis of RC Members
 
@@ -38,7 +38,8 @@ Load types and combinations
 Analysis of simply supported beams and slabs
 Moment-curvature relationships
 
-<!-- Lecture Notes [03](/courses/RC-and-steel/Lecture03.pdf) [04](/courses/RC-and-steel/Lecture04.pdf) -->
+<!-- [Lecture Note 03](/courses/structural-stability/Lecture03.pdf)
+[Lecture Note 04](/courses/structural-stability/Lecture04.pdf) -->
 
 ## Week 5-6: Flexural Design of Beams and One-Way Slabs
 
@@ -47,7 +48,7 @@ Tension and compression reinforcement
 Flexural strength calculations
 Serviceability requirements
 
-<!-- Lecture Notes [05](/courses/RC-and-steel/Lecture05.pdf) [06](/courses/RC-and-steel/Lecture06.pdf) -->
+<!-- - [Lecture 03](/courses/RC-and-steel/Lecture01.pdf) -->
 
 ## Week 7-8: Shear and Torsion in RC Members
 
@@ -56,27 +57,18 @@ Shear reinforcement and stirrups
 Torsion design provisions
 Design for combined shear and torsion
 
-<!-- Lecture Notes [07](/courses/RC-and-steel/Lecture07.pdf) [08](/courses/RC-and-steel/Lecture08.pdf) -->
-
-
 ## Week 9-10: Axial Load and Compression Members
 
 Design of columns and pedestals
 Short-term and long-term effects
 Interaction diagrams
 Column detailing
-
-<!-- Lecture Notes [09](/courses/RC-and-steel/Lecture09.pdf) [10](/courses/RC-and-steel/Lecture10.pdf) -->
-
 ## Week 11-12: Bond and Development Length
 
 Bond stress and development length requirements
 Factors affecting bond strength
 Lap splicing and mechanical couplers
 Anchorage of reinforcement
-
-<!-- Lecture Notes [11](/courses/RC-and-steel/Lecture11.pdf) [12](/courses/RC-and-steel/Lecture12.pdf) -->
-
 ## Week 13-14: Design of Two-Way Slabs and Beams
 
 Two-way slab systems
@@ -84,15 +76,11 @@ Design methods for two-way slabs
 Design of flat plates
 Punching shear considerations
 
-<!-- Lecture Notes [13](/courses/RC-and-steel/Lecture13.pdf) [14](/courses/RC-and-steel/Lecture14.pdf) -->
-
 ## Week 15-16: Final Design Projects and Presentations
 
 Group design projects applying all learned concepts
 Presentation of design projects to the class
 Peer review and critique
-
-<!-- Lecture Notes [15](/courses/RC-and-steel/Lecture15.pdf) -->
 
 # Assessment Methods:
 
@@ -103,7 +91,7 @@ Group Design Projects - 20%
 Class Participation and Quizzes - 10%
 
 # Textbook:
-"Reinforced Concrete: Mechanics and Design" by James K. Wight and James G. MacGregor
+Chen, W.-F., & Lui, E. M. (1987). Structural Stability: Theory and Implementation. Elsevier.
 
 # Course Policies:
 

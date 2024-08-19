@@ -22,6 +22,7 @@ courses:
 # - {name: 'Reinforced Concrete and Steel Structures', url: 'RC-and-steel'}
 # # - {name: 'ARA0119: 구조역학 및 시스템', url: 'Solutions'}
 - {name: 'AEB2179: Finite Element Method', url: 'FEM'}
+- {name: 'AEA0165: Structural Mechanics in Architecture and Buildings', url: 'structural-mechanics'}
 
 projects:
 - {name: '[SEN Enginnering Group] Vibration Servicability Evaluation for H-Bank', url: 'h-bank'}
