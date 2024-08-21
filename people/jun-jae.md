@@ -31,20 +31,15 @@ Ph.D Course, School of Architecture, Changwon National University, Korea
 ### Projects
 
 #### Research Director
---
 
 #### Participating Researcher
---
 
 ### Publications
 
 #### Journal articles
 
 ##### International
---
 
 ##### Domestic
 
-
 ##### Conferences (International Only)
---
