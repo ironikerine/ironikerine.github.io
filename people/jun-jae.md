@@ -19,7 +19,7 @@ Ph.D Course, School of Architecture, Changwon National University, Korea
 ### Research Area
 
 - Non-linear Static Analysis
-- Perfirnabce-Based Seismic Design
+- Performance-Based Seismic Design
 - Evaluation of Response Modification Factor
 
 ### Education
