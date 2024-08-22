@@ -43,7 +43,7 @@ M.S. Course, School of Architecture, Changwon National University, Korea
 --
 
 ##### Domestic
-안진현, 김성용, and 박건식. ‘다경간 연속스트링거로 구성된 이중바닥 시스템의 강성기반 내진설계’. 한국강구조학회 논문집 36, no. 3 (June 2024): 175–85.
+An, J.-H., Kim, S., & Park, G.-S. (2024). Stiffness-Based Seismic Design of Access Floor System with Multi-Span Continuous Stringers. Journal of Korean Society of Steel Construction, 36(3), 175–185. https://doi.org/10.7781/kjoss.2024.36.3.175
 
 ##### Conferences (International Only)
 --
