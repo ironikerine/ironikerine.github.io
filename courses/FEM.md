@@ -10,10 +10,6 @@ title: "AEB2179: Finite Element Method"
 - Prerequisites:
     - Material Mechanics, Structural Mechanics, Structural Analysis,
     - Linear Algebra (Matrix Analysis)
-- Textbook
-    - Hibbeler, R. C. (2012). Structural Analysis (8th ed). Prentice Hall.
-    - McGuire, W., Gallagher, R. H., Ziemian, R. D., & MacGuire, W. (2000). Matrix structural analysis (2. ed). Wiley.
-    - Khennane, A. (2013). Introduction to Finite Element Analysis Using MATLAB and ABAQUS (0 ed.). CRC Press. https://doi.org/10.1201/b15042
 
 <!-- - [Course Outline](/courses/RC-and-steel/Syllabus.pdf) -->
 
@@ -22,66 +18,66 @@ title: "AEB2179: Finite Element Method"
 
 <!-- Lecture Notes [01](/courses/RC-and-steel/Lecture01.pdf) [02](/courses/RC-and-steel/Lecture02.pdf) -->
 
-## Week 3-4: Structural Analysis of RC Members
+<!-- ## Week 3-4: Structural Analysis of RC Members
 
 Principles of structural analysis
 Load types and combinations
 Analysis of simply supported beams and slabs
-Moment-curvature relationships
+Moment-curvature relationships -->
 
 <!-- Lecture Notes [03](/courses/RC-and-steel/Lecture03.pdf) [04](/courses/RC-and-steel/Lecture04.pdf) -->
 
-## Week 5-6: Flexural Design of Beams and One-Way Slabs
+<!-- ## Week 5-6: Flexural Design of Beams and One-Way Slabs
 
 Design assumptions and methods
 Tension and compression reinforcement
 Flexural strength calculations
-Serviceability requirements
+Serviceability requirements -->
 
 <!-- Lecture Notes [05](/courses/RC-and-steel/Lecture05.pdf) [06](/courses/RC-and-steel/Lecture06.pdf) -->
 
-## Week 7-8: Shear and Torsion in RC Members
+<!-- ## Week 7-8: Shear and Torsion in RC Members
 
 Shear and torsion behavior in concrete
 Shear reinforcement and stirrups
 Torsion design provisions
-Design for combined shear and torsion
+Design for combined shear and torsion -->
 
 <!-- Lecture Notes [07](/courses/RC-and-steel/Lecture07.pdf) [08](/courses/RC-and-steel/Lecture08.pdf) -->
 
 
-## Week 9-10: Axial Load and Compression Members
+<!-- ## Week 9-10: Axial Load and Compression Members
 
 Design of columns and pedestals
 Short-term and long-term effects
 Interaction diagrams
-Column detailing
+Column detailing -->
 
 <!-- Lecture Notes [09](/courses/RC-and-steel/Lecture09.pdf) [10](/courses/RC-and-steel/Lecture10.pdf) -->
 
-## Week 11-12: Bond and Development Length
+<!-- ## Week 11-12: Bond and Development Length
 
 Bond stress and development length requirements
 Factors affecting bond strength
 Lap splicing and mechanical couplers
-Anchorage of reinforcement
+Anchorage of reinforcement -->
 
 <!-- Lecture Notes [11](/courses/RC-and-steel/Lecture11.pdf) [12](/courses/RC-and-steel/Lecture12.pdf) -->
 
-## Week 13-14: Design of Two-Way Slabs and Beams
+<!-- ## Week 13-14: Design of Two-Way Slabs and Beams
 
 Two-way slab systems
 Design methods for two-way slabs
 Design of flat plates
-Punching shear considerations
+Punching shear considerations -->
 
 <!-- Lecture Notes [13](/courses/RC-and-steel/Lecture13.pdf) [14](/courses/RC-and-steel/Lecture14.pdf) -->
 
-## Week 15-16: Final Design Projects and Presentations
+<!-- ## Week 15-16: Final Design Projects and Presentations
 
 Group design projects applying all learned concepts
 Presentation of design projects to the class
-Peer review and critique
+Peer review and critique -->
 
 <!-- Lecture Notes [15](/courses/RC-and-steel/Lecture15.pdf) -->
 
@@ -94,7 +90,8 @@ Group Design Projects - 20%
 Class Participation and Quizzes - 10%
 
 # Textbook:
-"Reinforced Concrete: Mechanics and Design" by James K. Wight and James G. MacGregor
+- Hibbeler, R. C. (2012). Structural Analysis (8th ed). Prentice Hall.
+- Kwon, Y. W., & Bang, H. (1997). The finite element method using MATLAB. CRC Press.
 
 # Course Policies:
 
