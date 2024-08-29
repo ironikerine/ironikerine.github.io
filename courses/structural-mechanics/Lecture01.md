@@ -16,6 +16,14 @@ ABAQUS 6.14-4
     - Explicit: Impulse
     - Standard: Modal
 sdfjksladfjasdkljf
+---
+# 강재의 인장응력-변형률 곡선
+
+- 이ㅏ러아너ㅣㄹ
+- ㄴ어ㅏㅣㅎㅁ넝ㅎ
+- 탄성역: 미ㅏㅓㅇㄴ리ㅏㅓㅁㄴ
+- 소성역: ㄴ이ㅏ허ㅣㅁ너ㅏㅎ
+
 sdkljflkasdjg
 sdjkljflaskdjf
 sdklfjlasjdf
