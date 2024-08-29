@@ -5,7 +5,7 @@ title: "Student"
 
 ## Sang-Joon Lee 
 
-Master Couse (2024.03 - Current)
+Master Course (2024.03 - Current)
 
 E: gigonoto@naver.com
 

@@ -5,7 +5,7 @@ title: "Student"
 
 ## Jin-Hyeong Park 
 
-Bachelor Couse (2020.03 - Current)
+Bachelor Course (2020.03 - Current)
 
 E: jubu3706@naver.com
 
