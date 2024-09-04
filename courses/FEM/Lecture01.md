@@ -24,25 +24,19 @@ where:
 
 ## Simplification Using Linear Characteristics
 
-We approximate the moment $m(x)$ as a linear function between $x_i$ and $x_{i+1}$:
+The virtual moment $m(x)$ is as a piecewise linear function between $x_i$ and $x_{i+1}$:
 
-$$
-m(x) = a_i x + b_i, \quad \alpha_i \leq \alpha < \alpha_{i+1}
-$$
+$$ m(x) = a_i x + b_i, \quad x_i \leq \alpha < x_{i+1} $$
 
 ### Integral Simplification
 
-Substituting the linear approximation into the integral:
+Substituting the piecewise linear relationship into the integral:
 
-$$
-A_i = \sum_{i=1}^{N-1} \int_{\alpha_i}^{\alpha_{i+1}} \frac{M(a_i \alpha + b_i)}{(EI)_i} \, d\alpha
-$$
+$$ A_i = \sum_{i=1}^{N-1} \int_{x_i}^{x_{i+1}} \frac{M(a_i x + b_i)}{(EI)_i} \, \mathrm dx $$
 
 which simplifies to:
 
-$$
-A_i = \sum_{i=1}^{N-1} \left[\frac{1}{A_i} \int_{\alpha_i}^{\alpha_{i+1}} \frac{M}{(EI)_i} \, d\alpha + b_i \cdot A_i \right]
-$$
+$$ A_i = \sum_{i=1}^{N-1} \left[\frac{1}{A_i} \int_{x_i}^{x_{i+1}} \frac{M}{(EI)_i} \, \mathrm dx + b_i \cdot A_i \right] $$
 
 where $b_i$ is a constant over the interval.
 

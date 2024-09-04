@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <title>Dynamics_of_Structures | EEVC Lab</title>
+  <link rel="stylesheet" href="/assets/libs/bootstrap/bootstrap.min.css">
+  <script defer src="/assets/libs/fontawesome/all.min.js"></script>
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="apple-touch-icon" sizes="152x152" href="/assets/apple-icon-152x152.png">
+  <link rel="shortcut icon" href="/assets/favicon.ico">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css" integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X" crossorigin="anonymous">
+  <!-- The loading of KaTeX is deferred to speed up page rendering -->
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.js" integrity="sha384-g7c+Jr9ZivxKLnZTDUhnkOnsh30B4H0rpLUpJ4jAIKs4fnJI+sEnkvrMWph2EDg4" crossorigin="anonymous"></script>
+  <script type="text/x-mathjax-config"> MathJax.Hub.Config({ TeX: { equationNumbers: { autoNumber: "all" } } }); </script>
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+        processEscapes: true
+      }
+    });
+  </script>
+  <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+</head>
+
+  <body>
+    <div class="col-lg-8 mx-auto p-3 py-md-5">
+      <header class="d-flex flex-column flex-md-row align-items-center pb-3 mb-5 border-bottom">
+  <div>
+    <a href="/" class="d-flex align-items-center text-decoration-none">
+      <span class="fs-4 fw-bold">EEVC Lab</span>
+    </a>
+    <a href="/" class="d-flex align-items-center text-decoration-none">
+      <span>Earthquake Engineering & Vibration Control Lab</span>
+    </a>
+  </div>
+  <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto">
+    
+      <a class="me-3 py-2 text-decoration-none" href="/people">People</a>
+    
+      <a class="me-3 py-2 text-decoration-none" href="/researches">Posts</a>
+    
+      <a class="me-3 py-2 text-decoration-none" href="/publications">Pubs</a>
+    
+      <a class="me-3 py-2 text-decoration-none" href="/projects">Proj</a>
+    
+      <a class="me-3 py-2 text-decoration-none" href="/courses">Courses</a>
+    
+      <a class="me-3 py-2 text-decoration-none" href="/contact">Contact</a>
+    
+  </nav>
+</header>
+
+      <div class="row g-5 mb-5">
+  <div class="col-md-12">
+    <h3 class="fw-bold border-bottom pb-3 mb-5">Dynamics_of_Structures</h3>
+    <h2 id="dynamics_of_structures-free-vibration">Dynamics_of_Structures. Free Vibration</h2>
+
+<h3 id="undamped-free-vibration">Undamped Free Vibration</h3>
+<ul>
+  <li>다음 식은 이상화된 선형탄성 구조물에 동적외력 $p(t)$가 작용할 때 변형 또는 변위 $u(t)$를 지배하는 운동방정식이다.</li>
+</ul>
+
+\[m \ddot{u} + c \dot{u} + ku = p(t)\]
+
+<p>여기서 $m \ddot{u}$은 관성력, $c \dot{u}$은 감쇠력, $ku$는 탄성력, $p(t)$는 외력이다. 여기서 $m$은 질량, $c$는 감쇠, $k$는 강성이며,  $\ddot{u}$, $\dot{u}$, $u$는 각각 가속도, 속도, 변위 이다.</p>
+
+<p>이 식에서 $p(t)=0$으로 두면 자유진동에 대한 운동방정식이 구해지고, 무감쇠 시스템($c=0$)에 대해서는 운동방적식이 다음과 같이 표현된다.</p>
+
+\[m \ddot{u} + ku = 0\]
+
+<p>운동의 시작점인 시간 0에서 $u(0)$변위 와 속도 $\dot{u}(0)$를 질량에 작용시켜서 구조 시스템을 정적평형위치(또는 변위가 발생하지 않은 $u=0$ 상태)로부터 벗어나게 함으로써 자유진동은 시작된다.</p>
+
+\[u = u(0) \qquad \dot{u} = \dot{u}(0)\]
+
+<p>위의 초기조건 하에서 동차미분방정식의 해는 다음과 같다.(유도 2.1참조)</p>
+
+<p><br />
+<br />
+<br /></p>
+
+<h3 id="연습문제">연습문제</h3>
+
+<p>3. 무게 250k의 추가 스프링과 감쇠기로 지지됨.<br />
+처짐은 0.8m 이고, 수직 진동 사이클이 두 사이클 이후 1/8로 감쇠됨. <br /> <br /></p>
+
+<p>(a) 무감쇠 고유진동수 <br />
+$u(0) = 0.8m, \quad \dot u(0) = 0$ <br />
+$k \times 0.8m = 250kg \times 9.8m/s^2, \quad k = 3,060N/m$ <br />
+$\omega_n = \sqrt{\dfrac{3,060N/m}{250kg}} = 3.5 rad/s$ <br />
+$f_n = \omega_n / 2\pi = 0.557Hz$ <br />
+∴ 무감쇠 고유진동수 = 0.557Hz <br />
+ <br />
+(b) 감쇠비 <br />
+$\delta = (1/j) \ln(u_1/u_{j+1}) = 2\pi\zeta$ <br />
+$j=2$ 이고  $u_3 = u_1/8$ 이므로 $\zeta = \ln8 / 4\pi = 0.17$ <br />
+∴ 감쇠비 = 0.17 <br />
+ <br />
+(c) 감쇠 고유진동수 <br />
+$f_d = f_n \times \sqrt{1-\zeta^2} = 0.549Hz$ <br />
+∴ 감쇠 고유진동수 = 0.549Hz 로 감쇠로 인한 주파수 변화는 크지 않다 <br /></p>
+
+
+  </div>
+</div>
+
+      <footer class="pt-5 my-5 text-muted border-top">
+  <div class="row">
+    <div class="col-md-6 text-end social-media-icons">
+      
+        <a href="https://github.com/ironikerine" class="ms-3 fs-5"><i class="fab fa-github"></i></a>
+      
+        <a href="https://orcid.org/0000-0002-0110-1546" class="ms-3 fs-5"><i class="fab fa-orcid"></i></a>
+      
+        <a href="https://linkedin.com/in/sung-yong-kim-4a6187181" class="ms-3 fs-5"><i class="fab fa-linkedin"></i></a>
+      
+        <a href="https://scholar.google.com/citations?user=NPAkYewAAAAJ&hl=en" class="ms-3 fs-5"><i class="fab fa-google scholar"></i></a>
+      
+    </div>
+  </div>
+</footer>
+
+    </div>
+  </body>
+</html>

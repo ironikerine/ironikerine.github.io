@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <title>H_Bank_TMD_Analysis | EEVC Lab</title>
+  <link rel="stylesheet" href="/assets/libs/bootstrap/bootstrap.min.css">
+  <script defer src="/assets/libs/fontawesome/all.min.js"></script>
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="apple-touch-icon" sizes="152x152" href="/assets/apple-icon-152x152.png">
+  <link rel="shortcut icon" href="/assets/favicon.ico">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css" integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X" crossorigin="anonymous">
+  <!-- The loading of KaTeX is deferred to speed up page rendering -->
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.js" integrity="sha384-g7c+Jr9ZivxKLnZTDUhnkOnsh30B4H0rpLUpJ4jAIKs4fnJI+sEnkvrMWph2EDg4" crossorigin="anonymous"></script>
+  <script type="text/x-mathjax-config"> MathJax.Hub.Config({ TeX: { equationNumbers: { autoNumber: "all" } } }); </script>
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+        processEscapes: true
+      }
+    });
+  </script>
+  <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+</head>
+
+  <body>
+    <div class="col-lg-8 mx-auto p-3 py-md-5">
+      <header class="d-flex flex-column flex-md-row align-items-center pb-3 mb-5 border-bottom">
+  <div>
+    <a href="/" class="d-flex align-items-center text-decoration-none">
+      <span class="fs-4 fw-bold">EEVC Lab</span>
+    </a>
+    <a href="/" class="d-flex align-items-center text-decoration-none">
+      <span>Earthquake Engineering & Vibration Control Lab</span>
+    </a>
+  </div>
+  <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto">
+    
+      <a class="me-3 py-2 text-decoration-none" href="/people">People</a>
+    
+      <a class="me-3 py-2 text-decoration-none" href="/researches">Posts</a>
+    
+      <a class="me-3 py-2 text-decoration-none" href="/publications">Pubs</a>
+    
+      <a class="me-3 py-2 text-decoration-none" href="/projects">Proj</a>
+    
+      <a class="me-3 py-2 text-decoration-none" href="/courses">Courses</a>
+    
+      <a class="me-3 py-2 text-decoration-none" href="/contact">Contact</a>
+    
+  </nav>
+</header>
+
+      <div class="row g-5 mb-5">
+  <div class="col-md-12">
+    <h3 class="fw-bold border-bottom pb-3 mb-5">H_Bank_TMD_Analysis</h3>
+    <h2 id="h_bank_tmd-수정">H_Bank_TMD 수정</h2>
+
+<h3 id="h_bank_tmd-오류-수정">H_Bank_TMD 오류 수정</h3>
+<ul>
+  <li>기존의 200kg의 mass를 사용하는 TMD의 해석에서 Load to Masses가 X, Y로 입력되어있었음. 이를 Z로 수정하여 해석함. 그 결과는 아래의 그림과 같다.</li>
+</ul>
+
+<p><br /></p>
+
+<p align="center">
+ <img src="/assets/img/H_Bank_TMD/H_Bank_TMD_200_False.jpg" title="H_Bank_TMD_200_False" width="1200" />H_Bank_TMD_200_False
+</p>
+
+<p align="center">
+<img src="/assets/img/H_Bank_TMD/H_Bank_TMD_200.jpg" title="H_Bank_TMD_200" width="1200" />H_Bank_TMD_200
+</p>
+
+<p><br /></p>
+
+<h3 id="h_bank_tmd-질량-변경">H_Bank_TMD 질량 변경</h3>
+<ul>
+  <li>TMD의 질량을 200kg에서 100kg으로 변경하여 비교한다. 진동수와 감쇠비를 고정으로 하며, 질량을 변경하였을때 진동수와 감쇠비를 고정값으로 맞추기 위해 강성과 감쇠는 다음과 같이 진행한다.
+<br />    
+<br />
+    <ul>
+      <li>고정 값
+        <ol>
+          <li>Frequency   : 5.4   Hz</li>
+          <li>Damping ratio : 0.08
+<br />
+<br /></li>
+        </ol>
+      </li>
+      <li>변경 값
+        <ol>
+          <li>Mass  : 100   kg</li>
+          <li>Stiffness  : 110000   N/m</li>
+          <li>Damping : 543   N sec/m
+<br />
+<br /></li>
+        </ol>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<p>다음 그림은 각각 보강 전, 200kg TMD 보강, 100kg TMD 보강에 대한 수치해석 그래프이다.</p>
+
+<p><br /></p>
+<p align="center">
+<img src="/assets/img/H_Bank_TMD/H_Bank_TMD_Before Reinforcement.jpg" title="H_Bank_TMD_Before Reinforcement" width="1200" />H_Bank_TMD_Before Reinforcement
+</p>
+
+<p><br /></p>
+
+<p align="center">
+<img src="/assets/img/H_Bank_TMD/H_Bank_TMD_200.jpg" title="H_Bank_TMD_200" width="1200" />H_Bank_TMD_200
+</p>
+
+<p><br /></p>
+
+<p align="center">
+<img src="/assets/img/H_Bank_TMD/H_Bank_TMD_100.jpg" title="H_Bank_TMD_100" width="1200" />H_Bank_TMD_100
+</p>
+
+
+  </div>
+</div>
+
+      <footer class="pt-5 my-5 text-muted border-top">
+  <div class="row">
+    <div class="col-md-6 text-end social-media-icons">
+      
+        <a href="https://github.com/ironikerine" class="ms-3 fs-5"><i class="fab fa-github"></i></a>
+      
+        <a href="https://orcid.org/0000-0002-0110-1546" class="ms-3 fs-5"><i class="fab fa-orcid"></i></a>
+      
+        <a href="https://linkedin.com/in/sung-yong-kim-4a6187181" class="ms-3 fs-5"><i class="fab fa-linkedin"></i></a>
+      
+        <a href="https://scholar.google.com/citations?user=NPAkYewAAAAJ&hl=en" class="ms-3 fs-5"><i class="fab fa-google scholar"></i></a>
+      
+    </div>
+  </div>
+</footer>
+
+    </div>
+  </body>
+</html>

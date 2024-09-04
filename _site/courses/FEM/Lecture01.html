@@ -1,0 +1,46 @@
+<h1 id="lecture-notes-on-virtual-work-method">Lecture Notes on Virtual Work Method</h1>
+
+<hr />
+
+<h2 id="introduction-to-deflection-calculation">Introduction to Deflection Calculation</h2>
+
+<p>Consider the following integral for calculating the moment over a segment $[x_i, x_{i+1}]$:</p>
+
+\[A_i = \sum_{i=1}^{N-1} \int_{x_i}^{x_{i+1}} \frac{Mm_i}{(EI)_i} \, \mathrm dx\]
+
+<p>where:</p>
+
+<ul>
+  <li>$M$ is the moment at any section.</li>
+  <li>$(EI)<em>i$ is the flexural rigidity, assumed constant over the segment $[x_i, x</em>{i+1}]$.</li>
+</ul>
+
+<hr />
+
+<h2 id="simplification-using-linear-characteristics">Simplification Using Linear Characteristics</h2>
+
+<p>The virtual moment $m(x)$ is as a piecewise linear function between $x_i$ and $x_{i+1}$:</p>
+
+\[m(x) = a_i x + b_i, \quad x_i \leq \alpha &lt; x_{i+1}\]
+
+<h3 id="integral-simplification">Integral Simplification</h3>
+
+<p>Substituting the piecewise linear relationship into the integral:</p>
+
+\[A_i = \sum_{i=1}^{N-1} \int_{x_i}^{x_{i+1}} \frac{M(a_i x + b_i)}{(EI)_i} \, \mathrm dx\]
+
+<p>which simplifies to:</p>
+
+\[A_i = \sum_{i=1}^{N-1} \left[\frac{1}{A_i} \int_{x_i}^{x_{i+1}} \frac{M}{(EI)_i} \, \mathrm dx + b_i \cdot A_i \right]\]
+
+<p>where $b_i$ is a constant over the interval.</p>
+
+<hr />
+
+<h2 id="final-expression-for-deflection-calculation">Final Expression for Deflection Calculation</h2>
+
+<p>Combining the terms, the final expression for the moment distribution is:</p>
+
+\[\sum_{i=1}^{N-1} \left[ a_i \overline{\alpha}_i + b_i \right] \cdot A_i = \sum_{i=1}^{N-1} m(\alpha_i) \cdot A_i\]
+
+<p>Here, $m(\alpha_i)$ represents the moment at the midpoint $\overline{\alpha}_i$ of each segment.</p>
