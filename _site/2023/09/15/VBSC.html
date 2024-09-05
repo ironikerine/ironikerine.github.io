@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <title>Vibration Serviceability Evaluation Criteria | EEVC Lab</title>
+  <link rel="stylesheet" href="/assets/libs/bootstrap/bootstrap.min.css">
+  <script defer src="/assets/libs/fontawesome/all.min.js"></script>
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="apple-touch-icon" sizes="152x152" href="/assets/apple-icon-152x152.png">
+  <link rel="shortcut icon" href="/assets/favicon.ico">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css" integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X" crossorigin="anonymous">
+  <!-- The loading of KaTeX is deferred to speed up page rendering -->
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.js" integrity="sha384-g7c+Jr9ZivxKLnZTDUhnkOnsh30B4H0rpLUpJ4jAIKs4fnJI+sEnkvrMWph2EDg4" crossorigin="anonymous"></script>
+  <script type="text/x-mathjax-config"> MathJax.Hub.Config({ TeX: { equationNumbers: { autoNumber: "all" } } }); </script>
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+        processEscapes: true
+      }
+    });
+  </script>
+  <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+</head>
+
+  <body>
+    <div class="col-lg-8 mx-auto p-3 py-md-5">
+      <header class="d-flex flex-column flex-md-row align-items-center pb-3 mb-5 border-bottom">
+  <div>
+    <a href="/" class="d-flex align-items-center text-decoration-none">
+      <span class="fs-4 fw-bold">EEVC Lab</span>
+    </a>
+    <a href="/" class="d-flex align-items-center text-decoration-none">
+      <span>Earthquake Engineering & Vibration Control Lab</span>
+    </a>
+  </div>
+  <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto">
+    
+      <a class="me-3 py-2 text-decoration-none" href="/people">People</a>
+    
+      <a class="me-3 py-2 text-decoration-none" href="/researches">Posts</a>
+    
+      <a class="me-3 py-2 text-decoration-none" href="/publications">Pubs</a>
+    
+      <a class="me-3 py-2 text-decoration-none" href="/projects">Proj</a>
+    
+      <a class="me-3 py-2 text-decoration-none" href="/courses">Courses</a>
+    
+      <a class="me-3 py-2 text-decoration-none" href="/contact">Contact</a>
+    
+  </nav>
+</header>
+
+      <div class="row g-5 mb-5">
+  <div class="col-md-12">
+    <h3 class="fw-bold border-bottom pb-3 mb-5">Vibration Serviceability Evaluation Criteria</h3>
+    <p>For vibration assessment, various standards, such as BS 6472-1, ISO 2631:2, ISO 10137, and SCI-P354, present methodologies for evaluating vibration effects on structures. The RMS method, regarded as a fundamental approach, is commonly employed. In this method, the acceleration values over a specific time interval are averaged, as follows:</p>
+
+\[a_{w,\mathrm{RMS}}=\Big[\frac{1}{T}\int_0^Ta_w^2(t)\mathrm dt\Big]^{0.5}\]
+
+<h3 id="iso-2631-11997">ISO 2631-1:1997</h3>
+<p>ISO 2631-1:1997에서는 전신진동(whole-body vibration)에 노출된 인체에 대하여 사용자의 건강(health), 안락함(comfort), 진동인지(perception)와 멀미(motion sickness)현상을 정량적으로 평가하는 방법을 규정하고 있다. ISO 2631-1:1997에서는 평가하고자 하는 진동현상 및 앉은 자세, 선 자세와 누운 자세 등 인체가 진동에 노출되는 방향에 따라 각기 다른 진동수가중필터를 적용하여 진동수가중된 가속도응답(frequency-weighted acceleration response)을 평가에 사용하며, 가속도응답의 형태에 따라 RMS, MTVV나 VDV 등 다양한 평가지표를 통해 인체진동을 평가한다.</p>
+
+<h4 id="진동수-가중">진동수 가중</h4>
+<p>ISO 2631-1:1997에서는 진동수에 따른 인체의 민감도를 고려하기 위하여 주파수 별로 가중된 가속도 응답을 평가에 활용한다. 기본적으로 인지가능한 가속도 응답수준은 인체에 전달되는 방향에 따라 달라지므로 이를 고려하기 위해 그림에 제시된 인체좌표계를 사용하여 인체진동을 평가하며, 이때 축은 척추의 방향이다.</p>
+
+<p><img src="vibration-serviceability-fig0001.png" alt="Basicentric axes of the human body (ISO 2631-1)" />
+ISO 2631-1:1997에서는 주요 활동과 인체에 전달되는 진동방향에 대한 , ,  등의 진동수가중을 제시하고 있다. 그림 2는 이 기준에 제시된 진동수가중 필터를 나타낸 것이며, 표 는 ISO 2631-1:1997에 제시된 다양한 진동수가중치를 나타낸 것이다.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Frequency Weighting</th>
+      <th>Health</th>
+      <th>Comfort</th>
+      <th>Perception</th>
+      <th>Motion Sickness</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>$W_k$</td>
+      <td>z-axis, seat surface</td>
+      <td>z-axis, seat surface; z-axis, standing; vertical recumbent (except head); x-, y-, z-axes, feet (sitting)</td>
+      <td>z-axis, seat surface; z-axis, standing; vertical recumbent (except head)</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>$W_d$</td>
+      <td>x-axis, seat surface; y-axis, seat surface; x-, y-axes, standing horizontal recumbent; y-, z-axes, seat-back</td>
+      <td>x-axis, seat surface; y-axis, seat surface; x-, y-axes, standing horizontal recumbent</td>
+      <td>-</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>$W_f$</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>vertical</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>진동수가중된 가속도 응답을 얻기 위한 전달함수 는 고역필터(high pass filter), 저역필터(low pass filter), 가속도-속도 전이필터(acceleration-velocity transition filter)와 상향계단필터(upward step filter)의 조합으로 구성된다.</p>
+
+<ul>
+  <li>고역필터:</li>
+</ul>
+
+\[\vert H_h(f)\vert\]
+
+<ul>
+  <li>저역필터:</li>
+</ul>
+
+\[\vert H_h(f)\vert\]
+
+<ul>
+  <li>가속도-속도 전이필터:</li>
+</ul>
+
+\[\vert H_h(f)\vert\]
+
+<ul>
+  <li>상항계단필터:</li>
+</ul>
+
+\[\vert H_h(f)\vert\]
+
+<p>여기서 , , 와 는 각각 고역필터, 저역필터, 가속도-속도 전이필터와 상항계단 필터로 아래 식에 제시된 전달함수를 가지며, 여기서 각각의 필터에 사용된 매개변수들은 표에 제시된 값을 사용한다.</p>
+
+<h4 id="진동사용성-평가지표">진동사용성 평가지표</h4>
+<p>테스트</p>
+
+<h5 id="주파수가중된-rms가속도">주파수가중된 RMS가속도</h5>
+<p>ISO 2631-1:1997의 진동평가는 기본적으로 식과 같이 정의된 주파수영역에서 가중 처리된 RMS가속도 를 평가지표로 활용한다.</p>
+
+<p>여기서 는 앞절에서 제시된 필터를 바탕으로 주파수영역에서 가중 처리된 가속도이고, 는 응답측정시간이다.</p>
+<h5 id="최대과도진동값mtvv">최대과도진동값(MTVV)</h5>
+<p>일반적으로 주파수영역에서 가중 처리된 RMS가속도는 인체의 진동을 평가함에 있어 유의미한 지표이지만, 지속시간이 짧은 과도진동(transient vibration)이나 충격(shock)를 평가하고자 하는 경우 피크성 진동을 포함한 추가적 평가방법이 필요하다. 이에 ISO 2631-1:1997에서는 주파수 가중된 RMS가속도에 대한 응답의 최대 순간가속도의 비율인 `Crest factor’를 정의하고, 이 값이 9보다 큰 값을 가지는 진동의 경우 최대과도진동값(MTVV, maximum transient vibration value)나 진동누적치(VDV, vibration dose value)를 지표로 하여 인체의 진동을 평가한다. 
+과도적인 진동이나 충격 등을 평가하는 방법으로 다음 식에 따라 순간시간 에서의 이동RMS(running RMS), 를 사용할 수 있다.</p>
+
+<p>여기서 는 순간시간, 는 필터를 바탕으로 주파수가중된 가속도이고, 는 RMS산정을 위한 적분시간이다. 측정된 전체시간에 대해서 이동RMS의 최대값을 최대과도진동값(MTVV)라 한다. 참고로 최대과도진동값은 일반적으로 주파수가중된 RMS가속도에 비해 큰 값을 가지기 때문에 보다 보수적인 진동평가가 요구될 경우 진동성능 평가지표로 활용될 수 있다. 
+최대과도진동값 MTVV는 아래 식을 통해 산정한다.</p>
+
+<p>여기서 는 식을 통해 산정된 주파수가중된 이동RMS 가속도이다. 
+진동누적치(Vibrarion Dose Value, VDV)
+진동에 포함된 일시응답에 민감한 경우에 대하여 다음과 같은 진동누적치(vibration dose value)의 사용을 권장한다.</p>
+
+<h4 id="진동사용성-평가">진동사용성 평가</h4>
+<p>건물의 진동사용성 평가에 있어 대부분의 경우에는 불쾌감을 감소시키거나 제거하는 것을 목표로 하기 때문에 안락감 지표에 따른 진동사용성 평가가 필요하다. 앞서 산정한 주파수가중 RMS가속도나 최대과도진동값 등의 지표를 통해 아래 조건을 만족하는지 검토한다.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Vibration Magnitude</th>
+      <th>ComfortReaction</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Less than 0.315 m/s2</td>
+      <td>not uncomfortable</td>
+    </tr>
+    <tr>
+      <td>0.315 m/s2 to 0.63 m/s2</td>
+      <td>a little uncomfortable</td>
+    </tr>
+    <tr>
+      <td>0.5 m/s2 to 1 m/s2</td>
+      <td>fairly uncomfortable</td>
+    </tr>
+    <tr>
+      <td>0.8 m/s2 to 1.6 m/s2</td>
+      <td>uncomfortable</td>
+    </tr>
+    <tr>
+      <td>1.25 m/s2 to 2.5 m/s2</td>
+      <td>very uncomfortable</td>
+    </tr>
+    <tr>
+      <td>Greater than 2 m/s2</td>
+      <td>extremely uncomfortable</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="aisc-design-guide-112007">AISC Design Guide #11:2007</h3>
+<p>ISO 2631-1:1997과 ISO 10137:2007과는 달리 AISC Design Guide #11(이하 AISC DG #11)에서는 ISO 2631-2:2003의 기본곡선을 기초로 구조물의 고유진동수와 이 때 응답의 최대응답가속도로 구조물의 진동성능을 평가한다. 그림은 AISC에서 제시하는 사용성 평가곡선이다.</p>
+
+<p>그림 AISC 평가곡선
+실의 사용용도에 따른 최대 가속도 크기는 ISO 기준곡선(ISO Baseline Curve for RMS Acceleration, =1, 0.05%g)을 기준으로 가중계수를 적용하여 <code class="language-plaintext highlighter-rouge">사무실, 주거 (Offices, Residences, =10)', </code>실내 보도교, 쇼핑몰, 만찬 및 춤 (Indoor Footbridges, Shopping Malls, Dining and Dancing, =30)’, `율동 행동, 실외 보도교 (Rhythmic Activities Outdoor Footbridges, =100)’으로 구분하였다.
+진동 평가를 위해 최대 가속도를 사용할 경우 두 가지 한계가 나타나는데,  우선 최대 가속도는 필터링과 같은 신호처리 매개변수의 적용에 따라 민감하게 산축된다. 또한 여러 연구자와 기준들이 지적하듯이 진동 지속시간과 진동수 성분은 인체의 진동 민감도에 큰 영향을 미치는데, 최대 가속도를 사용할 경우 이러한 영향이 명백히 무시된다.</p>
+
+<h3 id="iso-2631-22003과-iso-101372007">ISO 2631-2:2003과 ISO 10137:2007</h3>
+<p>국내에는 환경소음진동 및 공동주택 층간소음에 대한 규정은 있으나 현재까지 바닥진동에 대한 사용성 평가 기준이 마련되어 있지 않으며, KS B 0710-2(2006)에서 ISO 2631-2 (ISO, 2003)를 번역하여 한국산업규격으로 참고하고 있다. KS B 0710-2에서 소개하는 ISO 2631-2의 내용은 2007년 ISO 10137:2007 (ISO, 2007)로 개정 수록 되었으며, 이 ISO 10137에서는 1에서 80 Hz 사이의 지속진동 및 충격진동이 인체에 미치는 영향을 평가하는 방법이 제시되고 있다.
+진동의 인체에 대한 영향의 평가는 진동수, 가속도, 노출시간, 진동의 방향을 변수로 고려하여 평가하며, 유효 가속도의 평가는 노출시간 에 대한 RMS값으로 한다. 진동의 방향은 진동을 받는 사람의 인체를 기준으로 , , 축으로 구분하며, 사람이 민감한</p>
+
+<p>진동수대역은 수직방향의 경우 4 Hz에서 8 Hz, 수평방향의 경우 2 Hz 이하이다.</p>
+
+<p>ISO 2631-2:2003과 ISO 10137:2007의 경우 실의 사용용도에 따른 최대 가속도 크기는 ISO 기준곡선(ISO Baseline Curve for RMS Acceleration, =1, 0.05%g)을 기준으로 가중계수를 적용하여 다음 평가곡선을 통해 진동성능을 평가함. 
+figure;
+ISO10137
+ISO 10137:2007은 과도진동의 수준을 결정하는데 필요한 진동누적치(VDV) 허용응답의 한계치를 표 와 같이 제공한다.</p>
+
+<p>Place = {‘buildings 16 h day’, ‘buildings 8 h night’}’;
+LowProbOfAdverseComments = {‘0.2 to 0.4’, ‘0.13’}’;
+AdverseCommentsPossible = {‘0.4 to 0.8’, ‘0.26’}’;
+AdverseCommentsProbable = {‘0.8 to 1.6’, ‘0.51’}’;</p>
+
+<p>table(Place, LowProbOfAdverseComments, AdverseCommentsPossible, AdverseCommentsProbable)</p>
+
+<h3 id="sci-p3542007">SCI P354:2007</h3>
+<p>SCI P354:2007에서는 전신진동에 노출된 인체에 대하여 사용자의 안락함(comfort)을 정량적으로 평가하는 방법을 규정하고 있다. 평가를 위해 SCI P354:2007에서는 ISO 2631-1:1997의 진동수가중과 같이 평가하고자 하는 진동현상 및 앉은 자세, 선 자세와 누운 자세 등 인체가 진동에 노출되는 방향에 따라 각기 다른 진동수 가중필터를 적용하여 진동수가중된 가속도응답(frequency-weighted acceleration response)을 사용하며, 가속도응답의 형태에 따라 각기 다른 정량화를 통해 인체진동을 평가한다.</p>
+
+<h4 id="진동수-가중-1">진동수 가중</h4>
+<p>진동에 대한 인지는 가진진동수에도 영향을 받는데, 이는 신체의 진동에 대한 민감도가 진동수에 따라 달라지기 때문이다. SCI P354:2007에서는 주요 활동에 대해 , ,  등 다양한 진동수 가중을 제시하고 있다. 그림 는 이 기준에 제시된 진동수가중 필터를 나타낸 것이며, 표는 SCI P354:2007에 제시된 다양한 진동수가중치를 나타낸 것이다. 
+RoomType = {‘Critical working areas’; ‘Critical working areas’; ‘Residential, offices, wards, general larboratories, consulting rooms’; ‘Residential, offices, wards, general larboratories, consulting rooms’; ‘Workshop and circulation spaces’; ‘Workshop and circulation spaces’};
+AxisOfVibration = {‘z-axis’; ‘x-, y-axis’; ‘z-axis’; ‘x-, y-axis’; ‘z-axis’; ‘x-, y-axis’};
+Category = {‘Vision/Hand control’; ‘Perception’; ‘Discomfort’; ‘Discomfort’;’Discomfort’;’Discomfort’};
+WeightingCurve = {‘Wg’; ‘Wd’; ‘Wb’; ‘Wd’; ‘Wb’; ‘Wd’};</p>
+
+<p>table(RoomType, AxisOfVibration, Category, WeightingCurve)
+상기 언급된 가중곡선들에 대해 진동수가중된 가속도 응답을 얻기 위한 전달함수 는 아래와 같다.</p>
+
+<p>그림 주파수 가중</p>
+
+<h4 id="진동사용성-평가지표-1">진동사용성 평가지표</h4>
+<h5 id="가중rms가속도">가중RMS가속도</h5>
+<p>진동수 가중된 가속도에 대해 아래와 같이 정의된 RMS가속도로 평가한다.</p>
+
+<h5 id="진동누적치vibrarion-dose-value-vdv">진동누적치(Vibrarion Dose Value, VDV)</h5>
+<p>진동에 포함된 일시응답에 민감한 경우에 대하여 다음과 같은 진동누적치(vibration dose value)의 사용을 권장한다.</p>
+
+<h4 id="진동사용성-평가-1">진동사용성 평가</h4>
+<h5 id="진동수가중된-rms가속도">진동수가중된 RMS가속도</h5>
+<p>진동수가중된 RMS가속도가 정해지면 응답계수 은 아래 식을 통해 계산하며, 표 \ref{tab:scip354eval1}에 규정된 응답계수를 토대로 바닥의 사용성을 평가한다.</p>
+
+<p>여기서 는 진동수가중된 RMS가속도로 m/s2의 단위를 가진다. 
+Place = {‘Office’, ‘Shopping mall’, ‘Dealing floor’,…
+         ‘Stairs - Light use (e.g. offices)’, ‘Stairs - Heavy use (e.g. public buildings, stadia’}’;
+MultiplyingFactor = [8, 4, 4, 32, 24]’;</p>
+
+<p>table(Place, MultiplyingFactor)</p>
+
+<h5 id="과도진동">과도진동</h5>
+<p>SCI P354:2007는 ISO 10137:2007과 동일하게 과도진동의 수준을 결정하는데 필요한 진동누적치(VDV) 허용응답의 한계치를 표 와 같이 제공한다.
+Place = {‘buildings 16 h day’, ‘buildings 8 h night’}’;
+LowProbOfAdverseComments = {‘0.2 to 0.4’, ‘0.13’}’;
+AdverseCommentsPossible = {‘0.4 to 0.8’, ‘0.26’}’;
+AdverseCommentsProbable = {‘0.8 to 1.6’, ‘0.51’}’;</p>
+
+<p>table(Place, LowProbOfAdverseComments, AdverseCommentsPossible, AdverseCommentsProbable)</p>
+
+<h2 id="동특성-관련-기준">동특성 관련 기준</h2>
+<p>고유진동수와 관련하여 SCI P354:2007에서는 보행활동이 바닥진동의 기본모드와 공진을 일으키거나 공진과 유사한 진동을 일으키는 범위 밖에 있도록 하기 위해, 바닥구조와 구조 내의 모든 단일요소의 고유진동수를 3Hz 이상으로 하도록 제시되어 있다. 
+다만 이는 공진회피를 위한 최소한의 규정이며, SCI P354:2007에는 저진동수 바닥과 고진동수 바닥의 분기값으로 표의 수치를 제시하고 있다. 
+FloorType = {‘General floors, open plan offices, etc.’, ‘Enclosed spaces, e.g. opearting theatre, residential’, ‘Staircases’, ‘Floors subject to rhythmic activities’}’;
+LowToHighFrequencyCutOff = [10, 8, 12, 24]’;</p>
+
+<p>table(FloorType, LowToHighFrequencyCutOff)</p>
+
+  </div>
+</div>
+
+      <footer class="pt-5 my-5 text-muted border-top">
+  <div class="row">
+    <div class="col-md-6 text-end social-media-icons">
+      
+        <a href="https://github.com/ironikerine" class="ms-3 fs-5"><i class="fab fa-github"></i></a>
+      
+        <a href="https://orcid.org/0000-0002-0110-1546" class="ms-3 fs-5"><i class="fab fa-orcid"></i></a>
+      
+        <a href="https://linkedin.com/in/sung-yong-kim-4a6187181" class="ms-3 fs-5"><i class="fab fa-linkedin"></i></a>
+      
+        <a href="https://scholar.google.com/citations?user=NPAkYewAAAAJ&hl=en" class="ms-3 fs-5"><i class="fab fa-google scholar"></i></a>
+      
+    </div>
+  </div>
+</footer>
+
+    </div>
+  </body>
+</html>

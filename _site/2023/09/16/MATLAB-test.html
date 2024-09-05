@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <title>Estimation of Rotational Stiffness of Joint of Traditional Wooden Structure Based on Microtremor | EEVC Lab</title>
+  <link rel="stylesheet" href="/assets/libs/bootstrap/bootstrap.min.css">
+  <script defer src="/assets/libs/fontawesome/all.min.js"></script>
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="apple-touch-icon" sizes="152x152" href="/assets/apple-icon-152x152.png">
+  <link rel="shortcut icon" href="/assets/favicon.ico">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css" integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X" crossorigin="anonymous">
+  <!-- The loading of KaTeX is deferred to speed up page rendering -->
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.js" integrity="sha384-g7c+Jr9ZivxKLnZTDUhnkOnsh30B4H0rpLUpJ4jAIKs4fnJI+sEnkvrMWph2EDg4" crossorigin="anonymous"></script>
+  <script type="text/x-mathjax-config"> MathJax.Hub.Config({ TeX: { equationNumbers: { autoNumber: "all" } } }); </script>
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+        processEscapes: true
+      }
+    });
+  </script>
+  <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+</head>
+
+  <body>
+    <div class="col-lg-8 mx-auto p-3 py-md-5">
+      <header class="d-flex flex-column flex-md-row align-items-center pb-3 mb-5 border-bottom">
+  <div>
+    <a href="/" class="d-flex align-items-center text-decoration-none">
+      <span class="fs-4 fw-bold">EEVC Lab</span>
+    </a>
+    <a href="/" class="d-flex align-items-center text-decoration-none">
+      <span>Earthquake Engineering & Vibration Control Lab</span>
+    </a>
+  </div>
+  <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto">
+    
+      <a class="me-3 py-2 text-decoration-none" href="/people">People</a>
+    
+      <a class="me-3 py-2 text-decoration-none" href="/researches">Posts</a>
+    
+      <a class="me-3 py-2 text-decoration-none" href="/publications">Pubs</a>
+    
+      <a class="me-3 py-2 text-decoration-none" href="/projects">Proj</a>
+    
+      <a class="me-3 py-2 text-decoration-none" href="/courses">Courses</a>
+    
+      <a class="me-3 py-2 text-decoration-none" href="/contact">Contact</a>
+    
+  </nav>
+</header>
+
+      <div class="row g-5 mb-5">
+  <div class="col-md-12">
+    <h3 class="fw-bold border-bottom pb-3 mb-5">Estimation of Rotational Stiffness of Joint of Traditional Wooden Structure Based on Microtremor</h3>
+    <h1 id="abstract">Abstract</h1>
+
+<p>In structural design and analysis, it is commonly assumed that moment frame connections are either fully rigid or frictionless pinned. In traditional wooden structures, however, it is acknowledged that the connections of structural members exhibit semi-rigid behavior. This paper focuses on exploring the dynamic properties of a historic wooden structure through ambient vibration testing. This study investigated a structure named Cheongpoongak, which was constructed using the traditional Korean architectural method. The research began by conducting modal estimation based on long-term ambient vibrtion measurements. From the results, the natural frequencies and corresponding lateral stiffness of the structure were estimated. Followed by determine the modal properties, a novel estimation method was conducted for determining the rotational rigidity of joints, which can be used for vibration-based structural health monitoring.</p>
+
+<h1 id="introduction">Introduction</h1>
+
+<p>In conventional design and analysis, the common assumption is that connections of steel frames are fully rigid or frictionless pinned. However, today, the accepted notion is that the connections of members of a steel structure exhibit semi-rigid characteristics. Semi-rigid connections as well as damage cause changes in the dynamic characteristics of the structures. This study presents an investigation into the determination of the quality of the semi-rigid connections when considering changes in dynamic characteristics of steel structures. The investigations involve three scaled models: columns with box cross-sections, columns with rectangular cross-sections, and a 2D frame. The investigation algorithm first calculates natural frequencies and mode shapes from theoretical modal analyses by assuming the supports and joint connections are fully rigid. Secondly, experimental measurements on the models are performed to obtain natural frequencies, mode shapes and modal damping ratios. Thirdly, to reduce differences between theoretical and experimental results, linear elastic rotational springs are used on supports and joint connections of the analytical model. Finally, the connection percentages of both support and beam-to-column connections are determined using an approach improved depending on the rotational spring stiffness.</p>
+
+<p>The structural characteristics of wooden cultural heritage and the cultural heritage management considerations related to preventing non-linear structural damage during health monitoring. To preserve the structural integrity of wooden cultural heritage, it is crucial to position the structure within its elastic range during health monitoring. This means ensuring that the applied loads and environmental stresses do not exceed the elastic limits of the wood, preventing non-linear structural damage. Therefore, monitoring structural rigidity is crucial, as it enables the estimation of seismic forces at joints resulting from external forces.</p>
+
+<p>Türker et al. (2009)는</p>
+
+<p>(Çelebi et al., 2014) A state-of-the-art seismic monitoring system comprising 36 accelerometers and a data-logger with real-time capability was recently installed at Building 54 on the Massachusetts Institute of Technology’s (MIT) Cambridge, MA, campus. The system is designed to record translational, torsional, and rocking motions, and to facilitate the computation of drift between select pairs of floors. The cast-in-place, reinforced concrete building is rectangular in plan but has vertical irregularities. Heavy equipment is installed asymmetrically on the roof. Spectral analyses and system identification performed on five sets of lowamplitude ambient data reveal distinct and repeatable fundamental translational frequencies in the structural NS and EW directions (0.75 Hz and 0.68 Hz, respectively), a torsional frequency of 1.49 Hz, a rocking frequency of 0.75 Hz, and very low damping. Such results from low-amplitude data serve as a baseline against which to compare the behavior and performance of the building during stronger shaking caused by future earthquakes in the region.</p>
+
+<p>The research began by conducting modal estimation based on long-term ambient vibrtion measurements. From the results, the natural frequencies and corresponding lateral stiffness of the structure were estimated. Followed by determine the modal properties, a novel estimation method was conducted for determining the rotational rigidity of joints, which can be used for vibration-based structural health monitoring.</p>
+
+<h1 id="description-of-cheongpoongak">Description of Cheongpoongak</h1>
+
+<p>To date, no earthquake response data has been recorded by the structural array in the building. In the absence of earthquake responses data, and since completion of the monitoring system deployment in October 2010, we have made use of the “on-demand” and “remote recording” capability of the system and obtained 90 sets of ambient response data with durations of about 120–451 seconds as summarized in Table 1.</p>
+
+<h1 id="basic-formulation"><strong>Basic formulation</strong></h1>
+<h2 id="theoretical-modal-analysis">Theoretical modal analysis</h2>
+
+<p>The natural frequencies and mode shapes in the theoretical modal analysis are determined by using the free vibration equation of motion [15]:</p>
+
+\[M\ddot{x} +C\dot{x} +Kx=\]
+
+<p>where [M] and [K ] are mass and stiffness matrices; { ̈ x(t)} and {x(t)} are vectors of time varying acceleration, and displacement, respectively. The solution of Eq. (1) provides the undamped natural angular frequencies corresponding to the degree of freedom of the system. The system’s deformed shapes, which are reactions of each natural frequency, are described as mode shapes. The smallest frequency is the main frequency of the structure and the corresponding mode shape is the first mode shape.</p>
+
+<p>Figure: Fundamental difference in the behavior of (a) a traditional moment-resisting frame; (b) a rocking frame with freestanding columns that are allowed to rock (Makris and Vassiliou, 2015)</p>
+
+<p>Figure: a) Transverse and (b) longitudinal sections of the vertically restrained rocking frame (Makris and Vassiliou, 2015)</p>
+
+<h2 id="modal-testing">Modal testing</h2>
+
+<p>Modal testing, widely accepted and applied method for determining the dynamic characteristics of structures for operational conditions, uses known or unknown vibrations in structures. The method’s common applications include not only estimation of dynamic characteristics but also damage detection and monitoring of structural performance. Modal testing methods are classified into two groups: Experimental Modal Analysis (EMA) and Operational Modal Analysis (OMA) [16–18]. In Experimental Modal Analysis, structures are excited by one or several measured forces; the responses of the structures are recorded. The identification of modal models for the structures arises from the input–output data. Finally, the modal parameters of the structures are extracted from the identified modal models. Operational Modal Analysis is the other method that requires only the outputs to be measured for the construction of a modal model for structures, so artificial excitations are not necessary. The modal parameters are extracted from the measured responses using a wide variety of methods. Two techniques are common in modal parameter identification of the Operational Modal Analysis method: Frequency Domain Decomposition (FDD) and Stochastic Subspace Identification (SSI). While FDD is a frequency domain technique, SSI is a time domain technique.</p>
+
+<p>테스트 설계 시 시편의 일부 동적 특성을 고려하는 것이 유리했습니다. 모두 다 아는. 그 특성 중 하나인 고유진동수는 비교적 구하기 쉬웠습니다. 그러므로 이전에 스위핑 정현파를 이용한 테스트, 미진동 측정 및 진동 테스트를 수행했습니다. 표본 A, B 및 C에 대해 표본의 고유 진동수를 얻습니다. 표본 D의 경우, 미진동 측정 및 Y 방향 진동 테스트는 안전상의 이유로 실시하지 않았습니다. 우려. 미진동 측정에서는 진동대 상단에 속도계를 설치하였습니다. 및 PC 패널과 측정된 속도는 다음을 사용하여 속도 전달 함수를 계산하는 데 사용되었습니다.</p>
+
+<p>푸리에 변환. 진동시험에서는 진동대 상단에 가속도계를 설치하고, PC 패널과 측정된 가속도를 사용하여 가속도 전달 함수를 계산했습니다. 그만큼 각 전달 함수의 피크 위치는 해당 표본의 기본 주파수입니다. 우리 이 기본 주파수를 구조의 고유 주파수라고 부릅니다. 구조가 손상되었기 때문에 진동대 테스트와 정적 테스트에서 반복적으로 큰 변형으로 인해 동일한 미세 떨림반복된 큰 변형이 구조물에 미치는 영향을 확인하기 위해 다시 측정을 수행했습니다.</p>
+
+<p>미세진동 측정이 수행되었습니다. 자연산을 비교하기 위한 표본 A, B, C 경험한 표본 전후의 주파수 진동대 테스트를 통한 변형과 정적 테스트. 표 1은 다음의 고유 진동수를 나열합니다. 표본 A의 고유 진동수(1.26Hz) 테스트 전 방향을 즉시 측정했습니다. 표본이 만들어진 후. 그래서 모든 관절은 아주 꽉 끼는. 이후 크게 감소한 이유다. 테스트(1.26Hz ~ 1.15Hz). 시편 B의 경우 C에서는 유의미한 변화가 관찰되지 않았다. 있었다 테스트 이후 Y방향으로 거의 변화 주로 X방향으로 나옵니다. 미진동에서는 변형이 매우 작았다는 점에 유의해야 합니다. 측정. 따라서 테스트가 구조 고유 진동수를 변경하지 않았다고 말하는 것이 합리적입니다.</p>
+
+<p>스위프 정현파를 이용한 진동 테스트 스위핑 정현파를 이용한 진동 테스트를 수행했습니다. 진동대 시험 전 시편 A, B, C, D에 대해 정적테스트. 테스트 후 진동 테스트는 수행되지 않았습니다. 표 2 결과를 나열합니다. 고유 진동수는 다음과 같이 크게 감소했습니다. 각도 타이의 효과를 나타내는 시편 A ~ D, 중간 구조 강성에 대한 벽 타이 빔과 허리 타이 빔은</p>
+
+<p>중요한.</p>
+
+<div class="language-matlab highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<span class="n">data</span> <span class="o">=</span> <span class="n">CP2613</span><span class="p">;</span>
+<span class="n">FileName</span> <span class="o">=</span> <span class="s1">'CP2613'</span><span class="p">;</span>
+
+<span class="n">dt</span> <span class="o">=</span> <span class="nb">seconds</span><span class="p">(</span><span class="n">data</span><span class="o">.</span><span class="n">Time</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span> <span class="o">-</span> <span class="n">data</span><span class="o">.</span><span class="n">Time</span><span class="p">(</span><span class="mi">1</span><span class="p">));</span>
+<span class="nb">time</span> <span class="o">=</span> <span class="mi">0</span> <span class="p">:</span> <span class="n">dt</span> <span class="p">:</span> <span class="n">dt</span> <span class="o">*</span> <span class="p">(</span><span class="nb">height</span><span class="p">(</span><span class="n">data</span><span class="p">)</span> <span class="o">-</span> <span class="mi">1</span><span class="p">);</span>
+
+<span class="nb">figure</span><span class="p">;</span>
+<span class="n">t</span> <span class="o">=</span> <span class="n">tiledlayout</span><span class="p">(</span><span class="mi">4</span><span class="p">,</span> <span class="mi">1</span><span class="p">);</span>
+<span class="k">for</span> <span class="n">ii</span> <span class="o">=</span> <span class="mi">1</span> <span class="p">:</span> <span class="mi">4</span>
+    <span class="n">nexttile</span><span class="p">;</span>
+    <span class="n">OEsel</span> <span class="o">=</span> <span class="mi">2</span><span class="p">;</span>
+    <span class="k">if</span> <span class="n">ii</span> <span class="o">&lt;</span> <span class="mi">4</span>
+        <span class="n">varName</span> <span class="o">=</span> <span class="p">[</span><span class="n">FileName</span><span class="p">,</span><span class="s1">'.ch0'</span><span class="p">,</span><span class="nb">num2str</span><span class="p">(</span><span class="mi">2</span> <span class="o">*</span> <span class="n">ii</span> <span class="o">+</span> <span class="n">OEsel</span><span class="p">)];</span>
+    <span class="k">else</span>
+        <span class="n">varName</span> <span class="o">=</span> <span class="p">[</span><span class="n">FileName</span><span class="p">,</span><span class="s1">'.ch'</span><span class="p">,</span><span class="nb">num2str</span><span class="p">(</span><span class="mi">2</span> <span class="o">*</span> <span class="n">ii</span> <span class="o">+</span> <span class="n">OEsel</span><span class="p">)];</span>
+    <span class="k">end</span>
+    <span class="nb">plot</span><span class="p">(</span><span class="nb">time</span><span class="p">,</span> <span class="nb">detrend</span><span class="p">(</span><span class="mf">1e2</span> <span class="o">*</span> <span class="nb">eval</span><span class="p">(</span><span class="n">varName</span><span class="p">)),</span> <span class="s1">'k'</span><span class="p">)</span>
+    <span class="nb">ylabel</span><span class="p">([</span><span class="s1">'CH0'</span><span class="p">,</span><span class="nb">num2str</span><span class="p">(</span><span class="mi">2</span> <span class="o">*</span> <span class="n">ii</span> <span class="o">+</span> <span class="n">OEsel</span><span class="p">)])</span>
+    <span class="nb">ylim</span><span class="p">(</span><span class="mf">1.2</span> <span class="o">*</span> <span class="p">[</span><span class="o">-</span><span class="mi">1</span> <span class="mi">1</span><span class="p">])</span>
+    <span class="nb">grid</span> <span class="n">minor</span>
+<span class="k">end</span>
+
+<span class="nb">title</span><span class="p">(</span><span class="n">t</span><span class="p">,</span> <span class="s1">'Time histories'</span><span class="p">,</span> <span class="s1">'interpreter'</span><span class="p">,</span> <span class="s1">'latex'</span><span class="p">)</span>
+<span class="nb">xlabel</span><span class="p">(</span><span class="n">t</span><span class="p">,</span> <span class="s1">'Time, sec'</span><span class="p">,</span> <span class="s1">'interpreter'</span><span class="p">,</span> <span class="s1">'latex'</span><span class="p">)</span>
+<span class="nb">ylabel</span><span class="p">(</span><span class="n">t</span><span class="p">,</span> <span class="s1">'Acceleration, %g'</span><span class="p">,</span> <span class="s1">'interpreter'</span><span class="p">,</span> <span class="s1">'latex'</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>주파수 영역에서 도시하면 다음과 같다:</p>
+
+<div class="language-matlab highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">figure</span><span class="p">;</span>
+<span class="n">t</span> <span class="o">=</span> <span class="n">tiledlayout</span><span class="p">(</span><span class="mi">4</span><span class="p">,</span> <span class="mi">1</span><span class="p">);</span>
+<span class="k">for</span> <span class="n">ii</span> <span class="o">=</span> <span class="mi">1</span> <span class="p">:</span> <span class="mi">4</span>
+    <span class="n">nexttile</span><span class="p">;</span>
+    <span class="n">varName</span> <span class="o">=</span> <span class="p">[</span><span class="n">FileName</span><span class="p">,</span><span class="s1">'.ch0'</span><span class="p">,</span><span class="nb">num2str</span><span class="p">(</span><span class="mi">2</span> <span class="o">*</span> <span class="n">ii</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)];</span>
+    <span class="p">[</span><span class="n">freq</span><span class="p">,</span> <span class="n">X</span><span class="p">]</span> <span class="o">=</span> <span class="n">fftSig</span><span class="p">(</span><span class="n">dt</span><span class="p">,</span> <span class="nb">detrend</span><span class="p">(</span><span class="nb">eval</span><span class="p">(</span><span class="n">varName</span><span class="p">)));</span>
+    <span class="nb">loglog</span><span class="p">(</span><span class="n">freq</span><span class="p">,</span> <span class="n">X</span><span class="p">,</span> <span class="s1">'k'</span><span class="p">)</span>
+    <span class="nb">ylabel</span><span class="p">([</span><span class="s1">'CH0'</span><span class="p">,</span><span class="nb">num2str</span><span class="p">(</span><span class="mi">2</span> <span class="o">*</span> <span class="n">ii</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)])</span>
+    <span class="nb">xlim</span><span class="p">([</span><span class="mf">0.001</span> <span class="mi">100</span><span class="p">])</span>
+<span class="c1">%     ylim([0 0.005])</span>
+    <span class="nb">grid</span> <span class="n">minor</span>
+<span class="k">end</span>
+</code></pre></div></div>
+
+<pre><code class="language-TextOutput">Unrecognized function or variable 'fftSig'.
+</code></pre>
+
+<div class="language-matlab highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<span class="nb">title</span><span class="p">(</span><span class="n">t</span><span class="p">,</span> <span class="s1">'Frequency Spectra'</span><span class="p">,</span> <span class="s1">'interpreter'</span><span class="p">,</span> <span class="s1">'latex'</span><span class="p">)</span>
+<span class="nb">xlabel</span><span class="p">(</span><span class="n">t</span><span class="p">,</span> <span class="s1">'Frequency, Hz'</span><span class="p">,</span> <span class="s1">'interpreter'</span><span class="p">,</span> <span class="s1">'latex'</span><span class="p">)</span>
+<span class="nb">ylabel</span><span class="p">(</span><span class="n">t</span><span class="p">,</span> <span class="s1">'Magnitude, g !!!EQ_3!!! /Hz'</span><span class="p">,</span> <span class="s1">'interpreter'</span><span class="p">,</span> <span class="s1">'latex'</span><span class="p">)</span>
+<span class="nb">figure</span><span class="p">;</span>
+<span class="n">t</span> <span class="o">=</span> <span class="n">tiledlayout</span><span class="p">(</span><span class="mi">4</span><span class="p">,</span> <span class="mi">1</span><span class="p">);</span>
+<span class="k">for</span> <span class="n">ii</span> <span class="o">=</span> <span class="mi">1</span> <span class="p">:</span> <span class="mi">4</span>
+    <span class="n">nexttile</span><span class="p">;</span>
+    <span class="k">if</span> <span class="n">ii</span> <span class="o">&lt;</span> <span class="mi">4</span>
+        <span class="n">varName</span> <span class="o">=</span> <span class="p">[</span><span class="n">FileName</span><span class="p">,</span><span class="s1">'.ch0'</span><span class="p">,</span><span class="nb">num2str</span><span class="p">(</span><span class="mi">2</span> <span class="o">*</span> <span class="n">ii</span> <span class="o">+</span> <span class="mi">2</span><span class="p">)];</span>
+    <span class="k">else</span>
+        <span class="n">varName</span> <span class="o">=</span> <span class="p">[</span><span class="n">FileName</span><span class="p">,</span><span class="s1">'.ch'</span><span class="p">,</span><span class="nb">num2str</span><span class="p">(</span><span class="mi">2</span> <span class="o">*</span> <span class="n">ii</span> <span class="o">+</span> <span class="mi">2</span><span class="p">)];</span>
+    <span class="k">end</span>
+    <span class="p">[</span><span class="n">freq</span><span class="p">,</span> <span class="n">X</span><span class="p">]</span> <span class="o">=</span> <span class="n">fftSig</span><span class="p">(</span><span class="n">dt</span><span class="p">,</span> <span class="nb">detrend</span><span class="p">(</span><span class="nb">eval</span><span class="p">(</span><span class="n">varName</span><span class="p">)));</span>
+    <span class="nb">loglog</span><span class="p">(</span><span class="n">freq</span><span class="p">,</span> <span class="n">X</span><span class="p">,</span> <span class="s1">'k'</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">ii</span> <span class="o">&lt;</span> <span class="mi">4</span>
+        <span class="nb">ylabel</span><span class="p">([</span><span class="s1">'CH0'</span><span class="p">,</span><span class="nb">num2str</span><span class="p">(</span><span class="mi">2</span> <span class="o">*</span> <span class="n">ii</span> <span class="o">+</span> <span class="mi">2</span><span class="p">)]);</span>
+    <span class="k">else</span>
+        <span class="nb">ylabel</span><span class="p">([</span><span class="s1">'CH'</span><span class="p">,</span><span class="nb">num2str</span><span class="p">(</span><span class="mi">2</span> <span class="o">*</span> <span class="n">ii</span> <span class="o">+</span> <span class="mi">2</span><span class="p">)]);</span>
+    <span class="k">end</span>
+    <span class="nb">xlim</span><span class="p">([</span><span class="mf">0.001</span> <span class="mi">100</span><span class="p">])</span>
+<span class="c1">%     ylim([0 0.005])</span>
+    <span class="nb">grid</span> <span class="n">minor</span>
+<span class="k">end</span>
+
+<span class="nb">title</span><span class="p">(</span><span class="n">t</span><span class="p">,</span> <span class="s1">'Frequency Spectra'</span><span class="p">,</span> <span class="s1">'interpreter'</span><span class="p">,</span> <span class="s1">'latex'</span><span class="p">)</span>
+<span class="nb">xlabel</span><span class="p">(</span><span class="n">t</span><span class="p">,</span> <span class="s1">'Frequency, Hz'</span><span class="p">,</span> <span class="s1">'interpreter'</span><span class="p">,</span> <span class="s1">'latex'</span><span class="p">)</span>
+<span class="nb">ylabel</span><span class="p">(</span><span class="n">t</span><span class="p">,</span> <span class="s1">'Magnitude, g !!!EQ_3!!! /Hz'</span><span class="p">,</span> <span class="s1">'interpreter'</span><span class="p">,</span> <span class="s1">'latex'</span><span class="p">)</span>
+</code></pre></div></div>
+<h1 id="model-based-story-stiffness-estimation">Model-Based Story Stiffness Estimation</h1>
+
+<p>전통목구조물의 초기강성을 구하기 위해서는 고유진동수 와 질량이 필요하다. 본 연구의 대상 구조물에 대한 초기 강성은 계측과 설계도면을 통해서 구해진 고유진동수와 질량을 통해 산정하였다. 대상 구조물 외의 전통목구조물 에 대한 초기 강성을 구하기 위하여 계측을 통해서 고유진동수와 질량을 산정하는 것은 많은 시간과 비용을 요구하게 된다 보다. 용이하게 초기강성을 예측하기 위하여 목구조물의 강성에 영향을 미치는 인자를 도출하고 이들과 본 연구 계측 대상구조물에 대한 고유진동수와 상관을 적용할 수 있다.</p>
+
+<p>접합부마다 실험을 통해 접합부 강성을 도출하는 것은 현실적으로 어려우므로 이 연구에서는 강절이음에 대한 상대적인 비율 인 상대회전강성을 적용하였다.</p>
+
+<h2 id="weight">Weight</h2>
+
+<p>기둥 하부에 로드셀을 설치하기 위하여 자연석으로 되어 있던 기존의 초석을 화강석 가공초석으로 교체 하고 상부에 홈 을 내어 로드셀이 미끄러지지 않도록 하였다. 로드셀 상하부에 가압판을 두어 집중하중과 편심이 걸리지 않도록 하였으며 기둥 하부에 직경 160mm, 깊이 45mm의 홈을 내고 기둥을 세워 그 안에 로드셀이 위치하도록 하였다. 98kN 용량의 로드셀을 16개 기둥 각각의 하부에 설치하고 16채널 확장용 MUX를 통하여 데이터 로거에 연결하였다. 데이터 로거로 전송된 계측 값은 10초당 1회 계측되어 10분 단위 평균값을 서버로 전송하여 저장하도록 하였다.</p>
+
+<p>네 귀퉁이의 우주가 가장 많은 하중을 분담하고 있으며 그 다음으로는 네 면의 평주가 많은 하중을 분담하고 안쪽 고주 는 하중이 가장 적게 실리는 것으로 계측되었다. 4면 대칭인 구조형식임에도 불구하고 전·후면 평주에서는 X-3열이, 좌· 우면 평주에서는 Y3열이 더 많은 하중을 분담하는 것으로 계측되었다. 이는 구조 특성보다는 지반 및 기초의 시공 과정에 서 비롯된 불균형으로 판단된다.</p>
+
+<p>(a) Load cell</p>
+
+<p>(b) Load distribution by each columns</p>
+
+<p>Figure: Measurement of gravitational load weighted by each columns (Kim et al., 2020)</p>
+
+<h2 id="model">Model</h2>
+
+<p>An inverted hinged pendulum with a mass $m$ at the top is suspended between two springs with constants $k$ , as shown below. The column is assumed rigid and massless, and in the vertical position the springs are unstretched. For small motion, the springs can be assumed to remain horizontal.</p>
+
+<p>Our model for the inverted pendulum is shown in Figure (Chopra, 2018)</p>
+
+\[m\ddot{x} +c\dot{x} +f_s (\theta )-\frac{mg}{l}x=-m{\ddot{x} }_g\]
+
+<p>where $w=mg$ is the weight, and $l$ is the column length. It is clear that the weight decreases the resistance $f_s (\theta )$ .</p>
+
+\[f_s^{\prime } (\theta )=f_s (\theta )-W\theta\]
+
+<p>Consider the initial loading. as follows:</p>
+
+\[f_s^{\prime } (\theta )=K(1-\theta_s )\]
+
+<p>where</p>
+
+\[\theta_s =W/(Kl)\]
+
+<p>This is the ratio of the  with respect to $W$ , and bounded to zero and one.</p>
+
+\[F_p =Mg\sin \theta \approx Mg\theta\]
+
+<p>where $F_p$ is the component of the gravitational force perpendicular to the leg, and $M$ is the mass at the end of the leg. The force is positive, so gravity tends to make the inverted pendulum tip over.</p>
+
+<p>In addition to gravity, we also have a flex joint at the bottom of the leg that is essentially a spring that tries to keep the pendulum upright. The force from this spring is given by Hooke’s law, which we can write</p>
+
+\[F_s =-K\theta\]
+
+<p>where $h$ is the height of the system.</p>
+
+<p>The equation of motion for the mass $M$ is then</p>
+
+\[M(\ddot{x} +{\ddot{x} }_g )=F_p +F_s\]
+
+\[Mh\ddot{\theta} =Mg\theta -K\theta\]
+
+<p>and rearranging gives</p>
+
+\[\ddot{\theta} +\frac{g}{l}\Big(\frac{K}{W}-1\Big)\theta =-\frac{1}{l}{\ddot{x} }_g\]
+
+<h1 id="references">References</h1>
+
+<p>Türker, T., Kartal, M.E., Bayraktar, A., Muvafik, M., 2009. Assessment of semi-rigid connections in steel structures by modal testing. Journal of Constructional Steel Research 65, 1538–1547. <a href="https://doi.org/10.1016/j.jcsr.2009.03.002">https://doi.org/10.1016/j.jcsr.2009.03.002</a></p>
+
+<p>Makris, N., Vassiliou, M.F., 2015. Dynamics of the Rocking Frame with Vertical Restrainers. Journal of Structural Engineering 141, 04014245. <a href="https://doi.org/10.1061/(ASCE)ST.1943-541X.0001231">https://doi.org/10.1061/(ASCE)ST.1943-541X.0001231</a></p>
+
+<p>Wan, J., Yang, Q., Wei, J., Li, T., 2020. Initial motion analysis of traditional Chinese rocking timber frame subjected to horizontal ground motion: Theoretical and numerical investigations. Engineering Structures 203, 109898. <a href="https://doi.org/10.1016/j.engstruct.2019.109898">https://doi.org/10.1016/j.engstruct.2019.109898</a></p>
+
+<p>Kim, H.-J., Shin, E.-M., Jung, Ha, T.-U., Kim, W.-J., 2020. A Study on the Estimation of Roof Load of Wooden Architectural Cultural Heritage. Journal of the Society of Cultural Heritage Disaster Prevention 5, 43–52.</p>
+
+
+  </div>
+</div>
+
+      <footer class="pt-5 my-5 text-muted border-top">
+  <div class="row">
+    <div class="col-md-6 text-end social-media-icons">
+      
+        <a href="https://github.com/ironikerine" class="ms-3 fs-5"><i class="fab fa-github"></i></a>
+      
+        <a href="https://orcid.org/0000-0002-0110-1546" class="ms-3 fs-5"><i class="fab fa-orcid"></i></a>
+      
+        <a href="https://linkedin.com/in/sung-yong-kim-4a6187181" class="ms-3 fs-5"><i class="fab fa-linkedin"></i></a>
+      
+        <a href="https://scholar.google.com/citations?user=NPAkYewAAAAJ&hl=en" class="ms-3 fs-5"><i class="fab fa-google scholar"></i></a>
+      
+    </div>
+  </div>
+</footer>
+
+    </div>
+  </body>
+</html>
