@@ -3,11 +3,10 @@ layout: page
 title: "Structural Mechanics in Architecture and Buildings"
 ---
 
-# Course Information
+## Course Information
+
 - Course Title: Structural Mechanics
-
 - Course Code: AEA0165
-
 - Course Description:
 
 This course in Structural Mechanics involves analyzing and designing structures by evaluating the deformations and internal forces that occur when structures are subjected to external loads. It provides knowledge to help understand the fundamental principles and applications required for structural analysis.
@@ -16,35 +15,24 @@ Students will develop skills in structural design and analysis, learning to anal
 
 Course topics include understanding forces, stability and instability of structures, statically determinate and indeterminate structures, member force calculations, analysis of statically determinate structures, geometric properties of cross-sections, stress and strain, beam deflection, and analysis of statically indeterminate structures.
 
+## Prerequisites:
 
-이 과정(구조역학)은 구조물이 외부의 힘(외력)을 받을때 발생하는 변형과 내력의 크기를 해석하고 설계하는 학문으로 구조물의 해석시 요구되는 기본 원리와 응용에 대한 이해를 돕기 위한 지식을 제공합니다.
-
-학생들은 구조설계와 해석 능력에 대한 역학능력을 학습하며, 안전성이 보장된 구조설계를 위한 구조역학의 조건에 대해 분석하고, 안전한 구조물을 설계하는 방법을 배웁니다.
-
-강의주제에는 힘의 이해, 구조물의 안정과 불안정/정정과 부정정, 부재력 계산, 정정구조물 해석, 단면의 기하학적 성질, 응력과 변형률, 보의 처짐 그리고 부정정구조물 해석이 포함됩니다.
-
-- Prerequisites:
-
-Structural Mechanics
-Architectural Structures and Systems
-
-
+- Structural Mechanics
 - Instructor:
 Professor Sung-Yong Kim
 
-# Course Schedule:
-## Week 1: 재료 강도와 탄성방정식
+## Course Schedule:
 
-Introduction to reinforced concrete as a construction material
-Historical development and applications
-Material properties of concrete and steel
-Design standards
+### Week 1: Introduction
+
+- Review of material mechanics
+- Historical development and applications
+- Material properties of concrete and steel
 
 <!-- [Lecture Note 01](/courses/structural-stability/Lecture01.pdf)
 [Lecture Note 01](/courses/structural-stability/Lecture02.pdf) -->
 
-# Course Schedule:
-## Week 2: 단면 성능
+### Week 2: 단면 성능
 
 Introduction to reinforced concrete as a construction material
 Historical development and applications

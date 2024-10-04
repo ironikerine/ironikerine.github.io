@@ -3,27 +3,34 @@ layout: page
 title: "AEB2179: Finite Element Method"
 ---
 
-# Course Information
+## Course Information
+
 - Course Title: Finite Element Method
 - Course Code: AEB2179
 - Course Description: (to be updated)
 - Prerequisites:
-    - Material Mechanics, Structural Mechanics, Structural Analysis,
-    - Linear Algebra (Matrix Analysis)
+    1) Material Mechanics, Structural Mechanics, Structural Analysis,
+    2) Linear Algebra (Matrix Analysis)
 
 <!-- - [Course Outline](/courses/RC-and-steel/Syllabus.pdf) -->
 
-# Course Schedule:
-## Week 1-2: Introduction to FEM 
+## Course Schedule
+
+### Week 1-2: Introduction to FEM
+
+- Introduction to FEM
+- Method of Virtual Work: Beams and Frames
+- Analysis of Statically Indeterminate Structures by the Force Method
+- Displacement Method of Analysis: Slope-Deflection Equations
 
 <!-- Lecture Notes [01](/courses/RC-and-steel/Lecture01.pdf) [02](/courses/RC-and-steel/Lecture02.pdf) -->
 
-<!-- ## Week 3-4: Structural Analysis of RC Members
+## Week 3-4: Structural Analysis Using the Stiffness Method
 
-Principles of structural analysis
-Load types and combinations
-Analysis of simply supported beams and slabs
-Moment-curvature relationships -->
+- Force Method of Analysis: Trusses
+- Truss Analysis Using the Stiffness Method
+- Beam Analysis Using the Stiffness Method
+- Plane Frame Analysis Using the Stiffness Method
 
 <!-- Lecture Notes [03](/courses/RC-and-steel/Lecture03.pdf) [04](/courses/RC-and-steel/Lecture04.pdf) -->
 
@@ -81,7 +88,7 @@ Peer review and critique -->
 
 <!-- Lecture Notes [15](/courses/RC-and-steel/Lecture15.pdf) -->
 
-# Assessment Methods:
+## Assessment Methods
 
 Midterm Exam - 20%
 Final Exam - 30%
@@ -89,11 +96,12 @@ Homework Assignments - 20%
 Group Design Projects - 20%
 Class Participation and Quizzes - 10%
 
-# Textbook:
+## Textbook
+
 - Hibbeler, R. C. (2012). Structural Analysis (8th ed). Prentice Hall.
 - Kwon, Y. W., & Bang, H. (1997). The finite element method using MATLAB. CRC Press.
 
-# Course Policies:
+## Course Policies
 
 Attendance is mandatory; excessive absences may result in grade penalties.
 Late submissions for assignments will incur grade deductions.
@@ -101,13 +109,13 @@ Academic integrity is expected; plagiarism or cheating will not be tolerated.
 Office Hours:
 The instructor will hold regular office hours for individual or group consultations.
 
-<!-- ##### Homework
+### Homework
 
-- [Homework 1](/courses/stellar-structures/Sample_Lecture_Notes.pdf)
-- [Homework 2](/courses/stellar-structures/Sample_Lecture_Notes.pdf)
-- [Homework 3](/courses/stellar-structures/Sample_Lecture_Notes.pdf)
+- Homework 01
+    1) PE101-4-2
+    2) PE122-4-2
 
-##### Midterms
+<!-- ##### Midterms
 
 - [Midterm 1](/courses/stellar-structures/Sample_Midterm.pdf)
 - [Midterm 2](/courses/stellar-structures/Sample_Midterm.pdf)

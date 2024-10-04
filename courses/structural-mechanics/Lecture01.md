@@ -4,26 +4,14 @@ size: 4:3
 theme: a4
 paginate: true
 ---
-# Introduction
-## Objective
+## Example 10-2
 
-## Software
-ABAQUS 6.14-4
+예제 6.1의 그림 6.5와 같이 각각 20 kN과 40 kN의 집중하중을 받는 사각형 기둥의 AB구간과 BC 구간의 길이의 수직변형률을 계산하라. 재료의 탄성계수 $E$는 210 GPa이다.
 
-## Structural Conditions
-- Element: C3D20 (Structure) + AC3D20 (Air)
-- Structural Type
-    - Explicit: Impulse
-    - Standard: Modal
-sdfjksladfjasdkljf
+
 ---
-# 강재의 인장응력-변형률 곡선
+## Solution
 
-- 이ㅏ러아너ㅣㄹ
-- ㄴ어ㅏㅣㅎㅁ넝ㅎ
-- 탄성역: 미ㅏㅓㅇㄴ리ㅏㅓㅁㄴ
-- 소성역: ㄴ이ㅏ허ㅣㅁ너ㅏㅎ
-
-sdkljflkasdjg
-sdjkljflaskdjf
-sdklfjlasjdf
+### Equilibrium Equation
+$$\sigma$$
+식(7.2)에서 후크의 법칙을 이용하고, 식(6.1)의 수직응력과 식(6.16)의 수직변형률의 관계를 이용 하면 다음과 같다
