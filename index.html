@@ -1,55 +1,125 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ko">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>강구조 진동제어 부교수 홈페이지</title>
-  <link rel="stylesheet" href="css/styles.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Telegraph Minimal Publisher</title>
+  <style>
+    :root{font-family:system-ui,-apple-system,"Segoe UI",Roboto,'Noto Sans KR',sans-serif}
+    body{margin:18px;max-width:900px}
+    label{display:block;margin-top:12px;font-size:14px}
+    input[type=text]{width:100%;padding:8px;border:1px solid #ccc;border-radius:6px}
+    .editor{min-height:180px;border:1px solid #ccc;border-radius:6px;padding:10px;margin-top:6px}
+    button{margin-top:12px;padding:10px 14px;border-radius:8px;border:0;cursor:pointer}
+    .btn-primary{background:#0b63d6;color:#fff}
+    .btn-plain{background:#f2f2f2}
+    .result{margin-top:14px;padding:10px;border-radius:6px;background:#f7f7f7}
+    .small{font-size:13px;color:#555}
+    footer{margin-top:20px;font-size:13px;color:#666}
+  </style>
 </head>
 <body>
-  <header>
-    <h1>강구조 진동제어 연구실</h1>
-    <p>부교수 홍길동</p>
-    <nav>
-      <ul>
-        <li><a href="#about">소개</a></li>
-        <li><a href="#research">연구</a></li>
-        <li><a href="#publications">논문</a></li>
-        <li><a href="#contact">연락처</a></li>
-      </ul>
-    </nav>
-  </header>
-  <main>
-    <section id="about">
-      <h2>소개</h2>
-      <p>안녕하세요. 저는 강구조 진동제어를 연구하는 부교수입니다.<br>
-      구조공학, 진동제어, 스마트 구조 시스템에 관심이 있습니다.</p>
-    </section>
-    <section id="research">
-      <h2>연구</h2>
-      <ul>
-        <li>강구조물의 동적 거동 해석</li>
-        <li>진동제어 시스템 개발</li>
-        <li>스마트 소재 및 센서 적용</li>
-      </ul>
-    </section>
-    <section id="publications">
-      <h2>논문</h2>
-      <ul>
-        <li>논문 1 제목 (저널, 연도)</li>
-        <li>논문 2 제목 (저널, 연도)</li>
-        <li>논문 3 제목 (저널, 연도)</li>
-      </ul>
-    </section>
-    <section id="contact">
-      <h2>연락처</h2>
-      <p>이메일: your.email@university.ac.kr</p>
-      <p>전화: 010-1234-5678</p>
-    </section>
-  </main>
+  <h2>Telegraph Minimal Publisher</h2>
+  <p class="small">간단한 단일 파일 웹앱으로 텔레그래프(telegraph) API에 글을 올립니다. 토큰 없이 익명으로 발행 가능하며, 서버가 필요 없는 최소 구현입니다.</p>
+
+  <label>제목</label>
+  <input id="title" type="text" placeholder="글 제목을 입력하세요" />
+
+  <label>작성자 이름 (선택)</label>
+  <input id="author" type="text" placeholder="작성자 이름을 입력하세요 (빈칸 가능)" />
+
+  <label>내용 (간단한 HTML 허용; 엔터는 단락으로 변환)</label>
+  <div id="editor" class="editor" contenteditable="true" aria-label="content">여기에 내용을 입력하세요. 엔터로 문단 구분됩니다.</div>
+
+  <div>
+    <button id="publish" class="btn-primary">Publish to Telegraph</button>
+    <button id="clear" class="btn-plain">Clear</button>
+  </div>
+
+  <div id="status" class="result" style="display:none"></div>
+
   <footer>
-    <p>&copy; 2025 강구조 진동제어 연구실</p>
+    <p class="small">알림: 브라우저에서 직접 Telegraph API에 요청합니다. 일부 브라우저/환경에서는 CORS 정책으로 요청이 차단될 수 있습니다. 그럴 경우 간단한 프록시(예: 서버에서 요청 중계)를 사용하세요.</p>
   </footer>
-  <script src="js/main.js"></script>
+
+  <script>
+    const publishBtn = document.getElementById('publish');
+    const clearBtn = document.getElementById('clear');
+    const status = document.getElementById('status');
+
+    function makeTelegraphContentFromText(text){
+      // 단락 단위로 <p> 노드 배열 생성
+      const paragraphs = text.split(/\n{1,}/).map(p => p.trim()).filter(p => p.length>0);
+      if(paragraphs.length===0) return [{tag:'p', children:['']}];
+      return paragraphs.map(p => ({tag:'p', children:[p]}));
+    }
+
+    async function publish(){
+      status.style.display = 'block';
+      status.textContent = 'Publishing...';
+
+      const title = document.getElementById('title').value.trim() || 'Untitled';
+      const author_name = document.getElementById('author').value.trim() || undefined;
+      const editorHtml = document.getElementById('editor').innerText.trim();
+
+      const contentNodes = makeTelegraphContentFromText(editorHtml);
+
+      const body = {
+        title,
+        content: contentNodes,
+        return_content: false
+      };
+      if(author_name) body.author_name = author_name;
+
+      try{
+        const res = await fetch('https://api.telegra.ph/createPage', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(body)
+        });
+
+        if(!res.ok){
+          const text = await res.text();
+          throw new Error('Network response was not ok: '+res.status+' '+text);
+        }
+
+        const j = await res.json();
+        if(j.ok && j.result && j.result.url){
+          const url = j.result.url;
+          status.innerHTML = `Published: <a href="${url}" target="_blank" rel="noopener">${url}</a>`;
+          const copyBtn = document.createElement('button');
+          copyBtn.textContent = 'Copy URL';
+          copyBtn.style.marginLeft='10px';
+          copyBtn.onclick = () => navigator.clipboard.writeText(url);
+          status.appendChild(copyBtn);
+        }else{
+          throw new Error('API returned error: ' + JSON.stringify(j));
+        }
+      }catch(err){
+        console.error(err);
+        status.innerHTML = '<strong>Failed:</strong> '+(err.message || err);
+        status.querySelector && status.querySelector('strong')?.remove();
+        // CORS error hint
+        if(err.message && err.message.toLowerCase().includes('failed to fetch')){
+          status.innerHTML += '<div class="small">가능한 원인: CORS 차단. 로컬/호스팅 서버에서 프록시를 사용하거나 간단한 서버 스크립트로 중계하세요.</div>';
+        }
+      }
+    }
+
+    publishBtn.addEventListener('click', publish);
+    clearBtn.addEventListener('click', ()=>{
+      document.getElementById('title').value='';
+      document.getElementById('author').value='';
+      document.getElementById('editor').innerText='';
+      status.style.display='none';
+    });
+
+    // Ctrl+Enter 빠른 발행
+    document.addEventListener('keydown', (e)=>{
+      if((e.ctrlKey||e.metaKey) && e.key.toLowerCase()==='enter'){
+        publish();
+      }
+    });
+  </script>
 </body>
 </html>
